@@ -10,7 +10,7 @@ diatasDaa('Masih Belum Berkahwin');
 $laluanSah = [
 	'baca/dokumen/ini' => 'README.md',
 	'baca/dokumen/english' => 'README.en.md',
-	'baca/dokumen/lesen/inggeris' => 'LICENSE.md',
+	'baca/dokumen/lesen/inggeris' => 'LICENSE',
 	'baca/dokumen/lesen/melayu' => 'LICENSE_MS.md',
 	'baca/dokumen/lesen/ringkasan' => 'LICENSE-MELAYU.md',
 ];
