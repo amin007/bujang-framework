@@ -128,3 +128,5 @@ This documentation can be further extended with the following sections:
 * Advanced module guides
 * Version 1.2 development notes
 * Function and folder naming standards
+
+### change LF to CRLF
