@@ -111,10 +111,10 @@ Teks penuh lesen boleh dirujuk di:
 - &#x2705; Penggunaan peribadi
 
 **Syarat**
-- 🔵 Dedahkan sumber
-- 🔵 Notis lesen dan hak cipta
-- 🔵 Lesen yang sama
-- 🔵 Nyatakan perubahan
+- &#x2139; Dedahkan sumber
+- &#x2139; Notis lesen dan hak cipta
+- &#x2139; Lesen yang sama
+- &#x2139; Nyatakan perubahan
 
 **Had**
 - &#x274C; Liabiliti
