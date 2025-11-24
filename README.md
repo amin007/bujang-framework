@@ -36,10 +36,10 @@ Bujang Framework ialah rangka kerja PHP yang ringkas, pantas dan berasaskan fung
 	|	|-- komputer.php
 	|
 	|-- cinta/
-	|-- diterima/
-	|	|--  senarai.php
-	|-- ditolak/
-	|	|-- senarai.php
+		|-- diterima/
+		|	|--  senarai.php
+		|-- ditolak/
+		|	|-- senarai.php
 ```
 
 ---
