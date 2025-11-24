@@ -1,8 +1,6 @@
-TERJEMAHAN LESEN
+PENAFIAN: Terjemahan ini disediakan untuk tujuan pemahaman sahaja. Versi asal dalam bahasa Inggeris ialah rujukan rasmi yang sah dari segi undang-undang dan perlu dirujuk sekiranya berlaku sebarang pertikaian.
 
 GNU LESEN UMUM AWAM AFFERO, VERSI 3 (AGPL-3.0)
-
-PENAFIAN: Terjemahan ini disediakan untuk tujuan pemahaman sahaja. Versi asal dalam bahasa Inggeris ialah rujukan rasmi yang sah dari segi undang-undang dan perlu dirujuk sekiranya berlaku sebarang pertikaian.
 
 ## Pengenalan
 
