@@ -109,10 +109,10 @@ Full license text available at:
 - &#x2705; Private use
 
 **Conditions**
-- 🔵 Disclose source
-- 🔵 License and copyright notice
-- 🔵 Same license
-- 🔵 State changes
+- &#x2139; Disclose source
+- &#x2139; License and copyright notice
+- &#x2139; Same license
+- &#x2139; State changes
 
 **Limitations**
 - &#x274C; Liability
