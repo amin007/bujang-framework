@@ -9,8 +9,9 @@ diatasDaa('Masih Belum Berkahwin');
 #--------------------------------------------------------------------------------------------------
 $laluanSah = [
 	'baca/dokumen/ini' => 'README.md',
+	'baca/dokumen/english' => 'README.en.md',
 	'baca/dokumen/lesen/inggeris' => 'LICENSE.md',
-	'baca/dokumen/lesen/melayu' => 'LECENSE_MS.md',
+	'baca/dokumen/lesen/melayu' => 'LICENSE_MS.md',
 	'baca/dokumen/lesen/ringkasan' => 'LICENSE-MELAYU.md',
 ];
 #--------------------------------------------------------------------------------------------------
@@ -24,11 +25,12 @@ $uri = ltrim(parse_url($_SERVER['QUERY_STRING'], PHP_URL_PATH), '?/');
 <?php foreach ($laluanSah as $laluan => $fail): 
 // Teks butang yang cantik
 $teks = match(true) {
-	str_ends_with($laluan, '/ini')            => 'Baca Saya',
-	str_ends_with($laluan, '/inggeris')       => 'Lesen (EN)',
-	str_ends_with($laluan, '/melayu')         => 'Lesen (MS)',
-	str_ends_with($laluan, '/ringkasan')      => 'Ringkasan Lesen',
-	default                                   => 'Dokumen',
+	str_ends_with($laluan, '/ini')       => 'Baca Saya',
+	str_ends_with($laluan, '/english')   => 'Read Me',
+	str_ends_with($laluan, '/inggeris')  => 'Lesen (EN)',
+	str_ends_with($laluan, '/melayu')    => 'Lesen (MS)',
+	str_ends_with($laluan, '/ringkasan') => 'Ringkasan Lesen',
+	default                              => 'Dokumen',
 };
 
 // Tentukan kelas butang: aktif atau tidak
@@ -55,7 +57,7 @@ if ($uri !== '' && !array_key_exists($uri, $laluanSah))
     http_response_code(404);
 }
 #--------------------------------------------------------------------------------------------------
-if($failMd === 'README.md'):
+if($failMd === 'README.md' || $failMd === 'README.en.md'):
 	$kodHTML = 'div';
 else:
 	$kodHTML = 'pre';
