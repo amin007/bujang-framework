@@ -6,7 +6,7 @@ Bujang Framework ialah rangka kerja PHP yang ringkas, pantas dan berasaskan fung
 
 ---
 
-## Ciri Utama
+## Ciri Utama &#128421;
 
 * Berasaskan fungsi sepenuhnya (tiada OOP)
 * Pengurusan laluan melalui fungsi carian fail
@@ -104,11 +104,11 @@ Teks penuh lesen boleh dirujuk di:
 
 
 **Kebenaran**
-- 🟢 Penggunaan komersial
-- 🟢 Pengedaran
-- 🟢 Pengubahsuaian
-- 🟢 Penggunaan paten
-- 🟢 Penggunaan peribadi
+- &#x2705; Penggunaan komersial
+- &#x2705; Pengedaran
+- &#x2705; Pengubahsuaian
+- &#x2705; Penggunaan paten
+- &#x2705; Penggunaan peribadi
 
 **Syarat**
 - 🔵 Dedahkan sumber
@@ -117,8 +117,8 @@ Teks penuh lesen boleh dirujuk di:
 - 🔵 Nyatakan perubahan
 
 **Had**
-- 🔴 Liabiliti
-- 🔴 Jaminan
+- &#x274C; Liabiliti
+- &#x274C; Jaminan
 
 ---
 
