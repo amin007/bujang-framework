@@ -6,12 +6,12 @@ Bujang Framework is a simple, fast PHP framework built entirely on functional pr
 
 ---
 
-## Main Features
+## Main Features &#128421;
 
 * Fully functional-based (no OOP)
 * Route management using file search functions
 * Consistent and easily managed folder structure
-* Project configuration using `tatarajah.php`
+* Project configuration using `config.php`
 * Support for subfolders and view hierarchy
 * Debugging can be enabled or disabled via settings
 
@@ -20,26 +20,25 @@ Bujang Framework is a simple, fast PHP framework built entirely on functional pr
 ## Directory Structure
 
 ```
-/
 |-- index.php
 |-- bujang.php
-|-- tatarajah.php
+|-- config.php
 |
-|-- mencari/
-	|-- utama.php
+|-- discover/
+	|-- main.php
 	|-- 404.php
 	|
-	|-- khidmat/
-	|	|-- pengaturcaraan.php
+	|-- services/
+	|	|-- programming.php
 	|
-	|-- barang/
-	|	|-- komputer.php
+	|-- products/
+	|	|-- computer.php
 	|
-	|-- cinta/
-		|-- diterima/
-		|	|--  senarai.php
-		|-- ditolak/
-		|	|-- senarai.php
+	|-- love/
+		|-- accepted/
+		|	|-- list.php
+		|-- rejected/
+		|	|-- list.php
 |
 ```
 
@@ -69,7 +68,7 @@ Displays the corresponding view file.
 
 ---
 
-## Configuration File: `tatarajah.php`
+## Configuration File: `config.php`
 
 Used to control the basic settings of the framework:
 
@@ -83,7 +82,7 @@ Used to control the basic settings of the framework:
 
 1. User visits a URL
 2. URL is split into segments
-3. Files are searched in the `mencari/` folder
+3. Files are searched in the `discover/` folder
 4. If a match is found, the page is loaded
 5. If failed, the `404.php` page is displayed
 
@@ -103,11 +102,11 @@ Full license text available at:
 [https://choosealicense.com/licenses/agpl-3.0/](https://choosealicense.com/licenses/agpl-3.0/)
 
 **Permissions**
-- 🟢 Commercial use
-- 🟢 Distribution
-- 🟢 Modification
-- 🟢 Patent use
-- 🟢 Private use
+- &#x2705; Commercial use
+- &#x2705; Distribution
+- &#x2705; Modification
+- &#x2705; Patent use
+- &#x2705; Private use
 
 **Conditions**
 - 🔵 Disclose source
@@ -116,8 +115,8 @@ Full license text available at:
 - 🔵 State changes
 
 **Limitations**
-- 🔴 Liability
-- 🔴 Warranty
+- &#x274C; Liability
+- &#x274C; Warranty
 
 ---
 
