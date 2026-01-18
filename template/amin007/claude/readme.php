@@ -162,6 +162,38 @@ Kedai kuih kami menawarkan pelbagai jenis kuih tradisional, kuih raya, kek, dan 
 </div><!-- / -->
 <!-- ========================================================================================== -->
 <div class="row my-5">
+<?php
+$tawarKhidmat = [
+	['tawar/khidmat/aturcara','Pengaturcaraan & Aplikasi',
+	'Pembangunan aplikasi web & mudah alih menggunakan teknologi moden.'],
+	['tawar/khidmat/latihan','Latihan ICT',
+	'Latihan komputer dan teknologi untuk individu serta organisasi.'],
+	['tawar/khidmat/rnd_ai','Penyelidikan & AI',
+	'Pembangunan penyelesaian AI dan automasi untuk pelbagai industri.'],
+	['tawar/khidmat/nasihat','Khidmat Nasihat Perisian',
+	'Nasihat pembangunan sistem, integrasi dan penyelesaian teknologi.'],
+	['tawar/khidmat/penulisan','Penulisan Profesional',
+	'Penulisan bebas dengan penggunaan AI, automasi dan analisis data.'],
+];
+foreach($tawarKhidmat as $data):?>
+	<div class="card h-100 border-success shadow hover-card">
+	<div class="card-header bg-success text-white">
+		<a href="?<?php echo $data[0] ?>" class="btn btn-success">
+			<?php echo $data[1] ?>
+		</a>
+	</div><!--/ class="card-header bg-success text-white" -->
+	<div class="card-body">
+	<p class="card-text"><?php echo $data[2] ?></p>
+	</div><!-- / class="card-body" -->
+	</div><!-- / class="card h-100 border-success shadow hover-card" -->
+<?php
+echo "\r\n\r\n";
+endforeach;//*/
+
+?>
+</div><!-- / class="row my-5" -->
+<!-- ========================================================================================== -->
+<div class="row my-5">
 <div class="col-12">
 	<!-- ========================================================================================== -->
 	<div class="card">
