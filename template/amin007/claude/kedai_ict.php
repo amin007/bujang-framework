@@ -15,127 +15,219 @@
 		</p><hr>
 	</div><!-- / class="text-center mb-4" -->
 	<!-- ========================================================================================== -->
-<div class="row g-4">
+	<div class="row g-4">
+		<!-- ========================================================================================== -->
+		<!-- Produk 1 -->
+		<div class="col-md-6 col-lg-4">
+		<div class="card h-100 shadow-sm">
+		<div class="card-body">
+			<h5 class="card-title">Penghala Wayarles TP-Link AX6000</h5>
+			<p class="card-text text-muted">Wi-Fi 6, kelajuan sehingga 6 Gbps, liputan luas</p>
+			<h4 class="text-success fw-bold">RM 899.00</h4>
+		</div><!-- / class="card-body" -->
+		<div class="card-footer bg-white border-0 pb-3">
+			<button class="btn btn-success w-100 mb-2" data-bs-toggle="modal"
+			data-bs-target="#beliSekarang1">
+			<i class="bi bi-cart-fill"></i> Beli Sekarang
+			</button>
+			<button class="btn btn-outline-success w-100">
+			<i class="bi bi-info-circle"></i> Maklumat Lanjut
+			</button>
+		</div><!-- / class="card-footer bg-white border-0 pb-3" -->
+		</div><!-- / class="card h-100 shadow-sm" -->
+		</div><!-- / class="col-md-6 col-lg-4" -->
+		<!-- ========================================================================================== -->
+		<!-- Produk 2 -->
+		<div class="col-md-6 col-lg-4">
+		<div class="card h-100 shadow-sm">
+		<div class="card-body">
+			<h5 class="card-title">Telefon Pintar Samsung Galaxy S24</h5>
+			<p class="card-text text-muted">Skrin 6.2", kamera 50MP, 256GB, 5G</p>
+			<h4 class="text-success fw-bold">RM 3,799.00</h4>
+		</div><!-- / class="card-body" -->
+		<div class="card-footer bg-white border-0 pb-3">
+			<button class="btn btn-success w-100 mb-2" data-bs-toggle="modal"
+			data-bs-target="#beliSekarang2">
+			<i class="bi bi-cart-fill"></i> Beli Sekarang
+			</button>
+			<button class="btn btn-outline-success w-100">
+			<i class="bi bi-info-circle"></i> Maklumat Lanjut
+			</button>
+		</div><!-- / class="card-footer bg-white border-0 pb-3" -->
+		</div><!-- / class="card h-100 shadow-sm" -->
+		</div><!-- / class="col-md-6 col-lg-4" -->
+		<!-- ========================================================================================== -->
+		<!-- Produk 3 -->
+		<div class="col-md-6 col-lg-4">
+		<div class="card h-100 shadow-sm">
+		<div class="card-body">
+			<h5 class="card-title">Tablet Apple iPad Air 11"</h5>
+			<p class="card-text text-muted">Cip M2, 128GB, Wi-Fi + Cellular</p>
+			<h4 class="text-success fw-bold">RM 2,999.00</h4>
+			</div><!-- / class="card-body" -->
+		<div class="card-footer bg-white border-0 pb-3">
+			<button class="btn btn-success w-100 mb-2" data-bs-toggle="modal"
+			data-bs-target="#beliSekarang3">
+			<i class="bi bi-cart-fill"></i> Beli Sekarang
+			</button>
+			<button class="btn btn-outline-success w-100">
+			<i class="bi bi-info-circle"></i> Maklumat Lanjut
+			</button>
+		</div><!-- / class="card-footer bg-white border-0 pb-3" -->
+		</div><!-- / class="card h-100 shadow-sm" -->
+		</div><!-- / class="col-md-6 col-lg-4" -->
+		<!-- ========================================================================================== -->
+		<!-- Produk 4 -->
+		<div class="col-md-6 col-lg-4">
+		<div class="card h-100 shadow-sm">
+		<div class="card-body">
+			<h5 class="card-title">Suis Rangkaian 24-Port Gigabit</h5>
+			<p class="card-text text-muted">Unmanaged switch, kelajuan 1000 Mbps setiap port</p>
+			<h4 class="text-success fw-bold">RM 599.00</h4>
+		</div><!-- / class="card-body" -->
+		<div class="card-footer bg-white border-0 pb-3">
+			<button class="btn btn-success w-100 mb-2" data-bs-toggle="modal"
+			data-bs-target="#beliSekarang4">
+			<i class="bi bi-cart-fill"></i> Beli Sekarang
+			</button>
+			<button class="btn btn-outline-success w-100">
+			<i class="bi bi-info-circle"></i> Maklumat Lanjut
+			</button>
+		</div><!-- / class="card-footer bg-white border-0 pb-3" -->
+		</div><!-- / class="card h-100 shadow-sm" -->
+		</div><!-- / class="col-md-6 col-lg-4" -->
+		<!-- ========================================================================================== -->
+		<!-- Produk 5 -->
+		<div class="col-md-6 col-lg-4">
+		<div class="card h-100 shadow-sm">
+		<div class="card-body">
+			<h5 class="card-title">Kamera Keselamatan CCTV 8-Saluran</h5>
+			<p class="card-text text-muted">Resolusi 4K, penglihatan malam, rakaman awan</p>
+			<h4 class="text-success fw-bold">RM 2,499.00</h4>
+		</div><!-- / class="card-body" -->
+		<div class="card-footer bg-white border-0 pb-3">
+			<button class="btn btn-success w-100 mb-2" data-bs-toggle="modal"
+			data-bs-target="#beliSekarang5">
+			<i class="bi bi-cart-fill"></i> Beli Sekarang
+			</button>
+			<button class="btn btn-outline-success w-100">
+			<i class="bi bi-info-circle"></i> Maklumat Lanjut
+			</button>
+		</div><!-- / class="card-footer bg-white border-0 pb-3" -->
+		</div><!-- / class="card h-100 shadow-sm" -->
+		</div><!-- / class="col-md-6 col-lg-4" -->
+		<!-- ========================================================================================== -->
+		<!-- Produk 6 -->
+		<div class="col-md-6 col-lg-4">
+		<div class="card h-100 shadow-sm">
+		<div class="card-body">
+			<h5 class="card-title">Pembesar Suara Pintar Amazon Echo</h5>
+			<p class="card-text text-muted">Kawalan suara Alexa, audio premium, rumah pintar</p>
+			<h4 class="text-success fw-bold">RM 499.00</h4>
+		</div><!-- / class="card-body" -->
+		<div class="card-footer bg-white border-0 pb-3">
+			<button class="btn btn-success w-100 mb-2" data-bs-toggle="modal"
+			data-bs-target="#beliSekarang6">
+			<i class="bi bi-cart-fill"></i> Beli Sekarang
+			</button>
+			<button class="btn btn-outline-success w-100">
+			<i class="bi bi-info-circle"></i> Maklumat Lanjut
+			</button>
+		</div><!-- / class="card-footer bg-white border-0 pb-3" -->
+		</div><!-- / class="card h-100 shadow-sm" -->
+		</div><!-- / class="col-md-6 col-lg-4" -->
+		<!-- ========================================================================================== -->
+	</div><!-- / class="row g-4" -->
+	<!-- ========================================================================================== -->
+</div><!-- / class="container my-5" -->
 
-<!-- Produk 1 -->
-<div class="col-md-6 col-lg-4">
-<div class="card h-100 shadow-sm">
-<div class="card-body">
-<h5 class="card-title">Penghala Wayarles TP-Link AX6000</h5>
-<p class="card-text text-muted">Wi-Fi 6, kelajuan sehingga 6 Gbps, liputan luas</p>
-<h4 class="text-success fw-bold">RM 899.00</h4>
+<!-- ========================================================================================== -->
+<div class="container my-4">
+	<h2> Perkhidmatan Pemasangan dan Sokongan</h2>
+	<div class="card border-success">
+	<div class="card-body">
+		<h5 class="card-title"><i class="bi bi-tools"></i> Perkhidmatan Teknikal Profesional</h5>
+		<p class="card-text">Kami menyediakan perkhidmatan pemasangan dan konfigurasi untuk
+		semua peralatan rangkaian dan telekomunikasi. Pasukan juruteknik kami yang berpengalaman
+		sedia membantu anda.</p>
+		<ul class="list-unstyled">
+		<li><i class="bi bi-check-circle-fill text-success"></i> Pemasangan dan konfigurasi rangkaian</li>
+		<li><i class="bi bi-check-circle-fill text-success"></i> Pemasangan sistem CCTV dan keselamatan</li>
+		<li><i class="bi bi-check-circle-fill text-success"></i> Penyelenggaraan berkala</li>
+		<li><i class="bi bi-check-circle-fill text-success"></i> Sokongan teknikal 24/7</li>
+		</ul>
+		<button class="btn btn-success">Tempah Perkhidmatan</button>
+	</div>
+	</div>
 </div>
-<div class="card-footer bg-white border-0 pb-3">
-<button class="btn btn-success w-100 mb-2" data-bs-toggle="modal" data-bs-target="#beliSekarang1">
-<i class="bi bi-cart-fill"></i> Beli Sekarang
-</button>
-<button class="btn btn-outline-success w-100">
-<i class="bi bi-info-circle"></i> Maklumat Lanjut
-</button>
-</div>
-</div>
-</div>
-
-<!-- Produk 2 -->
-<div class="col-md-6 col-lg-4">
-<div class="card h-100 shadow-sm">
-<div class="card-body">
-<h5 class="card-title">Telefon Pintar Samsung Galaxy S24</h5>
-<p class="card-text text-muted">Skrin 6.2", kamera 50MP, 256GB, 5G</p>
-<h4 class="text-success fw-bold">RM 3,799.00</h4>
-</div>
-<div class="card-footer bg-white border-0 pb-3">
-<button class="btn btn-success w-100 mb-2" data-bs-toggle="modal" data-bs-target="#beliSekarang2">
-<i class="bi bi-cart-fill"></i> Beli Sekarang
-</button>
-<button class="btn btn-outline-success w-100">
-<i class="bi bi-info-circle"></i> Maklumat Lanjut
-</button>
-</div>
-</div>
-</div>
-
-<!-- Produk 3 -->
-<div class="col-md-6 col-lg-4">
-<div class="card h-100 shadow-sm">
-<div class="card-body">
-<h5 class="card-title">Tablet Apple iPad Air 11"</h5>
-<p class="card-text text-muted">Cip M2, 128GB, Wi-Fi + Cellular</p>
-<h4 class="text-success fw-bold">RM 2,999.00</h4>
-</div>
-<div class="card-footer bg-white border-0 pb-3">
-<button class="btn btn-success w-100 mb-2" data-bs-toggle="modal" data-bs-target="#beliSekarang3">
-<i class="bi bi-cart-fill"></i> Beli Sekarang
-</button>
-<button class="btn btn-outline-success w-100">
-<i class="bi bi-info-circle"></i> Maklumat Lanjut
-</button>
-</div>
-</div>
-</div>
-
-<!-- Produk 4 -->
-<div class="col-md-6 col-lg-4">
-<div class="card h-100 shadow-sm">
-<div class="card-body">
-<h5 class="card-title">Suis Rangkaian 24-Port Gigabit</h5>
-<p class="card-text text-muted">Unmanaged switch, kelajuan 1000 Mbps setiap port</p>
-<h4 class="text-success fw-bold">RM 599.00</h4>
-</div>
-<div class="card-footer bg-white border-0 pb-3">
-<button class="btn btn-success w-100 mb-2" data-bs-toggle="modal" data-bs-target="#beliSekarang4">
-<i class="bi bi-cart-fill"></i> Beli Sekarang
-</button>
-<button class="btn btn-outline-success w-100">
-<i class="bi bi-info-circle"></i> Maklumat Lanjut
-</button>
-</div>
-</div>
-</div>
-
-<!-- Produk 5 -->
-<div class="col-md-6 col-lg-4">
-<div class="card h-100 shadow-sm">
-<div class="card-body">
-<h5 class="card-title">Kamera Keselamatan CCTV 8-Saluran</h5>
-<p class="card-text text-muted">Resolusi 4K, penglihatan malam, rakaman awan</p>
-<h4 class="text-success fw-bold">RM 2,499.00</h4>
-</div>
-<div class="card-footer bg-white border-0 pb-3">
-<button class="btn btn-success w-100 mb-2" data-bs-toggle="modal" data-bs-target="#beliSekarang5">
-<i class="bi bi-cart-fill"></i> Beli Sekarang
-</button>
-<button class="btn btn-outline-success w-100">
-<i class="bi bi-info-circle"></i> Maklumat Lanjut
-</button>
-</div>
-</div>
-</div>
-
-<!-- Produk 6 -->
-<div class="col-md-6 col-lg-4">
-<div class="card h-100 shadow-sm">
-<div class="card-body">
-<h5 class="card-title">Pembesar Suara Pintar Amazon Echo</h5>
-<p class="card-text text-muted">Kawalan suara Alexa, audio premium, rumah pintar</p>
-<h4 class="text-success fw-bold">RM 499.00</h4>
-</div>
-<div class="card-footer bg-white border-0 pb-3">
-<button class="btn btn-success w-100 mb-2" data-bs-toggle="modal" data-bs-target="#beliSekarang6">
-<i class="bi bi-cart-fill"></i> Beli Sekarang
-</button>
-<button class="btn btn-outline-success w-100">
-<i class="bi bi-info-circle"></i> Maklumat Lanjut
-</button>
-</div>
-</div>
-</div>
-
-</div>
-</div>
-
----
-
+<!-- ========================================================================================== -->
+<div class="container my-4">
+<h2>Kelebihan Membeli dengan Kami</h2>
+<div class="row g-3">
+	<!-- ========================================================================================== -->
+	<div class="col-md-4">
+		<div class="card border-success">
+		<div class="card-body text-center">
+			<i class="bi bi-award-fill text-success fs-1"></i>
+			<h6 class="mt-3">Produk Berkualiti</h6>
+			<p class="text-muted small">Semua produk dipilih daripada jenama terkemuka dan
+			berkualiti tinggi</p>
+		</div><!-- / class="card-body text-center" -->
+		</div><!-- / class="card border-success" -->
+	</div><!-- / class="col-md-4" -->	<!-- ========================================================================================== -->
+	<div class="col-md-4">
+		<div class="card border-success">
+		<div class="card-body text-center">
+			<i class="bi bi-shield-fill-check text-success fs-1"></i>
+			<h6 class="mt-3">Jaminan Rasmi</h6>
+			<p class="text-muted small">Jaminan pengeluar sehingga 3 tahun untuk produk
+			terpilih</p>
+		</div><!-- / class="card-body text-center" -->
+		</div><!-- / class="card border-success" -->
+	</div><!-- / class="col-md-4" -->	<!-- ========================================================================================== -->
+	<div class="col-md-4">
+		<div class="card border-success">
+		<div class="card-body text-center">
+			<i class="bi bi-truck-front text-success fs-1"></i>
+			<h6 class="mt-3">Penghantaran Pantas</h6>
+			<p class="text-muted small">Penghantaran ke seluruh Malaysia dalam masa 1-3 hari
+			bekerja</p>
+		</div><!-- / class="card-body text-center" -->
+		</div><!-- / class="card border-success" -->
+	</div><!-- / class="col-md-4" -->
+	<!-- ========================================================================================== -->
+</div><!-- / class="row g-3" -->
+</div><!-- / class="container my-4" -->
+<!-- ========================================================================================== -->
+<div class="container my-3"><!-- Pautan Kembali ke Halaman Utama -->
+	<a href="?" class="btn btn-outline-success">
+		<?php echo $kembaliKePangkalJalan ?>
+	</a><hr>
+</div><!-- / class="container" -->
+<!-- ========================================================================================== -->
+<div class="container">
+<p class="text-center text-muted"><strong>Nota:</strong>
+Harga tertakluk kepada perubahan tanpa notis terlebih dahulu. Produk yang memerlukan pemasangan
+akan dikenakan caj tambahan bergantung kepada lokasi.
+Untuk pertanyaan lanjut, sila hubungi kami di </p>
+<div class="d-flex justify-content-center gap-3">
+	<a href="?/hubungi/facebook" class="btn btn-outline-success btn-sm">
+		<i class="bi bi-facebook"></i> Facebook
+	</a>
+	<a href="?/hubungi/instagram" class="btn btn-outline-success btn-sm">
+		<i class="bi bi-instagram"></i> Instagram
+	</a>
+	<a href="?/hubungi/whatsapp" class="btn btn-outline-success btn-sm">
+		<i class="bi bi-whatsapp"></i> WhatsApp
+	</a>
+</div><!-- / class="d-flex gap-3" -->
+</div><!-- / class="container" -->
+<!-- ========================================================================================== -->
+<?php
+#--------------------------------------------------------------------------------------------------
+?>
+<!-- kod dialog mula -->
+<!-- ========================================================================================== -->
 <!-- Modal untuk produk 1 -->
 <div class="modal fade" id="beliSekarang1" tabindex="-1" aria-labelledby="modalLabel1" aria-hidden="true">
 <div class="modal-dialog modal-dialog-centered">
@@ -367,87 +459,3 @@ Perkhidmatan pemasangan profesional (+RM 500)
 </div>
 </div>
 </div>
-
----
-
-## Perkhidmatan Pemasangan dan Sokongan
-
-<div class="container my-4">
-<div class="card border-success">
-<div class="card-body">
-<h5 class="card-title"><i class="bi bi-tools"></i> Perkhidmatan Teknikal Profesional</h5>
-<p class="card-text">Kami menyediakan perkhidmatan pemasangan dan konfigurasi untuk semua peralatan rangkaian dan telekomunikasi. Pasukan juruteknik kami yang berpengalaman sedia membantu anda.</p>
-<ul class="list-unstyled">
-<li><i class="bi bi-check-circle-fill text-success"></i> Pemasangan dan konfigurasi rangkaian</li>
-<li><i class="bi bi-check-circle-fill text-success"></i> Pemasangan sistem CCTV dan keselamatan</li>
-<li><i class="bi bi-check-circle-fill text-success"></i> Penyelenggaraan berkala</li>
-<li><i class="bi bi-check-circle-fill text-success"></i> Sokongan teknikal 24/7</li>
-</ul>
-<button class="btn btn-success">Tempah Perkhidmatan</button>
-</div>
-</div>
-</div>
-
----
-
-## Kelebihan Membeli dengan Kami
-
-<div class="container my-4">
-<div class="row g-3">
-<div class="col-md-4">
-<div class="card border-success">
-<div class="card-body text-center">
-<i class="bi bi-award-fill text-success fs-1"></i>
-<h6 class="mt-3">Produk Berkualiti</h6>
-<p class="text-muted small">Semua produk dipilih daripada jenama terkemuka dan berkualiti tinggi</p>
-</div>
-</div>
-</div>
-<div class="col-md-4">
-<div class="card border-success">
-<div class="card-body text-center">
-<i class="bi bi-shield-fill-check text-success fs-1"></i>
-<h6 class="mt-3">Jaminan Rasmi</h6>
-<p class="text-muted small">Jaminan pengeluar sehingga 3 tahun untuk produk terpilih</p>
-</div>
-</div>
-</div>
-<div class="col-md-4">
-<div class="card border-success">
-<div class="card-body text-center">
-<i class="bi bi-truck-front text-success fs-1"></i>
-<h6 class="mt-3">Penghantaran Pantas</h6>
-<p class="text-muted small">Penghantaran ke seluruh Malaysia dalam masa 1-3 hari bekerja</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!-- ========================================================================================== -->
-<div class="container my-3"><!-- Pautan Kembali ke Halaman Utama -->
-	<a href="?" class="btn btn-outline-success">
-		<?php echo $kembaliKePangkalJalan ?>
-	</a><hr>
-</div><!-- / class="container" -->
-<!-- ========================================================================================== -->
-<p class="text-center text-muted"><strong>Nota:</strong>
-Harga tertakluk kepada perubahan tanpa notis terlebih dahulu. Produk yang memerlukan pemasangan
-akan dikenakan caj tambahan bergantung kepada lokasi. 
-Untuk pertanyaan lanjut, sila hubungi kami di </p>
-<div class="d-flex justify-content-center gap-3">
-	<a href="?/hubungi/facebook" class="btn btn-outline-success btn-sm">
-		<i class="bi bi-facebook"></i> Facebook
-	</a>
-	<a href="?/hubungi/instagram" class="btn btn-outline-success btn-sm">
-		<i class="bi bi-instagram"></i> Instagram
-	</a>
-	<a href="?/hubungi/whatsapp" class="btn btn-outline-success btn-sm">
-		<i class="bi bi-whatsapp"></i> WhatsApp
-	</a>
-</div><!-- / class="d-flex gap-3" -->
-<!-- ========================================================================================== -->
-<?php
-#--------------------------------------------------------------------------------------------------
-?>
-<!-- kod dialog mula -->
-<!-- ========================================================================================== -->
