@@ -20,23 +20,24 @@
 	</div><!-- / class="text-center mb-4" -->
 	<!-- ========================================================================================== -->
 	<div class="row g-4">
-		
+	<!-- ========================================================================================== -->
 		<!-- Produk 1 -->
 		<div class="col-md-6 col-lg-4">
 			<div class="card h-100 shadow-sm">
-				<div class="card-body">
-					<h5 class="card-title">Komputer Riba Dell XPS 15</h5>
-					<p class="card-text text-muted">Prosesor Intel Core i7, RAM 16GB, SSD 512GB</p>
-					<h4 class="text-success fw-bold">RM 4,999.00</h4>
-				</div><!-- / class="card-body" -->
-				<div class="card-footer bg-white border-0 pb-3">
-					<button class="btn btn-success w-100 mb-2" data-bs-toggle="modal" data-bs-target="#beliSekarang1">
-						<i class="bi bi-cart-fill"></i> Beli Sekarang
-					</button>
-					<button class="btn btn-outline-success w-100">
-						<i class="bi bi-info-circle"></i> Maklumat Lanjut
-					</button>
-				</div><!-- / class="card-footer bg-white border-0 pb-3" -->
+			<div class="card-body">
+				<h5 class="card-title">Komputer Riba Dell XPS 15</h5>
+				<p class="card-text text-muted">Prosesor Intel Core i7, RAM 16GB, SSD 512GB</p>
+				<h4 class="text-success fw-bold">RM 4,999.00</h4>
+			</div><!-- / class="card-body" -->
+			<div class="card-footer bg-white border-0 pb-3">
+				<button class="btn btn-success w-100 mb-2" data-bs-toggle="modal"
+				data-bs-target="#beliSekarang1">
+					<i class="bi bi-cart-fill"></i> Beli Sekarang
+				</button>
+				<button class="btn btn-outline-success w-100">
+					<i class="bi bi-info-circle"></i> Maklumat Lanjut
+				</button>
+			</div><!-- / class="card-footer bg-white border-0 pb-3" -->
 			</div><!-- / class="card h-100 shadow-sm" -->
 		</div><!-- / class="col-md-6 col-lg-4" -->
 <!-- ========================================================================================== -->
@@ -178,6 +179,7 @@
 	</a><hr>
 </div><!-- / class="container" -->
 <!-- ========================================================================================== -->
+<div class="container">
 <p class="text-center text-muted"><strong>Nota:</strong>
 Harga tertakluk kepada perubahan tanpa notis terlebih dahulu. 
 Untuk pertanyaan lanjut, sila hubungi kami di </p>
@@ -192,6 +194,7 @@ Untuk pertanyaan lanjut, sila hubungi kami di </p>
 		<i class="bi bi-whatsapp"></i> WhatsApp
 	</a>
 </div><!-- / class="d-flex gap-3" -->
+</div><!-- / class="container" -->
 <!-- ========================================================================================== -->
 <?php
 #--------------------------------------------------------------------------------------------------
