@@ -16,7 +16,7 @@
 	</div><!-- / class="text-center mb-4" -->
 	<!-- ========================================================================================== -->
 <div class="row g-4">
-
+<!-- ========================================================================================== -->
 <!-- Produk 1 -->
 <div class="col-md-6 col-lg-4">
 <div class="card h-100 shadow-sm">
@@ -24,7 +24,7 @@
 <h5 class="card-title">Kuih Raya Premium (1 Balang)</h5>
 <p class="card-text text-muted">Pilihan: Kuih Bangkit, Kuih Makmur, Semperit Dahlia, Tart Nenas</p>
 <h4 class="text-success fw-bold">RM 38.00/balang</h4>
-</div>
+</div><!-- / class="card-body" -->
 <div class="card-footer bg-white border-0 pb-3">
 <button class="btn btn-success w-100 mb-2" data-bs-toggle="modal" data-bs-target="#beliSekarang1">
 <i class="bi bi-cart-fill"></i> Beli Sekarang
@@ -35,7 +35,7 @@
 </div>
 </div>
 </div>
-
+<!-- ========================================================================================== -->
 <!-- Produk 2 -->
 <div class="col-md-6 col-lg-4">
 <div class="card h-100 shadow-sm">
@@ -43,7 +43,7 @@
 <h5 class="card-title">Kek Coklat Moist Premium</h5>
 <p class="card-text text-muted">Saiz 9 inci, sesuai untuk 10-12 orang, boleh tambah tulisan khas</p>
 <h4 class="text-success fw-bold">RM 89.00</h4>
-</div>
+</div><!-- / class="card-body" -->
 <div class="card-footer bg-white border-0 pb-3">
 <button class="btn btn-success w-100 mb-2" data-bs-toggle="modal" data-bs-target="#beliSekarang2">
 <i class="bi bi-cart-fill"></i> Beli Sekarang
@@ -54,7 +54,7 @@
 </div>
 </div>
 </div>
-
+<!-- ========================================================================================== -->
 <!-- Produk 3 -->
 <div class="col-md-6 col-lg-4">
 <div class="card h-100 shadow-sm">
@@ -62,7 +62,7 @@
 <h5 class="card-title">Kuih Tradisional Pelbagai (20 Biji)</h5>
 <p class="card-text text-muted">Campuran kuih lapis, seri muka, onde-onde, kuih kosui dan lain-lain</p>
 <h4 class="text-success fw-bold">RM 25.00</h4>
-</div>
+</div><!-- / class="card-body" -->
 <div class="card-footer bg-white border-0 pb-3">
 <button class="btn btn-success w-100 mb-2" data-bs-toggle="modal" data-bs-target="#beliSekarang3">
 <i class="bi bi-cart-fill"></i> Beli Sekarang
@@ -73,7 +73,7 @@
 </div>
 </div>
 </div>
-
+<!-- ========================================================================================== -->
 <!-- Produk 4 -->
 <div class="col-md-6 col-lg-4">
 <div class="card h-100 shadow-sm">
@@ -81,7 +81,7 @@
 <h5 class="card-title">Roti Canai Beku (10 Keping)</h5>
 <p class="card-text text-muted">Sedap dan mudah disediakan, tahan sehingga 3 bulan dalam peti sejuk</p>
 <h4 class="text-success fw-bold">RM 12.00</h4>
-</div>
+</div><!-- / class="card-body" -->
 <div class="card-footer bg-white border-0 pb-3">
 <button class="btn btn-success w-100 mb-2" data-bs-toggle="modal" data-bs-target="#beliSekarang4">
 <i class="bi bi-cart-fill"></i> Beli Sekarang
@@ -92,7 +92,7 @@
 </div>
 </div>
 </div>
-
+<!-- ========================================================================================== -->
 <!-- Produk 5 -->
 <div class="col-md-6 col-lg-4">
 <div class="card h-100 shadow-sm">
@@ -100,7 +100,7 @@
 <h5 class="card-title">Biskut Raya Campuran (1kg)</h5>
 <p class="card-text text-muted">London Almond, Mazola, Cornflakes, Red Velvet</p>
 <h4 class="text-success fw-bold">RM 45.00/kg</h4>
-</div>
+</div><!-- / class="card-body" -->
 <div class="card-footer bg-white border-0 pb-3">
 <button class="btn btn-success w-100 mb-2" data-bs-toggle="modal" data-bs-target="#beliSekarang5">
 <i class="bi bi-cart-fill"></i> Beli Sekarang
@@ -111,7 +111,7 @@
 </div>
 </div>
 </div>
-
+<!-- ========================================================================================== -->
 <!-- Produk 6 -->
 <div class="col-md-6 col-lg-4">
 <div class="card h-100 shadow-sm">
@@ -119,7 +119,7 @@
 <h5 class="card-title">Karipap Pelbagai Inti (30 Biji)</h5>
 <p class="card-text text-muted">Pilihan: Daging, Ayam, Sardin, Kentang Berempah</p>
 <h4 class="text-success fw-bold">RM 30.00</h4>
-</div>
+</div><!-- / class="card-body" -->
 <div class="card-footer bg-white border-0 pb-3">
 <button class="btn btn-success w-100 mb-2" data-bs-toggle="modal" data-bs-target="#beliSekarang6">
 <i class="bi bi-cart-fill"></i> Beli Sekarang
@@ -127,14 +127,138 @@
 <button class="btn btn-outline-success w-100">
 <i class="bi bi-info-circle"></i> Maklumat Lanjut
 </button>
-</div>
-</div>
-</div>
+		</div><!-- / class="card-footer bg-white border-0 pb-3" -->
+		</div><!-- / class="card h-100 shadow-sm" -->
+		</div><!-- / class="col-md-6 col-lg-4" -->
+		<!-- ========================================================================================== -->
+	</div><!-- / class="row g-4" -->
+	<!-- ========================================================================================== -->
+</div><!-- / class="container my-5" -->
 
+
+<!-- ========================================================================================== -->
+<div class="container my-4">
+<h2>Pakej Istimewa Majlis</h2>
+<div class="card border-success">
+<div class="card-body">
+<h5 class="card-title"><i class="bi bi-gift-fill"></i> Pakej Jamuan dan Majlis</h5>
+<p class="card-text">Kami menyediakan pakej khas untuk majlis perkahwinan, kenduri, mesyuarat syarikat dan pelbagai acara lain.</p>
+<div class="row mt-3">
+<div class="col-md-4">
+<h6 class="text-success">Pakej A (50 pax)</h6>
+<ul class="small">
+<li>100 biji kuih tradisional</li>
+<li>50 biji karipap</li>
+<li>2 balang kuih raya</li>
+</ul>
+<strong class="text-success">RM 280.00</strong>
+</div>
+<div class="col-md-4">
+<h6 class="text-success">Pakej B (100 pax)</h6>
+<ul class="small">
+<li>200 biji kuih tradisional</li>
+<li>100 biji karipap</li>
+<li>5 balang kuih raya</li>
+<li>1 kek 9 inci</li>
+</ul>
+<strong class="text-success">RM 520.00</strong>
+</div>
+<div class="col-md-4">
+<h6 class="text-success">Pakej C (200 pax)</h6>
+<ul class="small">
+<li>400 biji kuih tradisional</li>
+<li>200 biji karipap</li>
+<li>10 balang kuih raya</li>
+<li>2 kek 11 inci</li>
+</ul>
+<strong class="text-success">RM 980.00</strong>
 </div>
 </div>
+<button class="btn btn-success mt-3">Tempah Pakej Majlis</button>
+</div>
+</div>
+</div><!-- / class="container my-4" -->
+
+<!-- ========================================================================================== -->
+
+<div class="container my-4">
+<h2>Spesial Musim Perayaan</h2>
+<div class="alert alert-success" role="alert">
+<h5 class="alert-heading"><i class="bi bi-calendar-event-fill"></i> Tempahan Musim Perayaan Kini Dibuka!</h5>
+<p>Tempah awal untuk Hari Raya, Tahun Baru Cina, Deepavali dan perayaan lain. Dapatkan diskaun sehingga 15% untuk tempahan awal.</p>
+<hr>
+<ul class="mb-0">
+<li>Tempahan 1 bulan awal: Diskaun 15%</li>
+<li>Tempahan 2 minggu awal: Diskaun 10%</li>
+<li>Tempahan 1 minggu awal: Diskaun 5%</li>
+</ul>
+</div>
+</div><!-- / class="container my-4" -->
 
 ---
+<!-- ========================================================================================== -->
+<div class="container my-4">
+<h2>Kelebihan Kuih Kami</h2>
+<div class="row g-3">
+<div class="col-md-4">
+<div class="card border-success">
+<div class="card-body text-center">
+<i class="bi bi-hand-thumbs-up-fill text-success fs-1"></i>
+<h6 class="mt-3">Bahan Berkualiti</h6>
+<p class="text-muted small">Menggunakan bahan-bahan segar dan berkualiti tinggi</p>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card border-success">
+<div class="card-body text-center">
+<i class="bi bi-heart-pulse-fill text-success fs-1"></i>
+<h6 class="mt-3">Bersih dan Halal</h6>
+<p class="text-muted small">Disediakan dalam persekitaran yang bersih dan mematuhi piawaian halal</p>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card border-success">
+<div class="card-body text-center">
+<i class="bi bi-clock-history text-success fs-1"></i>
+<h6 class="mt-3">Segar Setiap Hari</h6>
+<p class="text-muted small">Kuih tradisional dibuat segar setiap hari untuk kesegaran terjamin</p>
+</div>
+</div>
+</div>
+</div>
+</div><!-- / class="container my-4" -->
+<!-- ========================================================================================== -->
+<div class="container my-3"><!-- Pautan Kembali ke Halaman Utama -->
+	<a href="?" class="btn btn-outline-success">
+		<?php echo $kembaliKePangkalJalan ?>
+	</a><hr>
+</div><!-- / class="container" -->
+<!-- ========================================================================================== -->
+<div class="container">
+<p class="text-center justify-content-center text-muted"><strong>Nota:</strong>
+Harga tertakluk kepada perubahan tanpa notis terlebih dahulu. Untuk tempahan majlis atau tempahan
+dalam kuantiti besar, sila hubungi kami terlebih dahulu. Tempahan kek memerlukan notis
+sekurang-kurangnya 3 hari bekerja.<br>Untuk pertanyaan lanjut, sila hubungi kami di </p>
+<div class="d-flex justify-content-center gap-3">
+	<a href="?/hubungi/facebook" class="btn btn-outline-success btn-sm">
+		<i class="bi bi-facebook"></i> Facebook
+	</a>
+	<a href="?/hubungi/instagram" class="btn btn-outline-success btn-sm">
+		<i class="bi bi-instagram"></i> Instagram
+	</a>
+	<a href="?/hubungi/whatsapp" class="btn btn-outline-success btn-sm">
+		<i class="bi bi-whatsapp"></i> WhatsApp
+	</a>
+</div><!-- / class="d-flex gap-3" -->
+</div><!-- / class="container" -->
+<!-- ========================================================================================== -->
+<?php
+#--------------------------------------------------------------------------------------------------
+?>
+<!-- kod dialog mula -->
+<!-- ========================================================================================== -->
 
 <!-- Modal untuk produk 1 -->
 <div class="modal fade" id="beliSekarang1" tabindex="-1" aria-labelledby="modalLabel1" aria-hidden="true">
@@ -378,131 +502,3 @@ Karipap sudah digoreng (+RM 5)
 </div>
 </div>
 </div>
-
----
-
-## Pakej Istimewa Majlis
-
-<div class="container my-4">
-<div class="card border-success">
-<div class="card-body">
-<h5 class="card-title"><i class="bi bi-gift-fill"></i> Pakej Jamuan dan Majlis</h5>
-<p class="card-text">Kami menyediakan pakej khas untuk majlis perkahwinan, kenduri, mesyuarat syarikat dan pelbagai acara lain.</p>
-<div class="row mt-3">
-<div class="col-md-4">
-<h6 class="text-success">Pakej A (50 pax)</h6>
-<ul class="small">
-<li>100 biji kuih tradisional</li>
-<li>50 biji karipap</li>
-<li>2 balang kuih raya</li>
-</ul>
-<strong class="text-success">RM 280.00</strong>
-</div>
-<div class="col-md-4">
-<h6 class="text-success">Pakej B (100 pax)</h6>
-<ul class="small">
-<li>200 biji kuih tradisional</li>
-<li>100 biji karipap</li>
-<li>5 balang kuih raya</li>
-<li>1 kek 9 inci</li>
-</ul>
-<strong class="text-success">RM 520.00</strong>
-</div>
-<div class="col-md-4">
-<h6 class="text-success">Pakej C (200 pax)</h6>
-<ul class="small">
-<li>400 biji kuih tradisional</li>
-<li>200 biji karipap</li>
-<li>10 balang kuih raya</li>
-<li>2 kek 11 inci</li>
-</ul>
-<strong class="text-success">RM 980.00</strong>
-</div>
-</div>
-<button class="btn btn-success mt-3">Tempah Pakej Majlis</button>
-</div>
-</div>
-</div>
-
----
-
-## Spesial Musim Perayaan
-
-<div class="container my-4">
-<div class="alert alert-success" role="alert">
-<h5 class="alert-heading"><i class="bi bi-calendar-event-fill"></i> Tempahan Musim Perayaan Kini Dibuka!</h5>
-<p>Tempah awal untuk Hari Raya, Tahun Baru Cina, Deepavali dan perayaan lain. Dapatkan diskaun sehingga 15% untuk tempahan awal.</p>
-<hr>
-<ul class="mb-0">
-<li>Tempahan 1 bulan awal: Diskaun 15%</li>
-<li>Tempahan 2 minggu awal: Diskaun 10%</li>
-<li>Tempahan 1 minggu awal: Diskaun 5%</li>
-</ul>
-</div>
-</div>
-
----
-
-## Kelebihan Kuih Kami
-
-<div class="container my-4">
-<div class="row g-3">
-<div class="col-md-4">
-<div class="card border-success">
-<div class="card-body text-center">
-<i class="bi bi-hand-thumbs-up-fill text-success fs-1"></i>
-<h6 class="mt-3">Bahan Berkualiti</h6>
-<p class="text-muted small">Menggunakan bahan-bahan segar dan berkualiti tinggi</p>
-</div>
-</div>
-</div>
-<div class="col-md-4">
-<div class="card border-success">
-<div class="card-body text-center">
-<i class="bi bi-heart-pulse-fill text-success fs-1"></i>
-<h6 class="mt-3">Bersih dan Halal</h6>
-<p class="text-muted small">Disediakan dalam persekitaran yang bersih dan mematuhi piawaian halal</p>
-</div>
-</div>
-</div>
-<div class="col-md-4">
-<div class="card border-success">
-<div class="card-body text-center">
-<i class="bi bi-clock-history text-success fs-1"></i>
-<h6 class="mt-3">Segar Setiap Hari</h6>
-<p class="text-muted small">Kuih tradisional dibuat segar setiap hari untuk kesegaran terjamin</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!-- ========================================================================================== -->
-<div class="container my-3"><!-- Pautan Kembali ke Halaman Utama -->
-	<a href="?" class="btn btn-outline-success">
-		<?php echo $kembaliKePangkalJalan ?>
-	</a><hr>
-</div><!-- / class="container" -->
-<!-- ========================================================================================== -->
-<div class="container">
-<p class="text-center justify-content-center text-muted"><strong>Nota:</strong>
-Harga tertakluk kepada perubahan tanpa notis terlebih dahulu. Untuk tempahan majlis atau tempahan
-dalam kuantiti besar, sila hubungi kami terlebih dahulu. Tempahan kek memerlukan notis
-sekurang-kurangnya 3 hari bekerja.<br>Untuk pertanyaan lanjut, sila hubungi kami di </p>
-<div class="d-flex justify-content-center gap-3">
-	<a href="?/hubungi/facebook" class="btn btn-outline-success btn-sm">
-		<i class="bi bi-facebook"></i> Facebook
-	</a>
-	<a href="?/hubungi/instagram" class="btn btn-outline-success btn-sm">
-		<i class="bi bi-instagram"></i> Instagram
-	</a>
-	<a href="?/hubungi/whatsapp" class="btn btn-outline-success btn-sm">
-		<i class="bi bi-whatsapp"></i> WhatsApp
-	</a>
-</div><!-- / class="d-flex gap-3" -->
-</div><!-- / class="container" -->
-<!-- ========================================================================================== -->
-<?php
-#--------------------------------------------------------------------------------------------------
-?>
-<!-- kod dialog mula -->
-<!-- ========================================================================================== -->
