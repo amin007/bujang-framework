@@ -29,7 +29,7 @@
 <!-- ========================================================================================== -->
 <div class="container">
 <p class="text-center text-muted"><strong>Nota:</strong>
-Harga tertakluk kepada perubahan tanpa notis terlebih dahulu. 
+Harga tertakluk kepada perubahan tanpa notis terlebih dahulu.
 Untuk pertanyaan lanjut, sila hubungi kami di </p>
 <div class="d-flex justify-content-center gap-3">
 	<a href="?/hubungi/facebook" class="btn btn-outline-success btn-sm">
