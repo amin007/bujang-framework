@@ -1,266 +1,354 @@
-<!DOCTYPE html>
-<html lang="ms">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Komputer & Aksesori - Tempahan Khas</title>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
-</head>
-<body class="bg-light">
-	<div class="container-fluid py-5">
-		<div class="row">
-			<!-- Sidebar -->
-			<div class="col-md-3">
-				<div class="bg-white rounded-3 p-4 shadow-sm">
-					<h5 class="mb-4">Menu</h5>
+<?php
+#--------------------------------------------------------------------------------------------------
+# Kedai Komputer, Peralatan dan Aksesori Komputer
+#--------------------------------------------------------------------------------------------------
+?>
+<!-- Pautan Kembali ke Halaman Utama -->
+<div class="container my-3">
+	<a href="?" class="btn btn-outline-success">
+		<i class="bi bi-house-fill"></i> Kembali ke Halaman Utama
+	</a>
+</div><!-- / class="container" -->
 
-					<ul class="nav nav-pills flex-column" id="myTab" role="tablist">
-						<li class="nav-item" role="presentation">
-							<button class="nav-link active" id="pc-tab" data-bs-toggle="pill" data-bs-target="#pc" type="button" role="tab">
-								<i class="fa-solid fa-desktop fa-fw me-2"></i>
-								<span>Komputer Peribadi</span>
-							</button>
-						</li><!-- / class="nav-item" -->
-						<li class="nav-item" role="presentation">
-							<button class="nav-link" id="laptop-tab" data-bs-toggle="pill" data-bs-target="#laptop" type="button" role="tab">
-								<i class="fa-solid fa-laptop fa-fw me-2"></i>
-								<span>Komputer Riba</span>
-							</button>
-						</li><!-- / class="nav-item" -->
-						<li class="nav-item" role="presentation">
-							<button class="nav-link" id="components-tab" data-bs-toggle="pill" data-bs-target="#components" type="button" role="tab">
-								<i class="fa-solid fa-microchip fa-fw me-2"></i>
-								<span>Komponen</span>
-							</button>
-						</li><!-- / class="nav-item" -->
-						<li class="nav-item" role="presentation">
-							<button class="nav-link" id="peripherals-tab" data-bs-toggle="pill" data-bs-target="#peripherals" type="button" role="tab">
-								<i class="fa-solid fa-keyboard fa-fw me-2"></i>
-								<span>Peranti Tambahan</span>
-							</button>
-						</li><!-- / class="nav-item" -->
-						<li class="nav-item" role="presentation">
-							<button class="nav-link" id="accessories-tab" data-bs-toggle="pill" data-bs-target="#accessories" type="button" role="tab">
-								<i class="fa-solid fa-plug fa-fw me-2"></i>
-								<span>Aksesori</span>
-							</button>
-						</li><!-- / class="nav-item" -->
-						<li class="nav-item" role="presentation">
-							<button class="nav-link" id="custom-tab" data-bs-toggle="pill" data-bs-target="#custom" type="button" role="tab">
-								<i class="fa-solid fa-screwdriver-wrench fa-fw me-2"></i>
-								<span>Tempahan Khas</span>
-							</button>
-						</li><!-- / class="nav-item" -->
-					</ul><!-- / class="nav nav-pills flex-column" -->
-				</div><!-- / class="bg-white rounded-3 p-4 shadow-sm" -->
-			</div><!-- / class="col-md-3" -->
+<div class="container my-5">
+	<div class="text-center mb-4">
+		<h1 class="display-5 text-success fw-bold">Kedai Komputer, Peralatan dan Aksesori Komputer</h1>
+		<p class="lead text-muted">Pelbagai jenis komputer, peralatan dan aksesori berkualiti tinggi untuk memenuhi keperluan anda</p>
+		<hr>
+	</div><!-- / class="text-center mb-4" -->
 
-			<!-- Kawasan Kandungan -->
-			<div class="col-md-9">
-				<div class="bg-white rounded-3 p-4 shadow-sm">
-					<div class="tab-content" id="myTabContent">
-						<!-- Tab Komputer Peribadi -->
-						<div class="tab-pane fade show active" id="pc" role="tabpanel">
-							<div class="mb-4">
-								<h3><i class="fa-solid fa-desktop text-primary"></i> Komputer Peribadi</h3>
-								<p class="text-muted">Setiap unit direka mengikut keperluan peribadi anda</p>
-							</div><!-- / class="mb-4" -->
+	<div class="row g-4">
+		
+		<!-- Produk 1 -->
+		<div class="col-md-6 col-lg-4">
+			<div class="card h-100 shadow-sm">
+				<div class="card-body">
+					<h5 class="card-title">Komputer Riba Dell XPS 15</h5>
+					<p class="card-text text-muted">Prosesor Intel Core i7, RAM 16GB, SSD 512GB</p>
+					<h4 class="text-success fw-bold">RM 4,999.00</h4>
+				</div><!-- / class="card-body" -->
+				<div class="card-footer bg-white border-0 pb-3">
+					<button class="btn btn-success w-100 mb-2" data-bs-toggle="modal" data-bs-target="#beliSekarang1">
+						<i class="bi bi-cart-fill"></i> Beli Sekarang
+					</button>
+					<button class="btn btn-outline-success w-100">
+						<i class="bi bi-info-circle"></i> Maklumat Lanjut
+					</button>
+				</div><!-- / class="card-footer bg-white border-0 pb-3" -->
+			</div><!-- / class="card h-100 shadow-sm" -->
+		</div><!-- / class="col-md-6 col-lg-4" -->
 
-							<div class="row">
-								<div class="col-md-6 mb-3">
-									<div class="card h-100">
-										<div class="card-body">
-											<h5 class="card-title">PC Asas</h5>
-											<p class="card-text">Sesuai untuk kegunaan pejabat dan kerja harian</p>
-											<ul class="small">
-												<li>Pemproses Intel Core i3 / AMD Ryzen 3</li>
-												<li>8GB RAM</li>
-												<li>SSD 256GB</li>
-											</ul><!-- / class="small" -->
-											<button class="btn btn-primary btn-sm">Tempah Sekarang</button>
-										</div><!-- / class="card-body" -->
-									</div><!-- / class="card h-100" -->
-								</div><!-- / class="col-md-6 mb-3" -->
-								<div class="col-md-6 mb-3">
-									<div class="card h-100">
-										<div class="card-body">
-											<h5 class="card-title">PC Permainan</h5>
-											<p class="card-text">Dioptimumkan untuk pengalaman permainan terbaik</p>
-											<ul class="small">
-												<li>Pemproses Intel Core i7 / AMD Ryzen 7</li>
-												<li>16GB RAM</li>
-												<li>Kad Grafik RTX 4060</li>
-											</ul><!-- / class="small" -->
-											<button class="btn btn-primary btn-sm">Tempah Sekarang</button>
-										</div><!-- / class="card-body" -->
-									</div><!-- / class="card h-100" -->
-								</div><!-- / class="col-md-6 mb-3" -->
-							</div><!-- / class="row" -->
-						</div><!-- / Tab Komputer Peribadi -->
+		<!-- Produk 2 -->
+		<div class="col-md-6 col-lg-4">
+			<div class="card h-100 shadow-sm">
+				<div class="card-body">
+					<h5 class="card-title">Tetikus Tanpa Wayar Logitech MX Master 3</h5>
+					<p class="card-text text-muted">Tetikus ergonomik dengan ketepatan tinggi</p>
+					<h4 class="text-success fw-bold">RM 399.00</h4>
+				</div><!-- / class="card-body" -->
+				<div class="card-footer bg-white border-0 pb-3">
+					<button class="btn btn-success w-100 mb-2" data-bs-toggle="modal" data-bs-target="#beliSekarang2">
+						<i class="bi bi-cart-fill"></i> Beli Sekarang
+					</button>
+					<button class="btn btn-outline-success w-100">
+						<i class="bi bi-info-circle"></i> Maklumat Lanjut
+					</button>
+				</div><!-- / class="card-footer bg-white border-0 pb-3" -->
+			</div><!-- / class="card h-100 shadow-sm" -->
+		</div><!-- / class="col-md-6 col-lg-4" -->
 
-						<!-- Tab Komputer Riba -->
-						<div class="tab-pane fade" id="laptop" role="tabpanel">
-							<div class="mb-4">
-								<h3><i class="fa-solid fa-laptop text-primary"></i> Komputer Riba</h3>
-								<p class="text-muted">Pilihan terkini mengikut bajet dan penggunaan anda</p>
-							</div><!-- / class="mb-4" -->
+		<!-- Produk 3 -->
+		<div class="col-md-6 col-lg-4">
+			<div class="card h-100 shadow-sm">
+				<div class="card-body">
+					<h5 class="card-title">Monitor Samsung 27" 4K</h5>
+					<p class="card-text text-muted">Resolusi 3840×2160, teknologi HDR10</p>
+					<h4 class="text-success fw-bold">RM 1,299.00</h4>
+				</div><!-- / class="card-body" -->
+				<div class="card-footer bg-white border-0 pb-3">
+					<button class="btn btn-success w-100 mb-2" data-bs-toggle="modal" data-bs-target="#beliSekarang3">
+						<i class="bi bi-cart-fill"></i> Beli Sekarang
+					</button>
+					<button class="btn btn-outline-success w-100">
+						<i class="bi bi-info-circle"></i> Maklumat Lanjut
+					</button>
+				</div><!-- / class="card-footer bg-white border-0 pb-3" -->
+			</div><!-- / class="card h-100 shadow-sm" -->
+		</div><!-- / class="col-md-6 col-lg-4" -->
 
-							<div class="alert alert-info">
-								<i class="fa-solid fa-circle-info"></i> <strong>Perkhidmatan Istimewa</strong><br>
-								Kami menawarkan perkhidmatan naik taraf dan pemasangan perisian mengikut kehendak anda. Setiap komputer riba dipilih berdasarkan keperluan khusus pelanggan.
-							</div><!-- / class="alert alert-info" -->
+		<!-- Produk 4 -->
+		<div class="col-md-6 col-lg-4">
+			<div class="card h-100 shadow-sm">
+				<div class="card-body">
+					<h5 class="card-title">Papan Kekunci Mekanikal RGB</h5>
+					<p class="card-text text-muted">Suis Cherry MX, lampu latar RGB boleh diselaraskan</p>
+					<h4 class="text-success fw-bold">RM 549.00</h4>
+				</div><!-- / class="card-body" -->
+				<div class="card-footer bg-white border-0 pb-3">
+					<button class="btn btn-success w-100 mb-2" data-bs-toggle="modal" data-bs-target="#beliSekarang4">
+						<i class="bi bi-cart-fill"></i> Beli Sekarang
+					</button>
+					<button class="btn btn-outline-success w-100">
+						<i class="bi bi-info-circle"></i> Maklumat Lanjut
+					</button>
+				</div><!-- / class="card-footer bg-white border-0 pb-3" -->
+			</div><!-- / class="card h-100 shadow-sm" -->
+		</div><!-- / class="col-md-6 col-lg-4" -->
 
-							<h5>Kategori Popular:</h5>
-							<ul>
-								<li>Komputer riba perniagaan</li>
-								<li>Komputer riba permainan</li>
-								<li>Komputer riba nipis dan ringan</li>
-								<li>Komputer riba kreatif (untuk reka bentuk dan penyuntingan)</li>
-							</ul>
-						</div><!-- / Tab Komputer Riba -->
+		<!-- Produk 5 -->
+		<div class="col-md-6 col-lg-4">
+			<div class="card h-100 shadow-sm">
+				<div class="card-body">
+					<h5 class="card-title">Pemacu Keras Luaran 2TB</h5>
+					<p class="card-text text-muted">USB 3.0, kelajuan pemindahan tinggi</p>
+					<h4 class="text-success fw-bold">RM 329.00</h4>
+				</div><!-- / class="card-body" -->
+				<div class="card-footer bg-white border-0 pb-3">
+					<button class="btn btn-success w-100 mb-2" data-bs-toggle="modal" data-bs-target="#beliSekarang5">
+						<i class="bi bi-cart-fill"></i> Beli Sekarang
+					</button>
+					<button class="btn btn-outline-success w-100">
+						<i class="bi bi-info-circle"></i> Maklumat Lanjut
+					</button>
+				</div><!-- / class="card-footer bg-white border-0 pb-3" -->
+			</div><!-- / class="card h-100 shadow-sm" -->
+		</div><!-- / class="col-md-6 col-lg-4" -->
 
-						<!-- Tab Komponen -->
-						<div class="tab-pane fade" id="components" role="tabpanel">
-							<div class="mb-4">
-								<h3><i class="fa-solid fa-microchip text-primary"></i> Komponen Komputer</h3>
-								<p class="text-muted">Komponen berkualiti untuk pembinaan atau naik taraf</p>
-							</div><!-- / class="mb-4" -->
+		<!-- Produk 6 -->
+		<div class="col-md-6 col-lg-4">
+			<div class="card h-100 shadow-sm">
+				<div class="card-body">
+					<h5 class="card-title">Kamera Web HD 1080p</h5>
+					<p class="card-text text-muted">Mikrofon terbina dalam, penumpuan automatik</p>
+					<h4 class="text-success fw-bold">RM 249.00</h4>
+				</div><!-- / class="card-body" -->
+				<div class="card-footer bg-white border-0 pb-3">
+					<button class="btn btn-success w-100 mb-2" data-bs-toggle="modal" data-bs-target="#beliSekarang6">
+						<i class="bi bi-cart-fill"></i> Beli Sekarang
+					</button>
+					<button class="btn btn-outline-success w-100">
+						<i class="bi bi-info-circle"></i> Maklumat Lanjut
+					</button>
+				</div><!-- / class="card-footer bg-white border-0 pb-3" -->
+			</div><!-- / class="card h-100 shadow-sm" -->
+		</div><!-- / class="col-md-6 col-lg-4" -->
 
-							<div class="list-group">
-								<div class="list-group-item">
-									<div class="d-flex w-100 justify-content-between">
-										<h6 class="mb-1"><i class="fa-solid fa-memory"></i> RAM & Storan</h6>
-										<small class="text-success">Tersedia</small>
-									</div><!-- / class="d-flex w-100 justify-content-between" -->
-									<p class="mb-1 small">DDR4, DDR5, SSD NVMe, SSD SATA, HDD</p>
-								</div><!-- / class="list-group-item" -->
-								<div class="list-group-item">
-									<div class="d-flex w-100 justify-content-between">
-										<h6 class="mb-1"><i class="fa-solid fa-fan"></i> Penyejukan</h6>
-										<small class="text-success">Tersedia</small>
-									</div><!-- / class="d-flex w-100 justify-content-between" -->
-									<p class="mb-1 small">Penyejuk CPU, penyejuk cecair, kipas casis</p>
-								</div><!-- / class="list-group-item" -->
-								<div class="list-group-item">
-									<div class="d-flex w-100 justify-content-between">
-										<h6 class="mb-1"><i class="fa-solid fa-bolt"></i> Bekalan Kuasa</h6>
-										<small class="text-success">Tersedia</small>
-									</div><!-- / class="d-flex w-100 justify-content-between" -->
-									<p class="mb-1 small">PSU 500W - 1000W, pelbagai sijil kecekapan</p>
-								</div><!-- / class="list-group-item" -->
-							</div><!-- / class="list-group" -->
-						</div><!-- / Tab Komponen -->
+	</div><!-- / class="row g-4" -->
+</div><!-- / class="container my-5" -->
 
-						<!-- Tab Peranti Tambahan -->
-						<div class="tab-pane fade" id="peripherals" role="tabpanel">
-							<div class="mb-4">
-								<h3><i class="fa-solid fa-keyboard text-primary"></i> Peranti Tambahan</h3>
-								<p class="text-muted">Tingkatkan produktiviti dengan peranti yang sesuai</p>
-							</div><!-- / class="mb-4" -->
+<hr>
 
-							<div class="row">
-								<div class="col-md-4 mb-3">
-									<div class="card text-center">
-										<div class="card-body">
-											<i class="fa-solid fa-keyboard fa-3x text-primary mb-3"></i>
-											<h6>Papan Kekunci</h6>
-											<p class="small text-muted">Mekanikal, membran, tanpa wayar</p>
-										</div><!-- / class="card-body" -->
-									</div><!-- / class="card text-center" -->
-								</div><!-- / class="col-md-4 mb-3" -->
-								<div class="col-md-4 mb-3">
-									<div class="card text-center">
-										<div class="card-body">
-											<i class="fa-solid fa-computer-mouse fa-3x text-primary mb-3"></i>
-											<h6>Tetikus</h6>
-											<p class="small text-muted">Permainan, pejabat, ergonomik</p>
-										</div><!-- / class="card-body" -->
-									</div><!-- / class="card text-center" -->
-								</div><!-- / class="col-md-4 mb-3" -->
-								<div class="col-md-4 mb-3">
-									<div class="card text-center">
-										<div class="card-body">
-											<i class="fa-solid fa-tv fa-3x text-primary mb-3"></i>
-											<h6>Monitor</h6>
-											<p class="small text-muted">Full HD, 2K, 4K</p>
-										</div><!-- / class="card-body" -->
-									</div><!-- / class="card text-center" -->
-								</div><!-- / class="col-md-4 mb-3" -->
-							</div><!-- / class="row" -->
-						</div><!-- / Tab Peranti Tambahan -->
+<!-- Modal untuk produk 1 -->
+<div class="modal fade" id="beliSekarang1" tabindex="-1" aria-labelledby="modalLabel1" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header bg-success text-white">
+				<h5 class="modal-title" id="modalLabel1">Pengesahan Pembelian</h5>
+				<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Tutup"></button>
+			</div><!-- / class="modal-header bg-success text-white" -->
+			<div class="modal-body">
+				<h6>Komputer Riba Dell XPS 15</h6>
+				<p class="text-muted mb-3">Prosesor Intel Core i7, RAM 16GB, SSD 512GB</p>
+				<div class="d-flex justify-content-between align-items-center mb-3">
+					<span>Harga:</span>
+					<strong class="text-success fs-5">RM 4,999.00</strong>
+				</div><!-- / class="d-flex justify-content-between align-items-center mb-3" -->
+				<div class="mb-3">
+					<label for="kuantiti1" class="form-label">Kuantiti:</label>
+					<input type="number" class="form-control" id="kuantiti1" value="1" min="1">
+				</div><!-- / class="mb-3" -->
+			</div><!-- / class="modal-body" -->
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+				<button type="button" class="btn btn-success">Sahkan Pembelian</button>
+			</div><!-- / class="modal-footer" -->
+		</div><!-- / class="modal-content" -->
+	</div><!-- / class="modal-dialog modal-dialog-centered" -->
+</div><!-- / class="modal fade" -->
 
-						<!-- Tab Aksesori -->
-						<div class="tab-pane fade" id="accessories" role="tabpanel">
-							<div class="mb-4">
-								<h3><i class="fa-solid fa-plug text-primary"></i> Aksesori Komputer</h3>
-								<p class="text-muted">Aksesori lengkap untuk keperluan harian</p>
-							</div><!-- / class="mb-4" -->
+<!-- Modal untuk produk 2 -->
+<div class="modal fade" id="beliSekarang2" tabindex="-1" aria-labelledby="modalLabel2" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header bg-success text-white">
+				<h5 class="modal-title" id="modalLabel2">Pengesahan Pembelian</h5>
+				<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Tutup"></button>
+			</div><!-- / class="modal-header bg-success text-white" -->
+			<div class="modal-body">
+				<h6>Tetikus Tanpa Wayar Logitech MX Master 3</h6>
+				<p class="text-muted mb-3">Tetikus ergonomik dengan ketepatan tinggi</p>
+				<div class="d-flex justify-content-between align-items-center mb-3">
+					<span>Harga:</span>
+					<strong class="text-success fs-5">RM 399.00</strong>
+				</div><!-- / class="d-flex justify-content-between align-items-center mb-3" -->
+				<div class="mb-3">
+					<label for="kuantiti2" class="form-label">Kuantiti:</label>
+					<input type="number" class="form-control" id="kuantiti2" value="1" min="1">
+				</div><!-- / class="mb-3" -->
+			</div><!-- / class="modal-body" -->
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+				<button type="button" class="btn btn-success">Sahkan Pembelian</button>
+			</div><!-- / class="modal-footer" -->
+		</div><!-- / class="modal-content" -->
+	</div><!-- / class="modal-dialog modal-dialog-centered" -->
+</div><!-- / class="modal fade" -->
 
-							<div class="row">
-								<div class="col-md-6">
-									<h6><i class="fa-solid fa-usb-drive"></i> Storan Mudah Alih</h6>
-									<ul class="small">
-										<li>Pemacu denyar USB 2.0 / 3.0</li>
-										<li>Cakera keras luaran</li>
-										<li>Kad memori SD / microSD</li>
-									</ul><!-- / class="small" -->
-								</div><!-- / class="col-md-6" -->
-								<div class="col-md-6">
-									<h6><i class="fa-solid fa-cable-car"></i> Kabel & Penyambung</h6>
-									<ul class="small">
-										<li>Kabel HDMI, DisplayPort, USB-C</li>
-										<li>Penyesuai dan pengalih</li>
-										<li>Hab USB</li>
-									</ul><!-- / class="small" -->
-								</div><!-- / class="col-md-6" -->
-							</div><!-- / class="row" -->
-						</div><!-- / Tab Aksesori -->
+<!-- Modal untuk produk 3 -->
+<div class="modal fade" id="beliSekarang3" tabindex="-1" aria-labelledby="modalLabel3" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header bg-success text-white">
+				<h5 class="modal-title" id="modalLabel3">Pengesahan Pembelian</h5>
+				<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Tutup"></button>
+			</div><!-- / class="modal-header bg-success text-white" -->
+			<div class="modal-body">
+				<h6>Monitor Samsung 27" 4K</h6>
+				<p class="text-muted mb-3">Resolusi 3840×2160, teknologi HDR10</p>
+				<div class="d-flex justify-content-between align-items-center mb-3">
+					<span>Harga:</span>
+					<strong class="text-success fs-5">RM 1,299.00</strong>
+				</div><!-- / class="d-flex justify-content-between align-items-center mb-3" -->
+				<div class="mb-3">
+					<label for="kuantiti3" class="form-label">Kuantiti:</label>
+					<input type="number" class="form-control" id="kuantiti3" value="1" min="1">
+				</div><!-- / class="mb-3" -->
+			</div><!-- / class="modal-body" -->
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+				<button type="button" class="btn btn-success">Sahkan Pembelian</button>
+			</div><!-- / class="modal-footer" -->
+		</div><!-- / class="modal-content" -->
+	</div><!-- / class="modal-dialog modal-dialog-centered" -->
+</div><!-- / class="modal fade" -->
 
-						<!-- Tab Tempahan Khas -->
-						<div class="tab-pane fade" id="custom" role="tabpanel">
-							<div class="mb-4">
-								<h3><i class="fa-solid fa-screwdriver-wrench text-primary"></i> Tempahan Khas</h3>
-								<p class="text-muted">Setiap pembinaan direka khas mengikut spesifikasi anda</p>
-							</div><!-- / class="mb-4" -->
+<!-- Modal untuk produk 4, 5, 6 -->
+<div class="modal fade" id="beliSekarang4" tabindex="-1" aria-labelledby="modalLabel4" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header bg-success text-white">
+				<h5 class="modal-title" id="modalLabel4">Pengesahan Pembelian</h5>
+				<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Tutup"></button>
+			</div><!-- / class="modal-header bg-success text-white" -->
+			<div class="modal-body">
+				<h6>Papan Kekunci Mekanikal RGB</h6>
+				<p class="text-muted mb-3">Suis Cherry MX, lampu latar RGB boleh diselaraskan</p>
+				<div class="d-flex justify-content-between align-items-center mb-3">
+					<span>Harga:</span>
+					<strong class="text-success fs-5">RM 549.00</strong>
+				</div><!-- / class="d-flex justify-content-between align-items-center mb-3" -->
+				<div class="mb-3">
+					<label for="kuantiti4" class="form-label">Kuantiti:</label>
+					<input type="number" class="form-control" id="kuantiti4" value="1" min="1">
+				</div><!-- / class="mb-3" -->
+			</div><!-- / class="modal-body" -->
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+				<button type="button" class="btn btn-success">Sahkan Pembelian</button>
+			</div><!-- / class="modal-footer" -->
+		</div><!-- / class="modal-content" -->
+	</div><!-- / class="modal-dialog modal-dialog-centered" -->
+</div><!-- / class="modal fade" -->
 
-							<div class="card border-primary">
-								<div class="card-body">
-									<h5><i class="fa-solid fa-star"></i> Perkhidmatan Eksklusif Kami</h5>
-									<p>Kami percaya setiap pelanggan mempunyai keperluan yang unik. Justeru, kami menawarkan perkhidmatan tempahan khas yang bukan sahaja memenuhi kehendak anda, malah melampaui jangkaan.</p>
+<div class="modal fade" id="beliSekarang5" tabindex="-1" aria-labelledby="modalLabel5" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header bg-success text-white">
+				<h5 class="modal-title" id="modalLabel5">Pengesahan Pembelian</h5>
+				<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Tutup"></button>
+			</div><!-- / class="modal-header bg-success text-white" -->
+			<div class="modal-body">
+				<h6>Pemacu Keras Luaran 2TB</h6>
+				<p class="text-muted mb-3">USB 3.0, kelajuan pemindahan tinggi</p>
+				<div class="d-flex justify-content-between align-items-center mb-3">
+					<span>Harga:</span>
+					<strong class="text-success fs-5">RM 329.00</strong>
+				</div><!-- / class="d-flex justify-content-between align-items-center mb-3" -->
+				<div class="mb-3">
+					<label for="kuantiti5" class="form-label">Kuantiti:</label>
+					<input type="number" class="form-control" id="kuantiti5" value="1" min="1">
+				</div><!-- / class="mb-3" -->
+			</div><!-- / class="modal-body" -->
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+				<button type="button" class="btn btn-success">Sahkan Pembelian</button>
+			</div><!-- / class="modal-footer" -->
+		</div><!-- / class="modal-content" -->
+	</div><!-- / class="modal-dialog modal-dialog-centered" -->
+</div><!-- / class="modal fade" -->
 
-									<div class="row mt-4">
-										<div class="col-md-6">
-											<h6><i class="fa-solid fa-comments"></i> Perundingan Percuma</h6>
-											<p class="small">Berbincang dengan pakar kami untuk mendapatkan cadangan terbaik</p>
-										</div><!-- / class="col-md-6" -->
-										<div class="col-md-6">
-											<h6><i class="fa-solid fa-tools"></i> Pembinaan Tersuai</h6>
-											<p class="small">Kami membina sistem yang sepadan dengan bajet dan penggunaan anda</p>
-										</div><!-- / class="col-md-6" -->
-										<div class="col-md-6">
-											<h6><i class="fa-solid fa-shield-halved"></i> Jaminan Kualiti</h6>
-											<p class="small">Setiap komponen dipilih dengan teliti dan diuji sepenuhnya</p>
-										</div><!-- / class="col-md-6" -->
-										<div class="col-md-6">
-											<h6><i class="fa-solid fa-headset"></i> Sokongan Berterusan</h6>
-											<p class="small">Khidmat sokongan teknikal selepas jualan untuk ketenangan minda anda</p>
-										</div><!-- / class="col-md-6" -->
-									</div><!-- / class="row mt-4" -->
+<div class="modal fade" id="beliSekarang6" tabindex="-1" aria-labelledby="modalLabel6" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header bg-success text-white">
+				<h5 class="modal-title" id="modalLabel6">Pengesahan Pembelian</h5>
+				<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Tutup"></button>
+			</div><!-- / class="modal-header bg-success text-white" -->
+			<div class="modal-body">
+				<h6>Kamera Web HD 1080p</h6>
+				<p class="text-muted mb-3">Mikrofon terbina dalam, penumpuan automatik</p>
+				<div class="d-flex justify-content-between align-items-center mb-3">
+					<span>Harga:</span>
+					<strong class="text-success fs-5">RM 249.00</strong>
+				</div><!-- / class="d-flex justify-content-between align-items-center mb-3" -->
+				<div class="mb-3">
+					<label for="kuantiti6" class="form-label">Kuantiti:</label>
+					<input type="number" class="form-control" id="kuantiti6" value="1" min="1">
+				</div><!-- / class="mb-3" -->
+			</div><!-- / class="modal-body" -->
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+				<button type="button" class="btn btn-success">Sahkan Pembelian</button>
+			</div><!-- / class="modal-footer" -->
+		</div><!-- / class="modal-content" -->
+	</div><!-- / class="modal-dialog modal-dialog-centered" -->
+</div><!-- / class="modal fade" -->
 
-									<div class="mt-4">
-										<button class="btn btn-primary">Hubungi Kami</button>
-										<button class="btn btn-outline-secondary ms-2">Lihat Portfolio</button>
-									</div><!-- / class="mt-4" -->
-								</div><!-- / class="card-body" -->
-							</div><!-- / class="card border-primary" -->
-						</div><!-- / Tab Tempahan Khas -->
-					</div><!-- / class="tab-content" -->
-				</div><!-- / class="bg-white rounded-3 p-4 shadow-sm" -->
-			</div><!-- / class="col-md-9" -->
-		</div><!-- / class="row" -->
-	</div><!-- / class="container-fluid py-5" -->
+<hr>
 
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+<div class="container my-4">
+	<h2>Mengapa Memilih Kami?</h2>
+	<div class="row g-3">
+		<div class="col-md-4">
+			<div class="card border-success">
+				<div class="card-body text-center">
+					<i class="bi bi-shield-check text-success fs-1"></i>
+					<h6 class="mt-3">Jaminan Kualiti</h6>
+					<p class="text-muted small">Semua produk kami dijamin tulen dan berkualiti tinggi</p>
+				</div><!-- / class="card-body text-center" -->
+			</div><!-- / class="card border-success" -->
+		</div><!-- / class="col-md-4" -->
+		<div class="col-md-4">
+			<div class="card border-success">
+				<div class="card-body text-center">
+					<i class="bi bi-truck text-success fs-1"></i>
+					<h6 class="mt-3">Penghantaran Percuma</h6>
+					<p class="text-muted small">Penghantaran percuma untuk pembelian melebihi RM 500</p>
+				</div><!-- / class="card-body text-center" -->
+			</div><!-- / class="card border-success" -->
+		</div><!-- / class="col-md-4" -->
+		<div class="col-md-4">
+			<div class="card border-success">
+				<div class="card-body text-center">
+					<i class="bi bi-headset text-success fs-1"></i>
+					<h6 class="mt-3">Sokongan Pelanggan</h6>
+					<p class="text-muted small">Khidmat pelanggan 24/7 untuk membantu anda</p>
+				</div><!-- / class="card-body text-center" -->
+			</div><!-- / class="card border-success" -->
+		</div><!-- / class="col-md-4" -->
+	</div><!-- / class="row g-3" -->
+</div><!-- / class="container my-4" -->
+
+<hr>
+
+<!-- Pautan Kembali ke Halaman Utama -->
+<div class="container my-3">
+	<a href="?" class="btn btn-outline-success">
+		<i class="bi bi-house-fill"></i> Kembali ke Halaman Utama
+	</a>
+</div><!-- / class="container" -->
+
+<p class="text-center text-muted"><strong>Nota:</strong> Harga tertakluk kepada perubahan tanpa notis terlebih dahulu. Untuk pertanyaan lanjut, sila hubungi kami di <strong>support@7adasolution.com</strong> atau <strong>013-1234567</strong>.</p>
+<?php
+#--------------------------------------------------------------------------------------------------
+?>
