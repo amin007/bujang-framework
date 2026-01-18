@@ -164,6 +164,7 @@ function senaraiCssDaa($pilih = 0)
 	$papar[] = array(
 		//'https://use.fontawesome.com/releases/v5.11.2/css/all.css',
 		'https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css',
+		'https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css',
 		'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css',
 		//'https://cdn.jsdelivr.net/npm/github-markdown-css@5.8.1/github-markdown.min.css',
 		//'https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css',
