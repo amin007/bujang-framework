@@ -9,7 +9,7 @@ diatasDaa('Jenis Bisnes Di 7 ADA SOLUTION');
 #--------------------------------------------------------------------------------------------------
 $folder = ['template/amin007/','template/amin007/claude/','template/amin007/grok/',
 'template/amin007/chatgpt/'];
-$folderApa = $folder[3];
+$folderApa = $folder[1];
 #--------------------------------------------------------------------------------------------------
 $laluanSah = [
 	'buka/kedai/komputer' => $folderApa . 'kedai_komputer.php',
@@ -17,10 +17,53 @@ $laluanSah = [
 	'buka/kedai/ict' => $folderApa . 'kedai_ict.php',
 	'buka/kedai/buku-alat-tulis' => $folderApa . 'kedai_buku-alat-tulis.php',
 	'buka/kedai/kuih' => $folderApa . 'kedai_kuih.php',
+	'hubungi/whatsapp' => $folderApa . 'hubungi_whatsapp.php',
+	'hubungi/facebook' => $folderApa . 'hubungi_facebook.php',
+	'hubungi/instagram' => $folderApa . 'hubungi_instagram.php',
 ];
 #--------------------------------------------------------------------------------------------------
 // Dapatkan URI semasa dan bersihkan
 $uri = ltrim(parse_url($_SERVER['QUERY_STRING'], PHP_URL_PATH), '?/');
+#--------------------------------------------------------------------------------------------------
+$failMd = $laluanSah[$uri] ?? $folderApa . 'readme.php';
+#--------------------------------------------------------------------------------------------------
+/*semakPembolehubah($uri,'uri');
+semakPembolehubah($laluanSah,'laluanSah[]',0);
+semakPembolehubah($laluanSah[$uri],'laluanSah['.$uri.']',0);
+semakPembolehubah($failMd,'failMd');//*/
+#--------------------------------------------------------------------------------------------------
+if ($uri !== '' && !array_key_exists($uri, $laluanSah))
+{
+    http_response_code(404);
+}
+#--------------------------------------------------------------------------------------------------
+# kod yang boleh digunakan sama di semua kedai.
+$classIcon[] = '<i class="bi bi-door-open"></i>';
+$classIcon[] = '<i class="bi bi-house-fill"></i>';
+$classIcon[] = '<i class="fa-solid fa-circle-left"></i>';
+$pilihIcon = $classIcon[0];
+$kembaliKePangkalJalan = $pilihIcon . 'Kembali ke Halaman Utama';
+#--------------------------------------------------------------------------------------------------
+# sumber : https://stackoverflow.com/questions/72263107/how-do-i-use-markdown-it-without-node-js
+//echo '<' . $kodHTML . ' class="container markdown">';
+require $failMd; // Markdown akan dipaparkan sebagai teks biasa
+//echo '</' . $kodHTML . '><!-- / class="markdown" -->';
+#--------------------------------------------------------------------------------------------------
+?>
+<hr>
+<?php
+#--------------------------------------------------------------------------------------------------
+dibawahDaa();
+#--------------------------------------------------------------------------------------------------
+/*?>
+<script>
+</script>
+<?php*/
+#--------------------------------------------------------------------------------------------------
+badanKaki();
+#--------------------------------------------------------------------------------------------------
+###################################################################################################
+# simpan kod debug
 #--------------------------------------------------------------------------------------------------
 /*?>
 <!-- Navbar melintang dengan butang success -->
@@ -42,7 +85,7 @@ $teks = match(true)
 		=> 'Produk bakeri dan konfeksi, termasuk kuih tradisional dan kuih raya',
 	default => 'Halaman Utama',
 };
-
+#--------------------------------------------------------------------------------------------------
 // Tentukan kelas butang: aktif atau tidak
 $kelas = ($uri === $laluan) ? 'btn-success' : 'btn-outline-success';
 ?>
@@ -56,38 +99,5 @@ $kelas = ($uri === $laluan) ? 'btn-success' : 'btn-outline-success';
 <hr>
 <?php
 */
-#--------------------------------------------------------------------------------------------------
-# Semak laluan dan panggil fail md yang sesuai
-#--------------------------------------------------------------------------------------------------
-$uri = ltrim(parse_url($_SERVER['QUERY_STRING'], PHP_URL_PATH), '/?');
-
-$failMd = $laluanSah[$uri] ?? $folderApa . 'readme.php';
-
-if ($uri !== '' && !array_key_exists($uri, $laluanSah))
-{
-    http_response_code(404);
-}
-#--------------------------------------------------------------------------------------------------
-# kod yang boleh digunakan sama di semua kedai.
-//$kembaliKePangkalJalan = '<i class="bi bi-door-open"></i> Kembali ke Halaman Utama';
-$kembaliKePangkalJalan = '<i class="fa-solid fa-circle-left"></i></i> Kembali ke Halaman Utama';
-#--------------------------------------------------------------------------------------------------
-# sumber : https://stackoverflow.com/questions/72263107/how-do-i-use-markdown-it-without-node-js
-//echo '<' . $kodHTML . ' class="container markdown">';
-require $failMd; // Markdown akan dipaparkan sebagai teks biasa
-//echo '</' . $kodHTML . '><!-- / class="markdown" -->';
-#--------------------------------------------------------------------------------------------------
-?>
-<hr>
-<?php
-#--------------------------------------------------------------------------------------------------
-dibawahDaa();
-#--------------------------------------------------------------------------------------------------
-/*?>
-<script>
-</script>
-<?php*/
-#--------------------------------------------------------------------------------------------------
-badanKaki();
 #--------------------------------------------------------------------------------------------------
 ?>
