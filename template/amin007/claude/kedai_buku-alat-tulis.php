@@ -15,128 +15,259 @@
 		</p><hr>
 	</div><!-- / class="text-center mb-4" -->
 	<!-- ========================================================================================== -->
-<div class="container my-5">
-<div class="row g-4">
+	<div class="row g-4">
+		<!-- ========================================================================================== -->
+		<!-- Produk 1 -->
+		<div class="col-md-6 col-lg-4">
+		<div class="card h-100 shadow-sm">
+		<div class="card-body">
+			<h5 class="card-title">Set Alat Tulis Pelajar Premium</h5>
+			<p class="card-text text-muted">Termasuk pen, pensel, pembaris, pemadam, seraut dan kotak pensel</p>
+			<h4 class="text-success fw-bold">RM 49.90</h4>
+		</div><!-- / class="card-body" -->
+		<div class="card-footer bg-white border-0 pb-3">
+			<button class="btn btn-success w-100 mb-2" data-bs-toggle="modal"
+			data-bs-target="#beliSekarang1">
+			<i class="bi bi-cart-fill"></i> Beli Sekarang
+			</button>
+			<button class="btn btn-outline-success w-100">
+			<i class="bi bi-info-circle"></i> Maklumat Lanjut
+			</button>
+		</div><!-- / class="card-footer bg-white border-0 pb-3" -->
+		</div><!-- / class="card h-100 shadow-sm" -->
+		</div><!-- / class="col-md-6 col-lg-4" -->
+		<!-- ========================================================================================== -->
+		<!-- Produk 2 -->
+		<div class="col-md-6 col-lg-4">
+		<div class="card h-100 shadow-sm">
+		<div class="card-body">
+			<h5 class="card-title">Buku Motivasi: Atomic Habits</h5>
+			<p class="card-text text-muted">Oleh James Clear - Panduan membina tabiat baik dan memecahkan tabiat buruk</p>
+			<h4 class="text-success fw-bold">RM 59.90</h4>
+		</div><!-- / class="card-body" -->
+		<div class="card-footer bg-white border-0 pb-3">
+			<button class="btn btn-success w-100 mb-2" data-bs-toggle="modal"
+			data-bs-target="#beliSekarang2">
+			<i class="bi bi-cart-fill"></i> Beli Sekarang
+			</button>
+			<button class="btn btn-outline-success w-100">
+			<i class="bi bi-info-circle"></i> Maklumat Lanjut
+			</button>
+		</div><!-- / class="card-footer bg-white border-0 pb-3" -->
+		</div><!-- / class="card h-100 shadow-sm" -->
+		</div><!-- / class="col-md-6 col-lg-4" -->
+		<!-- ========================================================================================== -->
+		<!-- Produk 3 -->
+		<div class="col-md-6 col-lg-4">
+		<div class="card h-100 shadow-sm">
+		<div class="card-body">
+			<h5 class="card-title">Buku Nota A4 Bergaris (5 Unit)</h5>
+			<p class="card-text text-muted">200 muka surat setiap satu, kertas berkualiti tinggi</p>
+			<h4 class="text-success fw-bold">RM 29.90</h4>
+		</div><!-- / class="card-body" -->
+		<div class="card-footer bg-white border-0 pb-3">
+		<button class="btn btn-success w-100 mb-2" data-bs-toggle="modal"
+			data-bs-target="#beliSekarang3">
+			<i class="bi bi-cart-fill"></i> Beli Sekarang
+			</button>
+			<button class="btn btn-outline-success w-100">
+			<i class="bi bi-info-circle"></i> Maklumat Lanjut
+			</button>
+		</div><!-- / class="card-footer bg-white border-0 pb-3" -->
+		</div><!-- / class="card h-100 shadow-sm" -->
+		</div><!-- / class="col-md-6 col-lg-4" -->
+		<!-- ========================================================================================== -->
+		<!-- Produk 4 -->
+		<div class="col-md-6 col-lg-4">
+		<div class="card h-100 shadow-sm">
+		<div class="card-body">
+			<h5 class="card-title">Set Pen Gel Warna (12 Warna)</h5>
+			<p class="card-text text-muted">Dakwat licin, warna terang dan tahan lama</p>
+			<h4 class="text-success fw-bold">RM 24.90</h4>
+		</div><!-- / class="card-body" -->
+		<div class="card-footer bg-white border-0 pb-3">
+			<button class="btn btn-success w-100 mb-2" data-bs-toggle="modal"
+			data-bs-target="#beliSekarang4">
+			<i class="bi bi-cart-fill"></i> Beli Sekarang
+			</button>
+			<button class="btn btn-outline-success w-100">
+			<i class="bi bi-info-circle"></i> Maklumat Lanjut
+			</button>
+		</div><!-- / class="card-footer bg-white border-0 pb-3" -->
+		</div><!-- / class="card h-100 shadow-sm" -->
+		</div><!-- / class="col-md-6 col-lg-4" -->
+		<!-- ========================================================================================== -->
+		<!-- Produk 5 -->
+		<div class="col-md-6 col-lg-4">
+		<div class="card h-100 shadow-sm">
+		<div class="card-body">
+			<h5 class="card-title">Buku Cerita Kanak-Kanak (Set 10 Buku)</h5>
+			<p class="card-text text-muted">Cerita mendidik dengan ilustrasi menarik, sesuai untuk umur 3-8 tahun</p>
+			<h4 class="text-success fw-bold">RM 79.90</h4>
+		</div><!-- / class="card-body" -->
+		<div class="card-footer bg-white border-0 pb-3">
+			<button class="btn btn-success w-100 mb-2" data-bs-toggle="modal"
+			data-bs-target="#beliSekarang5">
+			<i class="bi bi-cart-fill"></i> Beli Sekarang
+			</button>
+			<button class="btn btn-outline-success w-100">
+			<i class="bi bi-info-circle"></i> Maklumat Lanjut
+			</button>
+		</div><!-- / class="card-footer bg-white border-0 pb-3" -->
+		</div><!-- / class="card h-100 shadow-sm" -->
+		</div><!-- / class="col-md-6 col-lg-4" -->
+		<!-- ========================================================================================== -->
+		<!-- Produk 6 -->
+		<div class="col-md-6 col-lg-4">
+		<div class="card h-100 shadow-sm">
+		<div class="card-body">
+			<h5 class="card-title">Papan Putih Magnet 90cm × 60cm</h5>
+			<p class="card-text text-muted">Termasuk penanda dan pemadam, mudah dipasang</p>
+			<h4 class="text-success fw-bold">RM 149.00</h4>
+		</div><!-- / class="card-body" -->
+		<div class="card-footer bg-white border-0 pb-3">
+			<button class="btn btn-success w-100 mb-2" data-bs-toggle="modal"
+			data-bs-target="#beliSekarang6">
+			<i class="bi bi-cart-fill"></i> Beli Sekarang
+			</button>
+			<button class="btn btn-outline-success w-100">
+			<i class="bi bi-info-circle"></i> Maklumat Lanjut
+			</button>
+		</div><!-- / class="card-footer bg-white border-0 pb-3" -->
+		</div><!-- / class="card h-100 shadow-sm" -->
+		</div><!-- / class="col-md-6 col-lg-4" -->
+		<!-- ========================================================================================== -->
+	</div><!-- / class="row g-4" -->
+	<!-- ========================================================================================== -->
+</div><!-- / class="container my-5" -->
 
-<!-- Produk 1 -->
-<div class="col-md-6 col-lg-4">
-<div class="card h-100 shadow-sm">
+<!-- ========================================================================================== -->
+<div class="container my-4">
+<h2>Kategori Buku Popular</h2>
+<div class="row g-3">
+	<!-- ========================================================================================== -->
+	<div class="col-md-3 col-sm-6">
+		<div class="card text-center border-success h-100">
+		<div class="card-body">
+			<i class="bi bi-book-fill text-success fs-1"></i>
+			<h6 class="mt-3">Buku Akademik</h6>
+			<p class="text-muted small mb-0">UPSR, PT3, SPM, STPM</p>
+		</div><!-- / class="card-body" -->
+		</div><!-- /  class="card text-center border-success h-100" -->
+	</div><!-- / class="col-md-3 col-sm-6" -->
+	<!-- ========================================================================================== -->
+	<div class="col-md-3 col-sm-6">
+		<div class="card text-center border-success h-100">
+		<div class="card-body">
+			<i class="bi bi-journal-text text-success fs-1"></i>
+			<h6 class="mt-3">Novel & Sastera</h6>
+			<p class="text-muted small mb-0">Fiksyen dan bukan fiksyen</p>
+		</div><!-- / class="card-body" -->
+		</div><!-- /  class="card text-center border-success h-100" -->
+	</div><!-- / class="col-md-3 col-sm-6" -->
+	<!-- ========================================================================================== -->
+	<div class="col-md-3 col-sm-6">
+		<div class="card text-center border-success h-100">
+		<div class="card-body">
+			<i class="bi bi-heart-fill text-success fs-1"></i>
+			<h6 class="mt-3">Motivasi & Agama</h6>
+			<p class="text-muted small mb-0">Pembangunan diri</p>
+		</div><!-- / class="card-body" -->
+		</div><!-- /  class="card text-center border-success h-100" -->
+	</div><!-- / class="col-md-3 col-sm-6" -->
+	<!-- ========================================================================================== -->
+	<div class="col-md-3 col-sm-6">
+		<div class="card text-center border-success h-100">
+		<div class="card-body">
+			<i class="bi bi-stars text-success fs-1"></i>
+			<h6 class="mt-3">Kanak-kanak</h6>
+			<p class="text-muted small mb-0">Cerita dan aktiviti</p>
+		</div><!-- / class="card-body" -->
+		</div><!-- /  class="card text-center border-success h-100" -->
+	</div><!-- / class="col-md-3 col-sm-6" -->
+	<!-- ========================================================================================== -->
+</div><!-- /  class="row g-3" -->
+</div><!-- / class="container my-4" -->
+
+<!-- ========================================================================================== -->
+<div class="container my-4">
+<h2>Promosi Istimewa</h2>
+<div class="card bg-success text-white">
 <div class="card-body">
-<h5 class="card-title">Set Alat Tulis Pelajar Premium</h5>
-<p class="card-text text-muted">Termasuk pen, pensel, pembaris, pemadam, seraut dan kotak pensel</p>
-<h4 class="text-success fw-bold">RM 49.90</h4>
-</div>
-<div class="card-footer bg-white border-0 pb-3">
-<button class="btn btn-success w-100 mb-2" data-bs-toggle="modal" data-bs-target="#beliSekarang1">
-<i class="bi bi-cart-fill"></i> Beli Sekarang
-</button>
-<button class="btn btn-outline-success w-100">
-<i class="bi bi-info-circle"></i> Maklumat Lanjut
-</button>
+<h5 class="card-title"><i class="bi bi-percent"></i> Promosi Musim Perayaan</h5>
+<p class="card-text">Nikmati diskaun sehingga 30% untuk pembelian buku terpilih. Tawaran terhad!</p>
+<ul class="mb-3">
+<li>Beli 5 buku percuma 1</li>
+<li>Pembelian melebihi RM 100 dapat penghantaran percuma</li>
+<li>Mata ganjaran untuk setiap pembelian</li>
+</ul>
+<button class="btn btn-light">Lihat Produk Promosi</button>
 </div>
 </div>
-</div>
+</div><!-- / class="container my-4" -->
 
-<!-- Produk 2 -->
-<div class="col-md-6 col-lg-4">
-<div class="card h-100 shadow-sm">
-<div class="card-body">
-<h5 class="card-title">Buku Motivasi: Atomic Habits</h5>
-<p class="card-text text-muted">Oleh James Clear - Panduan membina tabiat baik dan memecahkan tabiat buruk</p>
-<h4 class="text-success fw-bold">RM 59.90</h4>
-</div>
-<div class="card-footer bg-white border-0 pb-3">
-<button class="btn btn-success w-100 mb-2" data-bs-toggle="modal" data-bs-target="#beliSekarang2">
-<i class="bi bi-cart-fill"></i> Beli Sekarang
-</button>
-<button class="btn btn-outline-success w-100">
-<i class="bi bi-info-circle"></i> Maklumat Lanjut
-</button>
+<!-- ========================================================================================== -->
+<div class="container my-4">
+<h2>Kelebihan Membeli dengan Kami</h2>
+<div class="row g-3">
+<div class="col-md-4">
+<div class="card border-success">
+<div class="card-body text-center">
+<i class="bi bi-bookmark-check-fill text-success fs-1"></i>
+<h6 class="mt-3">Koleksi Lengkap</h6>
+<p class="text-muted small">Lebih 10,000 tajuk buku dari pelbagai kategori</p>
 </div>
 </div>
 </div>
-
-<!-- Produk 3 -->
-<div class="col-md-6 col-lg-4">
-<div class="card h-100 shadow-sm">
-<div class="card-body">
-<h5 class="card-title">Buku Nota A4 Bergaris (5 Unit)</h5>
-<p class="card-text text-muted">200 muka surat setiap satu, kertas berkualiti tinggi</p>
-<h4 class="text-success fw-bold">RM 29.90</h4>
-</div>
-<div class="card-footer bg-white border-0 pb-3">
-<button class="btn btn-success w-100 mb-2" data-bs-toggle="modal" data-bs-target="#beliSekarang3">
-<i class="bi bi-cart-fill"></i> Beli Sekarang
-</button>
-<button class="btn btn-outline-success w-100">
-<i class="bi bi-info-circle"></i> Maklumat Lanjut
-</button>
+<div class="col-md-4">
+<div class="card border-success">
+<div class="card-body text-center">
+<i class="bi bi-tag-fill text-success fs-1"></i>
+<h6 class="mt-3">Harga Berpatutan</h6>
+<p class="text-muted small">Harga kompetitif dengan promosi berkala</p>
 </div>
 </div>
 </div>
-
-<!-- Produk 4 -->
-<div class="col-md-6 col-lg-4">
-<div class="card h-100 shadow-sm">
-<div class="card-body">
-<h5 class="card-title">Set Pen Gel Warna (12 Warna)</h5>
-<p class="card-text text-muted">Dakwat licin, warna terang dan tahan lama</p>
-<h4 class="text-success fw-bold">RM 24.90</h4>
-</div>
-<div class="card-footer bg-white border-0 pb-3">
-<button class="btn btn-success w-100 mb-2" data-bs-toggle="modal" data-bs-target="#beliSekarang4">
-<i class="bi bi-cart-fill"></i> Beli Sekarang
-</button>
-<button class="btn btn-outline-success w-100">
-<i class="bi bi-info-circle"></i> Maklumat Lanjut
-</button>
+<div class="col-md-4">
+<div class="card border-success">
+<div class="card-body text-center">
+<i class="bi bi-box-seam text-success fs-1"></i>
+<h6 class="mt-3">Pembungkusan Selamat</h6>
+<p class="text-muted small">Buku dibungkus dengan rapi untuk mengelakkan kerosakan</p>
 </div>
 </div>
 </div>
-
-<!-- Produk 5 -->
-<div class="col-md-6 col-lg-4">
-<div class="card h-100 shadow-sm">
-<div class="card-body">
-<h5 class="card-title">Buku Cerita Kanak-Kanak (Set 10 Buku)</h5>
-<p class="card-text text-muted">Cerita mendidik dengan ilustrasi menarik, sesuai untuk umur 3-8 tahun</p>
-<h4 class="text-success fw-bold">RM 79.90</h4>
 </div>
-<div class="card-footer bg-white border-0 pb-3">
-<button class="btn btn-success w-100 mb-2" data-bs-toggle="modal" data-bs-target="#beliSekarang5">
-<i class="bi bi-cart-fill"></i> Beli Sekarang
-</button>
-<button class="btn btn-outline-success w-100">
-<i class="bi bi-info-circle"></i> Maklumat Lanjut
-</button>
-</div>
-</div>
-</div>
-
-<!-- Produk 6 -->
-<div class="col-md-6 col-lg-4">
-<div class="card h-100 shadow-sm">
-<div class="card-body">
-<h5 class="card-title">Papan Putih Magnet 90cm × 60cm</h5>
-<p class="card-text text-muted">Termasuk penanda dan pemadam, mudah dipasang</p>
-<h4 class="text-success fw-bold">RM 149.00</h4>
-</div>
-<div class="card-footer bg-white border-0 pb-3">
-<button class="btn btn-success w-100 mb-2" data-bs-toggle="modal" data-bs-target="#beliSekarang6">
-<i class="bi bi-cart-fill"></i> Beli Sekarang
-</button>
-<button class="btn btn-outline-success w-100">
-<i class="bi bi-info-circle"></i> Maklumat Lanjut
-</button>
-</div>
-</div>
-</div>
-
-</div>
-</div>
-
----
-
+</div><!-- / class="container my-4" -->
+<!-- ========================================================================================== -->
+<div class="container my-3"><!-- Pautan Kembali ke Halaman Utama -->
+	<a href="?" class="btn btn-outline-success">
+		<?php echo $kembaliKePangkalJalan ?>
+	</a><hr>
+</div><!-- / class="container" -->
+<!-- ========================================================================================== -->
+<div class="container">
+<p class="text-center text-muted"><strong>Nota:</strong>
+Harga tertakluk kepada perubahan tanpa notis terlebih dahulu. Stok terhad untuk buku terpilih.
+Untuk pertanyaan lanjut, sila hubungi kami di </p>
+<div class="d-flex justify-content-center gap-3">
+	<a href="?/hubungi/facebook" class="btn btn-outline-success btn-sm">
+		<i class="bi bi-facebook"></i> Facebook
+	</a>
+	<a href="?/hubungi/instagram" class="btn btn-outline-success btn-sm">
+		<i class="bi bi-instagram"></i> Instagram
+	</a>
+	<a href="?/hubungi/whatsapp" class="btn btn-outline-success btn-sm">
+		<i class="bi bi-whatsapp"></i> WhatsApp
+	</a>
+</div><!-- / class="d-flex gap-3" -->
+</div><!-- / class="container" -->
+<!-- ========================================================================================== -->
+<?php
+#--------------------------------------------------------------------------------------------------
+?>
+<!-- kod dialog mula -->
+<!-- ========================================================================================== -->
 <!-- Modal untuk produk 1 -->
 <div class="modal fade" id="beliSekarang1" tabindex="-1" aria-labelledby="modalLabel1" aria-hidden="true">
 <div class="modal-dialog modal-dialog-centered">
@@ -348,130 +479,3 @@ Tambah set penanda warna (4 batang) (+RM 19.90)
 </div>
 </div>
 </div>
-
----
-
-## Kategori Buku Popular
-
-<div class="container my-4">
-<div class="row g-3">
-<div class="col-md-3 col-sm-6">
-<div class="card text-center border-success h-100">
-<div class="card-body">
-<i class="bi bi-book-fill text-success fs-1"></i>
-<h6 class="mt-3">Buku Akademik</h6>
-<p class="text-muted small mb-0">UPSR, PT3, SPM, STPM</p>
-</div>
-</div>
-</div>
-<div class="col-md-3 col-sm-6">
-<div class="card text-center border-success h-100">
-<div class="card-body">
-<i class="bi bi-journal-text text-success fs-1"></i>
-<h6 class="mt-3">Novel & Sastera</h6>
-<p class="text-muted small mb-0">Fiksyen dan bukan fiksyen</p>
-</div>
-</div>
-</div>
-<div class="col-md-3 col-sm-6">
-<div class="card text-center border-success h-100">
-<div class="card-body">
-<i class="bi bi-heart-fill text-success fs-1"></i>
-<h6 class="mt-3">Motivasi & Agama</h6>
-<p class="text-muted small mb-0">Pembangunan diri</p>
-</div>
-</div>
-</div>
-<div class="col-md-3 col-sm-6">
-<div class="card text-center border-success h-100">
-<div class="card-body">
-<i class="bi bi-stars text-success fs-1"></i>
-<h6 class="mt-3">Kanak-kanak</h6>
-<p class="text-muted small mb-0">Cerita dan aktiviti</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-
----
-
-## Promosi Istimewa
-
-<div class="container my-4">
-<div class="card bg-success text-white">
-<div class="card-body">
-<h5 class="card-title"><i class="bi bi-percent"></i> Promosi Musim Perayaan</h5>
-<p class="card-text">Nikmati diskaun sehingga 30% untuk pembelian buku terpilih. Tawaran terhad!</p>
-<ul class="mb-3">
-<li>Beli 5 buku percuma 1</li>
-<li>Pembelian melebihi RM 100 dapat penghantaran percuma</li>
-<li>Mata ganjaran untuk setiap pembelian</li>
-</ul>
-<button class="btn btn-light">Lihat Produk Promosi</button>
-</div>
-</div>
-</div>
-
----
-
-## Kelebihan Membeli dengan Kami
-
-<div class="container my-4">
-<div class="row g-3">
-<div class="col-md-4">
-<div class="card border-success">
-<div class="card-body text-center">
-<i class="bi bi-bookmark-check-fill text-success fs-1"></i>
-<h6 class="mt-3">Koleksi Lengkap</h6>
-<p class="text-muted small">Lebih 10,000 tajuk buku dari pelbagai kategori</p>
-</div>
-</div>
-</div>
-<div class="col-md-4">
-<div class="card border-success">
-<div class="card-body text-center">
-<i class="bi bi-tag-fill text-success fs-1"></i>
-<h6 class="mt-3">Harga Berpatutan</h6>
-<p class="text-muted small">Harga kompetitif dengan promosi berkala</p>
-</div>
-</div>
-</div>
-<div class="col-md-4">
-<div class="card border-success">
-<div class="card-body text-center">
-<i class="bi bi-box-seam text-success fs-1"></i>
-<h6 class="mt-3">Pembungkusan Selamat</h6>
-<p class="text-muted small">Buku dibungkus dengan rapi untuk mengelakkan kerosakan</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!-- ========================================================================================== -->
-<div class="container my-3"><!-- Pautan Kembali ke Halaman Utama -->
-	<a href="?" class="btn btn-outline-success">
-		<?php echo $kembaliKePangkalJalan ?>
-	</a><hr>
-</div><!-- / class="container" -->
-<!-- ========================================================================================== -->
-<p class="text-center text-muted"><strong>Nota:</strong>
-Harga tertakluk kepada perubahan tanpa notis terlebih dahulu. Stok terhad untuk buku terpilih.
-Untuk pertanyaan lanjut, sila hubungi kami di </p>
-<div class="d-flex justify-content-center gap-3">
-	<a href="?/hubungi/facebook" class="btn btn-outline-success btn-sm">
-		<i class="bi bi-facebook"></i> Facebook
-	</a>
-	<a href="?/hubungi/instagram" class="btn btn-outline-success btn-sm">
-		<i class="bi bi-instagram"></i> Instagram
-	</a>
-	<a href="?/hubungi/whatsapp" class="btn btn-outline-success btn-sm">
-		<i class="bi bi-whatsapp"></i> WhatsApp
-	</a>
-</div><!-- / class="d-flex gap-3" -->
-<!-- ========================================================================================== -->
-<?php
-#--------------------------------------------------------------------------------------------------
-?>
-<!-- kod dialog mula -->
-<!-- ========================================================================================== -->
