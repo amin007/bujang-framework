@@ -283,18 +283,22 @@ Untuk pertanyaan lanjut, sila hubungi kami di </p>
 	</div><!-- / class="modal-header bg-success text-white" -->
 	<!-- ========================================================================================== -->
 	<div class="modal-body">
+		<!-- ========================================================================================== -->
 		<h6>Set Alat Tulis Pelajar Premium</h6>
 		<p class="text-muted mb-3">Termasuk pen, pensel, pembaris, pemadam, seraut dan kotak pensel</p>
 		<div class="d-flex justify-content-between align-items-center mb-3">
 			<span>Harga:</span><strong class="text-success fs-5">RM 49.90</strong>
 		</div><!-- / class="d-flex justify-content-between align-items-center mb-3" -->
+		<!-- ========================================================================================== -->
 		<div class="mb-3">
 			<label for="kuantiti1" class="form-label">Kuantiti:</label>
 			<input type="number" class="form-control" id="kuantiti1" value="1" min="1">
 		</div><!-- / class="mb-3" -->
+		<!-- ========================================================================================== -->
 		<div class="alert alert-info small mb-0">
 			<i class="bi bi-info-circle"></i> Beli 3 set atau lebih dapat diskaun 10%
 		</div><!-- / class="form-check mb-3" -->
+		<!-- ========================================================================================== -->
 	</div><!-- / class="modal-body" -->
 	<!-- ========================================================================================== -->
 	<div class="modal-footer">
@@ -317,12 +321,13 @@ Untuk pertanyaan lanjut, sila hubungi kami di </p>
 	</div><!-- / class="modal-header bg-success text-white" -->
 	<!-- ========================================================================================== -->
 	<div class="modal-body">
+		<!-- ========================================================================================== -->
 		<h6>Buku Motivasi: Atomic Habits</h6>
 		<p class="text-muted mb-3">Oleh James Clear - Panduan membina tabiat baik dan memecahkan tabiat buruk</p>
 		<div class="d-flex justify-content-between align-items-center mb-3">
-		<span>Harga:</span>
-		<strong class="text-success fs-5">RM 59.90</strong>
+		<span>Harga:</span><strong class="text-success fs-5">RM 59.90</strong>
 		</div><!-- / class="d-flex justify-content-between align-items-center mb-3" -->
+		<!-- ========================================================================================== -->
 		<div class="mb-3">
 			<label for="format2" class="form-label">Format buku:</label>
 			<select class="form-select" id="format2">
@@ -330,10 +335,12 @@ Untuk pertanyaan lanjut, sila hubungi kami di </p>
 			<option value="ebook">E-book (RM 39.90)</option>
 			</select>
 		</div><!-- / class="mb-3" -->
+		<!-- ========================================================================================== -->
 		<div class="mb-3">
 			<label for="kuantiti2" class="form-label">Kuantiti:</label>
 			<input type="number" class="form-control" id="kuantiti2" value="1" min="1">
 		</div><!-- / class="mb-3" -->
+		<!-- ========================================================================================== -->
 	</div><!-- / class="modal-body" -->
 	<!-- ========================================================================================== -->
 	<div class="modal-footer">
@@ -356,11 +363,13 @@ Untuk pertanyaan lanjut, sila hubungi kami di </p>
 	</div><!-- / class="modal-header bg-success text-white" -->
 	<!-- ========================================================================================== -->
 	<div class="modal-body">
+		<!-- ========================================================================================== -->
 		<h6>Buku Nota A4 Bergaris (5 Unit)</h6>
 		<p class="text-muted mb-3">200 muka surat setiap satu, kertas berkualiti tinggi</p>
 		<div class="d-flex justify-content-between align-items-center mb-3">
 			<span>Harga:</span><strong class="text-success fs-5">RM 29.90</strong>
 		</div><!-- / class="d-flex justify-content-between align-items-center mb-3" -->
+		<!-- ========================================================================================== -->
 		<div class="mb-3">
 			<label for="warna3" class="form-label">Pilih warna kulit:</label>
 			<select class="form-select" id="warna3">
@@ -371,10 +380,12 @@ Untuk pertanyaan lanjut, sila hubungi kami di </p>
 			<option value="campuran" selected>Campuran (1 setiap warna)</option>
 			</select>
 		</div><!-- / class="mb-3" -->
+		<!-- ========================================================================================== -->
 		<div class="mb-3">
 			<label for="set3" class="form-label">Bilangan set:</label>
 			<input type="number" class="form-control" id="set3" value="1" min="1">
 		</div><!-- / class="mb-3" -->
+		<!-- ========================================================================================== -->
 	</div><!-- / class="modal-body" -->
 	<!-- ========================================================================================== -->
 	<div class="modal-footer">
@@ -397,18 +408,22 @@ Untuk pertanyaan lanjut, sila hubungi kami di </p>
 	</div><!-- / class="modal-header bg-success text-white" -->
 	<!-- ========================================================================================== -->
 	<div class="modal-body">
+		<!-- ========================================================================================== -->
 		<h6>Set Pen Gel Warna (12 Warna)</h6>
 		<p class="text-muted mb-3">Dakwat licin, warna terang dan tahan lama</p>
 		<div class="d-flex justify-content-between align-items-center mb-3">
 			<span>Harga:</span><strong class="text-success fs-5">RM 24.90</strong>
 		</div><!-- / class="d-flex justify-content-between align-items-center mb-3" -->
+		<!-- ========================================================================================== -->
 		<div class="mb-3">
 			<label for="kuantiti4" class="form-label">Kuantiti set:</label>
 			<input type="number" class="form-control" id="kuantiti4" value="1" min="1">
 		</div><!-- / class="mb-3" -->
+		<!-- ========================================================================================== -->
 		<div class="alert alert-success small mb-0">
 			<i class="bi bi-gift-fill"></i> Beli 2 set percuma 1 kotak pensel!
 		</div><!-- / class="alert alert-success small mb-0" -->
+		<!-- ========================================================================================== -->
 	</div><!-- / class="modal-body" -->
 	<!-- ========================================================================================== -->
 	<div class="modal-footer">
@@ -431,11 +446,13 @@ Untuk pertanyaan lanjut, sila hubungi kami di </p>
 	</div><!-- / class="modal-header bg-success text-white" -->
 	<!-- ========================================================================================== -->
 	<div class="modal-body">
+		<!-- ========================================================================================== -->
 		<h6>Buku Cerita Kanak-Kanak (Set 10 Buku)</h6>
 		<p class="text-muted mb-3">Cerita mendidik dengan ilustrasi menarik, sesuai untuk umur 3-8 tahun</p>
 		<div class="d-flex justify-content-between align-items-center mb-3">
 			<span>Harga:</span><strong class="text-success fs-5">RM 79.90</strong>
 		</div><!-- / class="mb-3" -->
+		<!-- ========================================================================================== -->
 		<div class="mb-3">
 			<label for="bahasa5" class="form-label">Pilih bahasa:</label>
 			<select class="form-select" id="bahasa5">
@@ -444,10 +461,12 @@ Untuk pertanyaan lanjut, sila hubungi kami di </p>
 			<option value="campuran" selected>Dwibahasa (5 BM + 5 BI)</option>
 			</select>
 		</div><!-- / class="mb-3" -->
+		<!-- ========================================================================================== -->
 		<div class="mb-3">
 			<label for="set5" class="form-label">Bilangan set:</label>
 			<input type="number" class="form-control" id="set5" value="1" min="1">
-			</div><!-- / class="form-check mb-3" -->
+		</div><!-- / class="form-check mb-3" -->
+		<!-- ========================================================================================== -->
 	</div><!-- / class="modal-body" -->
 	<!-- ========================================================================================== -->
 	<div class="modal-footer">
@@ -470,11 +489,13 @@ Untuk pertanyaan lanjut, sila hubungi kami di </p>
 	</div><!-- /  class="modal-header bg-success text-white" -->
 	<!-- ========================================================================================== -->
 	<div class="modal-body">
+		<!-- ========================================================================================== -->
 		<h6>Papan Putih Magnet 90cm × 60cm</h6>
 		<p class="text-muted mb-3">Termasuk penanda dan pemadam, mudah dipasang</p>
 		<div class="d-flex justify-content-between align-items-center mb-3">
 			<span>Harga:</span><strong class="text-success fs-5">RM 149.00</strong>
 		</div><!-- / class="d-flex justify-content-between align-items-center mb-3" -->
+		<!-- ========================================================================================== -->
 		<div class="mb-3">
 			<label for="bingkai6" class="form-label">Jenis bingkai:</label>
 			<select class="form-select" id="bingkai6">
@@ -482,16 +503,19 @@ Untuk pertanyaan lanjut, sila hubungi kami di </p>
 			<option value="kayu">Kayu (RM 179)</option>
 			</select>
 		</div><!-- / class="mb-3" -->
+		<!-- ========================================================================================== -->
 		<div class="mb-3">
 			<label for="kuantiti6" class="form-label">Kuantiti:</label>
 			<input type="number" class="form-control" id="kuantiti6" value="1" min="1">
 		</div><!-- / class="mb-3" -->
+		<!-- ========================================================================================== -->
 		<div class="form-check mb-3">
 			<input class="form-check-input" type="checkbox" id="penanda6">
 			<label class="form-check-label" for="penanda6">
 			Tambah set penanda warna (4 batang) (+RM 19.90)
 			</label>
 		</div><!-- / class="form-check mb-3" -->
+		<!-- ========================================================================================== -->
 	</div><!-- / class="modal-body" -->
 	<!-- ========================================================================================== -->
 	<div class="modal-footer">
