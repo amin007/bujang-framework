@@ -170,21 +170,29 @@
 <?php
 $tawarKhidmat = [
 	['tawar/khidmat/aturcara','Pengaturcaraan & Aplikasi',
-	'Pembangunan aplikasi web & mudah alih menggunakan teknologi moden.'],
+	'Pembangunan aplikasi web & mudah alih menggunakan teknologi moden.',
+	'fa-solid fa-code fa-2x mb-3'],
 	['tawar/khidmat/latihan','Latihan ICT Masa Hadapan',
-	'Latihan komputer dan teknologi untuk individu serta organisasi.'],
+	'Latihan komputer dan teknologi untuk individu serta organisasi.',
+	'fa-solid fa-laptop-code fa-2x mb-3'],
 	['tawar/khidmat/rnd_ai','Penyelidikan dan Pembangunan & AI',
-	'Pembangunan penyelesaian AI dan automasi untuk pelbagai industri.'],
+	'Pembangunan penyelesaian AI dan automasi untuk pelbagai industri.',
+	'fa-solid fa-microchip fa-2x mb-3'],
 	['tawar/khidmat/nasihat','Khidmat Nasihat Perisian',
-	'Nasihat pembangunan sistem, integrasi dan penyelesaian teknologi.'],
+	'Nasihat pembangunan sistem, integrasi dan penyelesaian teknologi.',
+	'fa-solid fa-lightbulb fa-2x mb-3'],
 	['tawar/khidmat/penulisan','Penulisan Profesional',
-	'Penulisan bebas dengan penggunaan AI, automasi dan analisis data.'],
+	'Penulisan bebas dengan penggunaan AI, automasi dan analisis data.',
+	'fa-solid fa-pen-nib fa-2x mb-3'],
+	['tawar/khidmat/cetak','Cetak Atas Talian',
+	'Cetak Atas Permintaan',
+	'fa-solid fa-pen-nib fa-2x mb-3'],
 ];
-// shadow hover-card / style="max-width: 50rem;"
+// shadow hover-card / style="max-width: 50rem;"  bg-success text-white
 foreach($tawarKhidmat as $data):?>
 	<div class="card shadow hover-card">
 	<div class="card-header bg-success text-white">
-		Tawar Khidmat
+		<i class="<?php echo $data[3] ?>"></i> Tawar Khidmat
 	</div><!-- / class="card-header bg-success text-white" -->
 	<div class="card-body">
 		<h5 class="card-title"><?php echo $data[1] ?></h5>
