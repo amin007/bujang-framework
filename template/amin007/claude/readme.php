@@ -27,136 +27,141 @@
 <p class="text-center text-muted mb-5">Terokai pelbagai jenis perniagaan yang kami tawarkan</p>
 
 <div class="row g-4">
-
+<!-- ========================================================================================== -->
 <!-- Kedai 1: Komputer -->
 <div class="col-md-6">
-<div class="card h-100 border-success shadow hover-card">
-<div class="card-header bg-success text-white">
-<h5 class="mb-0"><i class="bi bi-laptop-fill"></i> Kedai Komputer, Peralatan dan Aksesori Komputer</h5>
-</div><!-- / -->
-<div class="card-body">
-<p class="card-text">
-Kedai komputer kami menawarkan pelbagai jenama komputer riba, komputer meja, dan aksesori komputer terkini. Kami menyediakan produk dari jenama terkenal seperti Dell, HP, Lenovo, ASUS, dan banyak lagi.
-</p>
-<ul class="list-unstyled">
-<li><i class="bi bi-check-circle-fill text-success"></i> Komputer riba dan komputer meja</li>
-<li><i class="bi bi-check-circle-fill text-success"></i> Tetikus, papan kekunci, dan aksesori</li>
-<li><i class="bi bi-check-circle-fill text-success"></i> Monitor dan skrin paparan</li>
-<li><i class="bi bi-check-circle-fill text-success"></i> Pemacu keras dan storan data</li>
-<li><i class="bi bi-check-circle-fill text-success"></i> Kamera web dan peralatan persidangan</li>
-</ul>
-</div><!-- / -->
-<div class="card-footer bg-white">
-<a href="?/buka/kedai/komputer" class="btn btn-success w-100">
-<i class="bi bi-arrow-right-circle-fill"></i> Layari Kedai Komputer
-</a>
-</div><!-- / -->
-</div><!-- / -->
-</div><!-- / -->
+	<div class="card h-100 border-success shadow hover-card">
+	<div class="card-header bg-success text-white">
+		<h5 class="mb-0"><i class="bi bi-laptop-fill"></i> Kedai Komputer, Peralatan dan Aksesori Komputer</h5>
+	</div><!-- / class="card-header bg-success text-white" -->
+	<div class="card-body">
+		<p class="card-text">
+		Kedai komputer kami menawarkan pelbagai jenama komputer riba, komputer meja, dan aksesori komputer terkini. Kami menyediakan produk dari jenama terkenal seperti Dell, HP, Lenovo, ASUS, dan banyak lagi.
+		</p>
+		<ul class="list-unstyled">
+		<li><i class="bi bi-check-circle-fill text-success"></i> Komputer riba dan komputer meja</li>
+		<li><i class="bi bi-check-circle-fill text-success"></i> Tetikus, papan kekunci, dan aksesori</li>
+		<li><i class="bi bi-check-circle-fill text-success"></i> Monitor dan skrin paparan</li>
+		<li><i class="bi bi-check-circle-fill text-success"></i> Pemacu keras dan storan data</li>
+		<li><i class="bi bi-check-circle-fill text-success"></i> Kamera web dan peralatan persidangan</li>
+		</ul>
+	</div><!-- / class="card-body" -->
+	<div class="card-footer bg-white">
+		<a href="?/buka/kedai/komputer" class="btn btn-success w-100">
+		<i class="bi bi-arrow-right-circle-fill"></i> Layari Kedai Komputer
+	</a>
+	</div><!-- / class="card-footer bg-white" -->
+	</div><!-- / class="card h-100 border-success shadow hover-card -->
+</div><!-- / class="col-md-6" -->
 <!-- ========================================================================================== -->
 <!-- Kedai 2: Perisian -->
 <div class="col-md-6">
-<div class="card h-100 border-success shadow hover-card">
-<div class="card-header bg-success text-white">
-<h5 class="mb-0"><i class="bi bi-code-square"></i> Kedai Perisian dan Aplikasi Mudah Alih</h5>
-</div><!-- / -->
-<div class="card-body">
-<p class="card-text">
-Kami menyediakan pelbagai perisian berlesen tulen untuk kegunaan peribadi dan korporat. Semua perisian yang dijual adalah sah dan mendapat sokongan rasmi dari pembekal.
-</p>
-<ul class="list-unstyled">
-<li><i class="bi bi-check-circle-fill text-success"></i> Microsoft Office dan Windows</li>
-<li><i class="bi bi-check-circle-fill text-success"></i> Adobe Creative Cloud Suite</li>
-<li><i class="bi bi-check-circle-fill text-success"></i> Perisian antivirus dan keselamatan</li>
-<li><i class="bi bi-check-circle-fill text-success"></i> Perisian reka bentuk profesional</li>
-<li><i class="bi bi-check-circle-fill text-success"></i> Pembangunan aplikasi mudah alih kustom</li>
-</ul>
-</div>
-<div class="card-footer bg-white">
-<a href="?/buka/kedai/perisian" class="btn btn-success w-100">
-<i class="bi bi-arrow-right-circle-fill"></i> Layari Kedai Perisian
-</a>
-</div><!-- / -->
-</div><!-- / -->
-</div><!-- / -->
+	<div class="card h-100 border-success shadow hover-card">
+	<div class="card-header bg-success text-white">
+		<h5 class="mb-0"><i class="bi bi-code-square"></i> Kedai Perisian dan Aplikasi Mudah Alih</h5>
+	</div><!-- / class="card-header bg-success text-white" -->
+	<div class="card-body">
+		<p class="card-text">
+		Kami menyediakan pelbagai perisian berlesen tulen untuk kegunaan peribadi dan korporat.
+		Semua perisian yang dijual adalah sah dan mendapat sokongan rasmi dari pembekal.
+		</p>
+		<ul class="list-unstyled">
+		<li><i class="bi bi-check-circle-fill text-success"></i> Microsoft Office dan Windows</li>
+		<li><i class="bi bi-check-circle-fill text-success"></i> Adobe Creative Cloud Suite</li>
+		<li><i class="bi bi-check-circle-fill text-success"></i> Perisian antivirus dan keselamatan</li>
+		<li><i class="bi bi-check-circle-fill text-success"></i> Perisian reka bentuk profesional</li>
+		<li><i class="bi bi-check-circle-fill text-success"></i> Pembangunan aplikasi mudah alih kustom</li>
+		</ul>
+	</div><!-- / class="card-body" -->
+	<div class="card-footer bg-white">
+		<a href="?/buka/kedai/perisian" class="btn btn-success w-100">
+		<i class="bi bi-arrow-right-circle-fill"></i> Layari Kedai Perisian
+		</a>
+	</div><!-- / class="card-footer bg-white" -->
+	</div><!-- / class="card h-100 border-success shadow hover-card -->
+</div><!-- / class="col-md-6" -->
 <!-- ========================================================================================== -->
 <!-- Kedai 3: ICT -->
 <div class="col-md-6">
-<div class="card h-100 border-success shadow hover-card">
-<div class="card-header bg-success text-white">
-<h5 class="mb-0"><i class="bi bi-router-fill"></i> Kedai Peralatan Telekomunikasi dan Elektronik</h5>
-</div><!-- / -->
-<div class="card-body">
-<p class="card-text">
-Kedai ICT kami menawarkan peralatan telekomunikasi dan elektronik terkini untuk keperluan peribadi dan perniagaan. Kami juga menyediakan perkhidmatan pemasangan dan penyelenggaraan.
-</p>
-<ul class="list-unstyled">
-<li><i class="bi bi-check-circle-fill text-success"></i> Penghala dan peralatan rangkaian</li>
-<li><i class="bi bi-check-circle-fill text-success"></i> Telefon pintar dan tablet</li>
-<li><i class="bi bi-check-circle-fill text-success"></i> Sistem CCTV dan keselamatan</li>
-<li><i class="bi bi-check-circle-fill text-success"></i> Peralatan audio dan rumah pintar</li>
-<li><i class="bi bi-check-circle-fill text-success"></i> Perkhidmatan pemasangan profesional</li>
-</ul>
-</div><!-- / -->
-<div class="card-footer bg-white">
-<a href="?/buka/kedai/ict" class="btn btn-success w-100">
-<i class="bi bi-arrow-right-circle-fill"></i> Layari Kedai ICT
-</a>
-</div><!-- / -->
-</div><!-- / -->
-</div><!-- / -->
+	<div class="card h-100 border-success shadow hover-card">
+	<div class="card-header bg-success text-white">
+		<h5 class="mb-0"><i class="bi bi-router-fill"></i> Kedai Peralatan Telekomunikasi dan
+		Elektronik</h5>
+	</div><!-- / class="card-header bg-success text-white" -->
+	<div class="card-body">
+		<p class="card-text">
+		Kedai ICT kami menawarkan peralatan telekomunikasi dan elektronik terkini untuk keperluan
+		peribadi dan perniagaan. Kami juga menyediakan perkhidmatan pemasangan dan penyelenggaraan.
+		</p>
+		<ul class="list-unstyled">
+		<li><i class="bi bi-check-circle-fill text-success"></i> Penghala dan peralatan rangkaian</li>
+		<li><i class="bi bi-check-circle-fill text-success"></i> Telefon pintar dan tablet</li>
+		<li><i class="bi bi-check-circle-fill text-success"></i> Sistem CCTV dan keselamatan</li>
+		<li><i class="bi bi-check-circle-fill text-success"></i> Peralatan audio dan rumah pintar</li>
+		<li><i class="bi bi-check-circle-fill text-success"></i> Perkhidmatan pemasangan profesional</li>
+		</ul>
+	</div><!-- / class="card-body" -->
+	<div class="card-footer bg-white">
+		<a href="?/buka/kedai/ict" class="btn btn-success w-100">
+		<i class="bi bi-arrow-right-circle-fill"></i> Layari Kedai ICT
+		</a>
+	</div><!-- / class="card-footer bg-white" -->
+	</div><!-- / class="card h-100 border-success shadow hover-card -->
+</div><!-- / class="col-md-6" -->
 <!-- ========================================================================================== -->
 <!-- Kedai 4: Buku dan Alat Tulis -->
 <div class="col-md-6">
-<div class="card h-100 border-success shadow hover-card">
-<div class="card-header bg-success text-white">
-<h5 class="mb-0"><i class="bi bi-book-fill"></i> Kedai Buku dan Alat Tulis</h5>
-</div><!-- / -->
-<div class="card-body">
-<p class="card-text">
-Kedai buku kami menawarkan koleksi buku terkini dari pelbagai kategori termasuk buku akademik, novel, buku motivasi, dan buku kanak-kanak. Kami juga menyediakan pelbagai alat tulis berkualiti.
-</p>
-<ul class="list-unstyled">
-<li><i class="bi bi-check-circle-fill text-success"></i> Buku akademik dan rujukan</li>
-<li><i class="bi bi-check-circle-fill text-success"></i> Novel dan buku sastera</li>
-<li><i class="bi bi-check-circle-fill text-success"></i> Buku motivasi dan pembangunan diri</li>
-<li><i class="bi bi-check-circle-fill text-success"></i> Alat tulis pelajar dan profesional</li>
-<li><i class="bi bi-check-circle-fill text-success"></i> Peralatan pejabat dan presentasi</li>
-</ul>
-</div><!-- / -->
-<div class="card-footer bg-white">
-<a href="?/buka/kedai/buku-alat-tulis" class="btn btn-success w-100">
-<i class="bi bi-arrow-right-circle-fill"></i> Layari Kedai Buku
-</a>
-</div><!-- / -->
-</div><!-- / -->
-</div><!-- / -->
+	<div class="card h-100 border-success shadow hover-card">
+	<div class="card-header bg-success text-white">
+		<h5 class="mb-0"><i class="bi bi-book-fill"></i> Kedai Buku dan Alat Tulis</h5>
+	</div><!-- / class="card-header bg-success text-white" -->
+	<div class="card-body">
+		<p class="card-text">
+		Kedai buku kami menawarkan koleksi buku terkini dari pelbagai kategori termasuk buku akademik,
+		novel, buku motivasi, dan buku kanak-kanak. Kami juga menyediakan pelbagai alat tulis berkualiti.
+		</p>
+		<ul class="list-unstyled">
+		<li><i class="bi bi-check-circle-fill text-success"></i> Buku akademik dan rujukan</li>
+		<li><i class="bi bi-check-circle-fill text-success"></i> Novel dan buku sastera</li>
+		<li><i class="bi bi-check-circle-fill text-success"></i> Buku motivasi dan pembangunan diri</li>
+		<li><i class="bi bi-check-circle-fill text-success"></i> Alat tulis pelajar dan profesional</li>
+		<li><i class="bi bi-check-circle-fill text-success"></i> Peralatan pejabat dan presentasi</li>
+		</ul>
+	</div><!-- / class="card-body" -->
+	<div class="card-footer bg-white">
+		<a href="?/buka/kedai/buku-alat-tulis" class="btn btn-success w-100">
+		<i class="bi bi-arrow-right-circle-fill"></i> Layari Kedai Buku
+		</a>
+	</div><!-- / class="card-footer bg-white" -->
+	</div><!-- / class="card h-100 border-success shadow hover-card -->
+</div><!-- / class="col-md-6" -->
 <!-- ========================================================================================== -->
 <!-- Kedai 5: Kuih -->
 <div class="col-md-6">
-<div class="card h-100 border-success shadow hover-card">
-<div class="card-header bg-success text-white">
-<h5 class="mb-0"><i class="bi bi-cake2-fill"></i> Kedai Produk Bakeri dan Konfeksi</h5>
-</div><!-- / -->
-<div class="card-body">
-<p class="card-text">
-Kedai kuih kami menawarkan pelbagai jenis kuih tradisional, kuih raya, kek, dan produk bakeri yang lazat dan segar. Kami juga menerima tempahan khas untuk majlis dan perayaan.
-</p>
-<ul class="list-unstyled">
-<li><i class="bi bi-check-circle-fill text-success"></i> Kuih tradisional segar setiap hari</li>
-<li><i class="bi bi-check-circle-fill text-success"></i> Kuih raya dan biskut premium</li>
-<li><i class="bi bi-check-circle-fill text-success"></i> Kek hari jadi dan majlis khas</li>
-<li><i class="bi bi-check-circle-fill text-success"></i> Produk bakeri dan roti</li>
-<li><i class="bi bi-check-circle-fill text-success"></i> Pakej jamuan untuk majlis</li>
-</ul>
-</div><!-- / -->
-<div class="card-footer bg-white">
-<a href="?/buka/kedai/kuih" class="btn btn-success w-100">
-<i class="bi bi-arrow-right-circle-fill"></i> Layari Kedai Kuih
-</a>
-</div><!-- / -->
-</div><!-- / -->
-</div><!-- / -->
+	<div class="card h-100 border-success shadow hover-card">
+	<div class="card-header bg-success text-white">
+		<h5 class="mb-0"><i class="bi bi-cake2-fill"></i> Kedai Produk Bakeri dan Konfeksi</h5>
+	</div><!-- / class="card-header bg-success text-white" -->
+	<div class="card-body">
+		<p class="card-text">
+		Kedai kuih kami menawarkan pelbagai jenis kuih tradisional, kuih raya, kek, dan produk
+		bakeri yang lazat dan segar. Kami juga menerima tempahan khas untuk majlis dan perayaan.
+		</p>
+		<ul class="list-unstyled">
+		<li><i class="bi bi-check-circle-fill text-success"></i> Kuih tradisional segar setiap hari</li>
+		<li><i class="bi bi-check-circle-fill text-success"></i> Kuih raya dan biskut premium</li>
+		<li><i class="bi bi-check-circle-fill text-success"></i> Kek hari jadi dan majlis khas</li>
+		<li><i class="bi bi-check-circle-fill text-success"></i> Produk bakeri dan roti</li>
+		<li><i class="bi bi-check-circle-fill text-success"></i> Pakej jamuan untuk majlis</li>
+		</ul>
+	</div><!-- / class="card-body" -->
+	<div class="card-footer bg-white">
+		<a href="?/buka/kedai/kuih" class="btn btn-success w-100">
+		<i class="bi bi-arrow-right-circle-fill"></i> Layari Kedai Kuih
+	</a>
+	</div><!-- / class="card-footer bg-white" -->
+	</div><!-- / class="card h-100 border-success shadow hover-card -->
+</div><!-- / class="col-md-6" -->
 <!-- ========================================================================================== -->
 </div><!-- / -->
 </div><!-- / -->
