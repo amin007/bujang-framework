@@ -163,8 +163,8 @@
 	</div><!-- / class="card h-100 border-success shadow hover-card -->
 </div><!-- / class="col-md-6" -->
 <!-- ========================================================================================== -->
-</div><!-- / -->
-</div><!-- / -->
+</div><!-- / class="row g-4" -->
+</div><!-- / class="mb-5" -->
 <!-- ========================================================================================== -->
 <div class="row my-5">
 <?php
@@ -181,7 +181,7 @@ $tawarKhidmat = [
 	'Penulisan bebas dengan penggunaan AI, automasi dan analisis data.'],
 ];
 foreach($tawarKhidmat as $data):?>
-	<div class="card h-100 border-success shadow hover-card">
+	<div class="card border-success shadow hover-card">
 	<div class="card-header bg-success text-white">
 		<h3><?php echo $data[1] ?></h3>
 	</div><!--/ class="card-header bg-success text-white" -->
