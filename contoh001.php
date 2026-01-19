@@ -22,6 +22,7 @@ $laluanSah = [
 	'tawar/khidmat/rnd_ai' => $folderApa . 'khidmat_rnd_ai.php',
 	'tawar/khidmat/nasihat' => $folderApa . 'khidmat_nasihat.php',
 	'tawar/khidmat/penulisan' => $folderApa . 'khidmat_penulisan.php',
+	'tawar/khidmat/cetak' => $folderApa . 'khidmat_cetak.php',
 	'hubungi/whatsapp' => $folderApa . 'hubungi_whatsapp.php',
 	'hubungi/facebook' => $folderApa . 'hubungi_facebook.php',
 	'hubungi/instagram' => $folderApa . 'hubungi_instagram.php',
