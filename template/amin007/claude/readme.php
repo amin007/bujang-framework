@@ -158,7 +158,7 @@
 	<div class="card-footer bg-white">
 		<a href="?/buka/kedai/kuih" class="btn btn-success w-100">
 		<i class="bi bi-arrow-right-circle-fill"></i> Layari Kedai Kuih
-	</a>
+		</a>
 	</div><!-- / class="card-footer bg-white" -->
 	</div><!-- / class="card h-100 border-success shadow hover-card -->
 </div><!-- / class="col-md-6" -->
