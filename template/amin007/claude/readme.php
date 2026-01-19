@@ -166,26 +166,28 @@
 </div><!-- / class="row g-4" -->
 </div><!-- / class="mb-5" -->
 <!-- ========================================================================================== -->
-<div class="row my-5">
+<div class="card-group">
 <?php
 $tawarKhidmat = [
 	['tawar/khidmat/aturcara','Pengaturcaraan & Aplikasi',
 	'Pembangunan aplikasi web & mudah alih menggunakan teknologi moden.'],
-	['tawar/khidmat/latihan','Latihan ICT',
+	['tawar/khidmat/latihan','Latihan ICT Masa Hadapan',
 	'Latihan komputer dan teknologi untuk individu serta organisasi.'],
-	['tawar/khidmat/rnd_ai','Penyelidikan & AI',
+	['tawar/khidmat/rnd_ai','Penyelidikan dan Pembangunan & AI',
 	'Pembangunan penyelesaian AI dan automasi untuk pelbagai industri.'],
 	['tawar/khidmat/nasihat','Khidmat Nasihat Perisian',
 	'Nasihat pembangunan sistem, integrasi dan penyelesaian teknologi.'],
 	['tawar/khidmat/penulisan','Penulisan Profesional',
 	'Penulisan bebas dengan penggunaan AI, automasi dan analisis data.'],
 ];
+// shadow hover-card / style="max-width: 50rem;"
 foreach($tawarKhidmat as $data):?>
-	<div class="card border-success shadow hover-card">
+	<div class="card shadow hover-card">
 	<div class="card-header bg-success text-white">
-		<h3><?php echo $data[1] ?></h3>
-	</div><!--/ class="card-header bg-success text-white" -->
+		Tawar Khidmat
+	</div><!-- / class="card-header bg-success text-white" -->
 	<div class="card-body">
+		<h5 class="card-title"><?php echo $data[1] ?></h5>
 		<p class="card-text"><?php echo $data[2] ?></p>
 	</div><!-- / class="card-body" -->
 	<div class="card-footer bg-white">
@@ -194,13 +196,14 @@ foreach($tawarKhidmat as $data):?>
 			Layari <?php echo $data[1] ?>
 		</a>
 	</div><!-- / class="card-footer bg-white" -->
-	</div><!-- / class="card h-100 border-success shadow hover-card" -->
+	</div><!-- / class="card border-success shadow hover-card" -->
+
 <?php
 echo "\r\n\r\n";
 endforeach;//*/
-
 ?>
-</div><!-- / class="row my-5" -->
+</div><!-- / class="card-group" -->
+<!-- / class="row my-5" -->
 <!-- ========================================================================================== -->
 <div class="row my-5">
 <div class="col-12">
