@@ -183,13 +183,17 @@ $tawarKhidmat = [
 foreach($tawarKhidmat as $data):?>
 	<div class="card h-100 border-success shadow hover-card">
 	<div class="card-header bg-success text-white">
-		<a href="?<?php echo $data[0] ?>" class="btn btn-success">
-			<?php echo $data[1] ?>
-		</a>
+		<h3><?php echo $data[1] ?></h3>
 	</div><!--/ class="card-header bg-success text-white" -->
 	<div class="card-body">
-	<p class="card-text"><?php echo $data[2] ?></p>
+		<p class="card-text"><?php echo $data[2] ?></p>
 	</div><!-- / class="card-body" -->
+	<div class="card-footer bg-white">
+		<a href="?<?php echo $data[0] ?>" class="btn btn-success">
+			<i class="bi bi-arrow-right-circle-fill"></i>
+			Layari <?php echo $data[1] ?>
+		</a>
+	</div><!-- / class="card-footer bg-white" -->
 	</div><!-- / class="card h-100 border-success shadow hover-card" -->
 <?php
 echo "\r\n\r\n";
