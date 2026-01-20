@@ -3,8 +3,6 @@
 require 'fungsi_global.php';
 require 'bujang.php';
 #--------------------------------------------------------------------------------------------------
-diatasDaa('Jenis Bisnes Di 7 ADA SOLUTION');
-#--------------------------------------------------------------------------------------------------
 # Senarai laluan yang sah (route mapping)
 #--------------------------------------------------------------------------------------------------
 $folder = ['template/amin007/','template/amin007/claude/','template/amin007/grok/',
@@ -53,6 +51,12 @@ $classIcon[] = '<i class="fa-solid fa-arrow-left me-2"></i>';
 $pilihIcon = $classIcon[0];
 $kembaliKePangkalJalan = $pilihIcon . 'Kembali ke Halaman Utama';
 $kembaliKePangkalJalan2 = $classIcon[3] . 'Kembali ke Halaman Utama';
+#--------------------------------------------------------------------------------------------------
+###################################################################################################
+# mula jana halaman
+#--------------------------------------------------------------------------------------------------
+//diatasDaa('Jenis Bisnes Di 7 ADA SOLUTION');
+diatasDaa('7 ADA SOLUTION/' . $uri);
 #--------------------------------------------------------------------------------------------------
 # sumber : https://stackoverflow.com/questions/72263107/how-do-i-use-markdown-it-without-node-js
 //echo '<' . $kodHTML . ' class="container markdown">';
