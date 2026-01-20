@@ -17,8 +17,10 @@ $laluanSah = [
 	'buka/kedai/ict' => $folderApa . 'kedai_ict.php',
 	'buka/kedai/buku-alat-tulis' => $folderApa . 'kedai_buku-alat-tulis.php',
 	'buka/kedai/kuih' => $folderApa . 'kedai_kuih.php',
-	'tawar/khidmat/aturcara' => $folderApa . 'khidmat_aturcara.php',
-	'tawar/khidmat/latihan' => $folderApa . 'khidmat_latihan.php',
+	//'tawar/khidmat/aturcara' => $folderApa . 'khidmat_aturcara.php',
+	'tawar/khidmat/aturcara' => $folderApa . 'khidmat_aturcara_v01.php',
+	//'tawar/khidmat/latihan' => $folderApa . 'khidmat_latihan.php',
+	'tawar/khidmat/latihan' => $folderApa . 'khidmat_latihan_v01.php',
 	'tawar/khidmat/rnd_ai' => $folderApa . 'khidmat_rnd_ai.php',
 	'tawar/khidmat/nasihat' => $folderApa . 'khidmat_nasihat.php',
 	'tawar/khidmat/penulisan' => $folderApa . 'khidmat_penulisan.php',
@@ -47,8 +49,10 @@ if ($uri !== '' && !array_key_exists($uri, $laluanSah))
 $classIcon[] = '<i class="bi bi-door-open"></i>';
 $classIcon[] = '<i class="bi bi-house-fill"></i>';
 $classIcon[] = '<i class="fa-solid fa-circle-left"></i>';
+$classIcon[] = '<i class="fa-solid fa-arrow-left me-2"></i>';
 $pilihIcon = $classIcon[0];
 $kembaliKePangkalJalan = $pilihIcon . 'Kembali ke Halaman Utama';
+$kembaliKePangkalJalan2 = $classIcon[3] . 'Kembali ke Halaman Utama';
 #--------------------------------------------------------------------------------------------------
 # sumber : https://stackoverflow.com/questions/72263107/how-do-i-use-markdown-it-without-node-js
 //echo '<' . $kodHTML . ' class="container markdown">';
