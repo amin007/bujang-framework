@@ -208,8 +208,8 @@
 <!-- ========================================================================================== -->
 		<!-- Back to services link -->
 		<div class="text-center mt-5">
-			<a href="services.php" class="btn btn-success btn-lg">
-				<i class="fa-solid fa-arrow-left me-2"></i>Kembali ke Halaman Utama
+			<a href="?" class="btn btn-success btn-lg">
+				<?php echo $kembaliKePangkalJalan2 ?>
 			</a>
 		</div><!-- / class="text-center mt-5" -->
 	</div><!-- / class="container my-5" -->
