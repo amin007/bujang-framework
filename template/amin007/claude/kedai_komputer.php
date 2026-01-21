@@ -2,8 +2,10 @@
 #--------------------------------------------------------------------------------------------------
 # Kedai Komputer, Peralatan dan Aksesori Komputer
 #--------------------------------------------------------------------------------------------------
-$gambar[] = '<img src="https://placehold.net/product-400x400.png" class="img-fluid" alt="contoh gambar">';
-$gambar[] = '<img src="http://picsum.photos/id/9/500/500" class="img-fluid" alt="...">';
+//$gambar[] = '<img src="https://placehold.net/product-400x400.png" class="img-fluid" alt="contoh gambar">';
+$gambar[] = '<img src="https://cdn.pixabay.com/photo/2017/08/06/10/24/laptop-2591031_1280.jpg" class="img-fluid" alt="contoh gambar">';
+//$gambar[] = '<img src="http://picsum.photos/id/9/500/500" class="img-fluid" alt="...">';
+$gambar[] = '<img src="https://images.unsplash.com/photo-1658070429465-848c0796abf3?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid" alt="...">';
 $gambar[] = '<img src="https://placeholder.pics/svg/200" class="img-fluid" alt="...">';
 ?>
 <!-- ========================================================================================== -->
@@ -29,7 +31,7 @@ $gambar[] = '<img src="https://placeholder.pics/svg/200" class="img-fluid" alt="
 			<div class="card h-100 shadow-sm">
 			<?php echo $gambar[0] ?>
 			<div class="card-body">
-				<h5 class="card-title">Komputer Riba Dell XPS 15</h5>
+				<h5 class="card-title">Komputer Riba</h5>
 				<p class="card-text text-muted">Prosesor Intel Core i7, RAM 16GB, SSD 512GB</p>
 				<h4 class="text-success fw-bold">RM 4,999.00</h4>
 			</div><!-- / class="card-body" -->
@@ -50,7 +52,7 @@ $gambar[] = '<img src="https://placeholder.pics/svg/200" class="img-fluid" alt="
 			<div class="card h-100 shadow-sm">
 				<?php echo $gambar[1] ?>
 				<div class="card-body">
-					<h5 class="card-title">Tetikus Tanpa Wayar Logitech MX Master 3</h5>
+					<h5 class="card-title">Tetikus Tanpa Wayar</h5>
 					<p class="card-text text-muted">Tetikus ergonomik dengan ketepatan tinggi</p>
 					<h4 class="text-success fw-bold">RM 399.00</h4>
 				</div><!-- / class="card-body" -->
@@ -68,9 +70,11 @@ $gambar[] = '<img src="https://placeholder.pics/svg/200" class="img-fluid" alt="
 		<!-- Produk 3 -->
 		<div class="col-md-6 col-lg-4">
 			<div class="card h-100 shadow-sm">
-				<img src="https://cdn.pixabay.com/photo/2017/02/09/12/59/screen-2051922_1280.png">
+				<!-- img src="https://cdn.pixabay.com/photo/2017/02/09/12/59/screen-2051922_1280.png" -->
+				<img src="https://cdn.pixabay.com/photo/2024/05/21/19/57/computer-8779036_1280.jpg">
+				<!-- Image by <a href="https://pixabay.com/users/tylijura-22072131/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8779036">Tyli Jura</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8779036">Pixabay</a> -->
 				<div class="card-body">
-					<h5 class="card-title">Monitor Samsung 27" 4K</h5>
+					<h5 class="card-title">Monitor 4K</h5>
 					<p class="card-text text-muted">Resolusi 3840×2160, teknologi HDR10</p>
 					<h4 class="text-success fw-bold">RM 1,299.00</h4>
 				</div><!-- / class="card-body" -->
@@ -88,6 +92,8 @@ $gambar[] = '<img src="https://placeholder.pics/svg/200" class="img-fluid" alt="
 		<!-- Produk 4 -->
 		<div class="col-md-6 col-lg-4">
 			<div class="card h-100 shadow-sm">
+				<img src="https://cdn.pixabay.com/photo/2024/10/30/10/53/ai-generated-9161446_1280.jpg">
+				<!-- Image by <a href="https://pixabay.com/users/ahmedalmaslamani-13030624/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=9161446">Ahmed Al-Maslamani</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=9161446">Pixabay</a> -->
 				<div class="card-body">
 					<h5 class="card-title">Papan Kekunci Mekanikal RGB</h5>
 					<p class="card-text text-muted">Suis Cherry MX, lampu latar RGB boleh diselaraskan</p>
@@ -108,6 +114,8 @@ $gambar[] = '<img src="https://placeholder.pics/svg/200" class="img-fluid" alt="
 		<div class="col-md-6 col-lg-4">
 			<div class="card h-100 shadow-sm">
 				<div class="card-body">
+					<img width="50%" height="200" src="https://images.unsplash.com/photo-1613070541337-b40942ee6527?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+					<!-- https://unsplash.com/photos/black-power-bank-on-brown-wooden-table-2CehLl3d8Ak -->
 					<h5 class="card-title">Pemacu Keras Luaran 2TB</h5>
 					<p class="card-text text-muted">USB 3.0, kelajuan pemindahan tinggi</p>
 					<h4 class="text-success fw-bold">RM 329.00</h4>
