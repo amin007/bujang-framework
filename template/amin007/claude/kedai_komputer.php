@@ -2,6 +2,9 @@
 #--------------------------------------------------------------------------------------------------
 # Kedai Komputer, Peralatan dan Aksesori Komputer
 #--------------------------------------------------------------------------------------------------
+$gambar[] = '<img src="https://placehold.net/product-400x400.png" class="img-fluid" alt="contoh gambar">';
+$gambar[] = '<img src="http://picsum.photos/id/9/500/500" class="img-fluid" alt="...">';
+$gambar[] = '<img src="https://placeholder.pics/svg/200" class="img-fluid" alt="...">';
 ?>
 <!-- ========================================================================================== -->
 <div class="container my-3"><!-- Pautan Kembali ke Halaman Utama -->
@@ -24,6 +27,7 @@
 		<!-- Produk 1 -->
 		<div class="col-md-6 col-lg-4">
 			<div class="card h-100 shadow-sm">
+			<?php echo $gambar[0] ?>
 			<div class="card-body">
 				<h5 class="card-title">Komputer Riba Dell XPS 15</h5>
 				<p class="card-text text-muted">Prosesor Intel Core i7, RAM 16GB, SSD 512GB</p>
@@ -44,6 +48,7 @@
 		<!-- Produk 2 -->
 		<div class="col-md-6 col-lg-4">
 			<div class="card h-100 shadow-sm">
+				<?php echo $gambar[1] ?>
 				<div class="card-body">
 					<h5 class="card-title">Tetikus Tanpa Wayar Logitech MX Master 3</h5>
 					<p class="card-text text-muted">Tetikus ergonomik dengan ketepatan tinggi</p>
@@ -63,6 +68,7 @@
 		<!-- Produk 3 -->
 		<div class="col-md-6 col-lg-4">
 			<div class="card h-100 shadow-sm">
+				<img src="https://cdn.pixabay.com/photo/2017/02/09/12/59/screen-2051922_1280.png">
 				<div class="card-body">
 					<h5 class="card-title">Monitor Samsung 27" 4K</h5>
 					<p class="card-text text-muted">Resolusi 3840×2160, teknologi HDR10</p>
