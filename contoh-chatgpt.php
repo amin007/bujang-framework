@@ -37,7 +37,7 @@ if (!is_dir($folderApa)) {
 #--------------------------------------------------------------------------------------------------
 $pautanSah = [
 	# produk
-/*	'buka/kedai/komputer' => [
+	/*'buka/kedai/komputer' => [
 		'fail' => $folderApa . 'kedai_komputer.php',
 		'tajuk' => 'Kedai Komputer, Peralatan dan Aksesori Komputer',
 		'keterangan' => 'Pelbagai jenama komputer riba, komputer meja, dan aksesori komputer terkini',
@@ -52,13 +52,13 @@ $pautanSah = [
 	'buka/kedai/ict' => [
 		'fail' => $folderApa . 'kedai_ict.php',
 		'tajuk' => 'Kedai Peralatan Telekomunikasi dan Elektronik',
-		'keterangan' => Keperluan peribadi dan perniagaan.',
+		'keterangan' => 'Keperluan peribadi dan perniagaan.',
 		'ikon' => 'bi bi-router-fill'
 	],
 	'buka/kedai/buku-alat-tulis' => [
 		'fail' => $folderApa . 'kedai_buku-alat-tulis.php',
 		'tajuk' => 'Kedai Buku dan Alat Tulis',
-		'keterangan' => 'Koleksi buku terkini dari pelbagai kategori dan pelbagai alat tulis berkualiti',
+		'keterangan' => 'Koleksi buku terkini daripada pelbagai kategori dan pelbagai alat tulis berkualiti',
 		'ikon' => 'bi bi-book-fill'
 	],
 	'buka/kedai/kuih' => [
@@ -124,7 +124,7 @@ $pautanSah = [
 	],//*/
 ];
 #--------------------------------------------------------------------------------------------------
-// Dapatkan URI semasa dan bersihkan
+# Dapatkan URI semasa dan bersihkan
 #--------------------------------------------------------------------------------------------------
 $uri = ltrim(parse_url($_SERVER['QUERY_STRING'], PHP_URL_PATH), '?/');
 $failPautan = $pautanSah[$uri]['fail'] ?? $folderApa . 'readme.php';
@@ -145,7 +145,7 @@ semakPembolehubah($pautanSah,'pautanSah[]',0);
 semakPembolehubah($pautanSah[$uri],'pautanSah['.$uri.']',0);
 semakPembolehubah($failPautan,'failPautan');//*/
 #--------------------------------------------------------------------------------------------------
-# kod yang boleh digunakan sama di semua kedai.
+# Kod yang boleh digunakan sama di semua kedai
 #--------------------------------------------------------------------------------------------------
 $classIcon[] = '<i class="bi bi-door-open"></i>';
 $classIcon[] = '<i class="bi bi-house-fill"></i>';
@@ -173,17 +173,17 @@ dibawahDaa();
 badanKaki();
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
-# simpan kod debug
+# Simpan kod nyahpepijat
 #--------------------------------------------------------------------------------------------------
 #--------------------------------------------------------------------------------------------------
-//if ( ! function_exists('menuAtasLangit')):
+//if (!function_exists('menuAtasLangit')):
 	function menuAtasLangit($laluanSah, $uri)
 	{
 		list($butang) = dapatkanPembolehubahDaa($laluanSah, $uri);
 		$kelas = 'btn-outline-success';
 		$teks = 'Cubaan';
 		print <<<END
-<!-- Navbar melintang dengan butang success -->
+<!-- Bar navigasi melintang dengan butang berjaya -->
 <nav class="navbar navbar-light bg-white shadow-sm mb-4">
 <header class="container-fluid justify-content-center flex-wrap">
 $butang
@@ -194,7 +194,7 @@ END;
 	}
 //endif;//*/
 #--------------------------------------------------------------------------------------------------
-//if ( ! function_exists('dapatkanPembolehubahDaa')):
+//if (!function_exists('dapatkanPembolehubahDaa')):
 	function dapatkanPembolehubahDaa($laluanSah, $uri)
 	{
 		$butang = '';
@@ -210,7 +210,7 @@ END;
 					$teks = 'Halaman Utama';
 			}
 			#--------------------------------------------------------------------------------------
-			// Tentukan kelas butang: aktif atau tidak
+			# Tentukan kelas butang: aktif atau tidak
 			#--------------------------------------------------------------------------------------
 			$kelas = ($uri === $laluan) ? 'btn-success' : 'btn-outline-success';
 			#--------------------------------------------------------------------------------------
