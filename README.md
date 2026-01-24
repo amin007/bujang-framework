@@ -134,6 +134,9 @@ Dokumentasi ini boleh dikembangkan lagi dengan bahagian:
 ---
 
 ## nota dalam markdown daa
+* [markdown NOTE-test](https://github.com/sinsukehlab/NOTE-test)
+* [markdown emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet)
+
 > [!NOTE]
 > This is a note.
 
@@ -167,3 +170,32 @@ Dokumentasi ini boleh dikembangkan lagi dengan bahagian:
 > This is a note.
 
 > [!NOTE]
+
+# Sumber ilham kawan-kawan
+* Programming
+  * [PHP Releases](https://windows.php.net/downloads/releases)
+  * [Laragon](https://laragon.org)
+  * [Learn-Php-For-Wordpress](https://code.tutsplus.com/courses/learn-php-for-wordpress/lessons/php-in-the-loop)
+  * [PHP Codeingiter](https://codeigniter.com)
+  * [PHP Cakephp](https://cakephp.org)
+  * [PHP Laravel](https://laravel.com)
+* Stylesheet
+  * [Bootstrap](http://getbootstrap.com)
+  * [Bootstrap.Themes](http://bootstrap.themes.guide)
+  * [AdminLTE](https://adminlte.io/themes/AdminLTE)
+  * [animate.css](https://daneden.github.io/animate.css)
+  * [Sweet Alert](http://t4t5.github.io/sweetalert)
+  * [FontAwesome](http://fortawesome.github.io/Font-Awesome)
+  * [Enjoy Css](https://enjoycss.com)
+* Javascript
+  * [jQuery](http://jquery.com)
+  * [jQuery.Form](http://malsup.com/jquery/form)
+  * [backstretch](http://srobbin.com/jquery-plugins/backstretch)
+* Gambar Percuma
+  * [7-themes](http://7-themes.com)
+  * [Pexels](https://pexels.com)
+  * [Pixabay](https://pixabay.com)
+  * [Unslpash](https://unsplash.com)
+* Lain-lain
+  * [markdown-cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+  * [Comparison of web frameworks](https://en.wikipedia.org/wiki/Comparison_of_web_frameworks)
