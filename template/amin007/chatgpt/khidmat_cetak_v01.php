@@ -1,4 +1,6 @@
 <!-- ========================================================================================== -->
+<?php
+/*
 	<!-- Navigation -->
 	<nav class="navbar navbar-light bg-light border-bottom">
 		<div class="container">
@@ -14,39 +16,42 @@
 			</a>
 		</div><!-- / class="container" -->
 	</nav>
-<!-- ========================================================================================== -->
-	<!-- Hero Section -->
-	<div class="bg-success text-white py-5">
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-lg-8">
-					<h1 class="display-4 fw-bold mb-3"><i class="fa-solid fa-code me-3"></i>Cetak Atas Talian...</h1>
-					<p class="lead">Cetak Atas Permintaan...</p>
-				</div><!-- / class="col-lg-8" -->
-			</div><!-- / class="row align-items-center" -->
-		</div><!-- / class="container" -->
-	</div><!-- / class="bg-success text-white py-5" -->
-<!-- ========================================================================================== -->
-	<!-- Main Content -->
-	<div class="container my-5">
+#--------------------------------------------------------------------------------------------------
 		<!-- Back to top link -->
 		<div class="text-center mb-4">
 			<a href="?" class="btn btn-success">
 				<?php echo $kembaliKePangkalJalan2 ?>
 			</a>
 		</div><!-- / class="text-center mb-4" -->
+#--------------------------------------------------------------------------------------------------
+//*/
+?>
+<!-- ========================================================================================== -->
+<!-- Hero Section -->
+<div class="container bg-success text-white py-5">
+	<div class="row align-items-center">
+	<div class="col-lg-8">
+		<h1 class="display-4 fw-bold mb-3">
+		<i class="fa-solid fa-print me-3"></i>Cetak Atas Talian...</h1>
+		<p class="lead">Cetak Atas Permintaan...</p>
+	</div><!-- / class="col-lg-8" -->
+	</div><!-- / class="row align-items-center" -->
+</div><!-- / class="container bg-success text-white py-5" -->
+<!-- ========================================================================================== -->
+<!-- Main Content -->
+<div class="container my-5">
 <!-- ========================================================================================== -->
 		<!-- Description -->
 		<div class="row mb-5">
-			<div class="col-lg-10 mx-auto">
-				<div class="card border-success">
-					<div class="card-body p-4">
-						<h3 class="fw-bold text-success mb-4">Tentang Perkhidmatan Ini</h3>
-						<p>...</p>
-						<p class="mb-0">....</p>
-					</div><!-- / class="card-body p-4" -->
-				</div><!-- / class="card border-success" -->
-			</div><!-- / class="col-lg-10 mx-auto" -->
+		<div class="col-lg-10 mx-auto">
+			<div class="card border-success">
+			<div class="card-body p-4">
+				<h3 class="fw-bold text-success mb-4">Tentang Perkhidmatan Ini</h3>
+				<img src="koleksi/gambar/komputer/pencetak/pencetak brother hl-1210w.png">
+				<p class="mb-0">....</p>
+			</div><!-- / class="card-body p-4" -->
+			</div><!-- / class="card border-success" -->
+		</div><!-- / class="col-lg-10 mx-auto" -->
 		</div><!-- / class="row mb-5" -->
 <!-- ========================================================================================== -->
 		<!-- Services Offered -->
