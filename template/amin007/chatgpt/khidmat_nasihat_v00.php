@@ -19,17 +19,15 @@
 	<!-- Description -->
 	<div class="row mb-5">
 	<div class="col-lg-10 mx-auto">
-		<div class="card border-warning">
-		<div class="card-body border-warningborder-warning p-4">
-			<div class="alert alert-warning text-center">
-				<i class="fa-solid fa-door-closed fa-10x mb-3"></i>
-				<i class="fa-solid fa-store-slash fa-10x"></i><br>
-				<h4>Perkhidmatan Ini Ditutup Sementara Waktu</h4>
-				<p>Kami akan kembali tidak lama lagi. Terima kasih atas kesabaran anda.</p>
-				<p class="mb-0">....</p>
-			</div><!-- / class="alert alert-warning text-center" -->
+		<div class="card border-warning alert alert-warning text-center">
+		<div class="card-body p-4">
+			<i class="fa-solid fa-door-closed fa-10x mb-3"></i>
+			<i class="fa-solid fa-store-slash fa-10x"></i><br>
+			<h4>Perkhidmatan Ini Ditutup Sementara Waktu</h4>
+			<p>Kami akan kembali tidak lama lagi. Terima kasih atas kesabaran anda.</p>
+			<p class="mb-0">....</p>
 		</div><!-- / class="card-body p-4" -->
-		</div><!-- / class="card border-warning" -->
+		</div><!-- / class="card border-warning alert alert-warning text-center" -->
 	</div><!-- / class="col-lg-10 mx-auto" -->
 	</div><!-- / class="row mb-5" -->
 	<!-- ========================================================================================== -->
@@ -37,10 +35,15 @@
 	<div class="row mb-5">
 	<div class="col-lg-10 mx-auto">
 		<div class="alert alert-success border-success" role="alert">
-			<h5 class="alert-heading"><i class="fa-solid fa-lightbulb me-2"></i>Tidak Jumpa Apa yang Anda Cari?</h5>
-			<p>Sebagai peruncit atas talian dan personal shopper, kami sedia membantu anda mencari penyelesaian pengaturcaraan yang anda perlukan, walaupun ia tidak tersenarai di atas. Kami akan carikan pembangun atau perkhidmatan yang sesuai untuk keperluan khusus anda.</p>
+			<h5 class="alert-heading"><i class="fa-solid fa-lightbulb me-2"></i>
+			Tidak Jumpa Apa yang Anda Cari?</h5>
+			<p>Sebagai peruncit atas talian dan personal shopper, kami sedia membantu anda mencari
+			penyelesaian pengaturcaraan yang anda perlukan, walaupun ia tidak tersenarai di atas.
+			Kami akan carikan pembangun atau perkhidmatan yang sesuai untuk keperluan khusus anda.
+			</p>
 			<hr>
-			<p class="mb-0">Hubungi kami untuk membincangkan keperluan anda dan kami akan usahakan yang terbaik untuk membantu!</p>
+			<p class="mb-0">Hubungi kami untuk membincangkan keperluan anda dan kami akan usahakan
+			yang terbaik untuk membantu!</p>
 		</div><!-- / class="alert alert-success border-success" -->
 	</div><!-- / class="col-lg-10 mx-auto" -->
 	</div><!-- / class="row mb-5" -->
