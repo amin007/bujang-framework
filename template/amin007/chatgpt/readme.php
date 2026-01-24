@@ -9,7 +9,9 @@
 		</p>
 	</div><!-- / class="text-center mb-4" -->
 <!-- ========================================================================================== -->
-	<div class="list-group"><!-- / class="list-group" -->
+<?php
+/*
+<div class="list-group">
 		<a href="?/buka/kedai/komputer" class="list-group-item list-group-item-action">
 			Komputer, peralatan dan aksesori
 		</a>
@@ -25,6 +27,27 @@
 		<a href="?/buka/kedai/kuih" class="list-group-item list-group-item-action">
 			Kuih, bakeri dan konfeksi
 		</a>
+	</div><!-- / class="list-group" -->
+//*/
+?>
+<!-- ========================================================================================== -->
+	<div class="list-group">
+<?php foreach($pautanSah as $data):?>
+		<a href="?<?php echo $data[0] ?>" class="list-group-item list-group-item-action">
+		<i class="<?php echo $data[4] ?>"></i>
+		<?php echo $data[2] ?>
+		</a>
+<?php
+	/* hubungi
+	[0] = url pada pautan pelayar web
+	[1] = pautan fail ke folder
+	[2] = tajuk utama
+	[3] = keterangan tajuk utama
+	[4] = icon bootstrap (BI) atau font awesome(FA) //*/
+
+echo "\r\n\r\n";
+endforeach;//*/
+?>
 	</div><!-- / class="list-group" -->
 <!-- ========================================================================================== -->
 	<div class="alert alert-success mt-4"><!-- / class="alert alert-success mt-4" -->
