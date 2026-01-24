@@ -130,3 +130,40 @@ Dokumentasi ini boleh dikembangkan lagi dengan bahagian:
 * Panduan modul lanjutan
 * Pembangunan versi 1.2
 * Standard penamaan fungsi dan folder
+
+---
+
+## nota dalam markdown daa
+> [!NOTE]
+> This is a note.
+
+> [!TIP]
+> This is a tip. (Supported since 14 Nov 2023)
+
+> [!IMPORTANT]
+> Crutial information comes here.
+
+> [!CAUTION]
+> Negative potential consequences of an action. (Supported since 14 Nov 2023)
+
+> [!WARNING]
+> Critical content comes here.
+
+> [!NOTE]\
+> This is a note. (hard line break `\`)
+
+> [!NOTE]
+> This is a note.
+> multiple lines with a soft line break
+
+> [!NOTE]
+> This is a note.\
+> multiple lines with a hard line break (`\`)
+
+> [!NOTE] No character is allowed except a line break.
+> This is a note.
+
+> [!NOTE] No character is allowed except a line break.\
+> This is a note.
+
+> [!NOTE]
