@@ -32,19 +32,20 @@
 ?>
 <!-- ========================================================================================== -->
 	<div class="list-group">
-<?php foreach($pautanSah as $data):?>
-		<a href="?<?php echo $data[0] ?>" class="list-group-item list-group-item-action">
-		<i class="<?php echo $data[4] ?>"></i>
-		<?php echo $data[2] ?>
+<?php foreach($pautanSah as $key => $data):?>
+		<a href="?<?php echo $key ?>" class="list-group-item list-group-item-action">
+		<i class="<?php echo $data['ikon'] ?>"></i>
+		<?php echo $data['tajuk'] ?>
 		</a>
 <?php
 	/* hubungi
-	[0] = url pada pautan pelayar web
-	[1] = pautan fail ke folder
-	[2] = tajuk utama
-	[3] = keterangan tajuk utama
-	[4] = icon bootstrap (BI) atau font awesome(FA) //*/
-
+	'hubungi/whatsapp' => [ // $url pada pautan pelayar web
+		'fail' => $folderApa . 'hubungi_whatsapp.php', // pautan fail ke folder
+		'tajuk' => 'WhatsApp', // tajuk utama
+		'keterangan' => 'Media Sosial Kami', // keterangan tajuk utama
+		'ikon' => 'bi bi-whatsapp', //icon bootstrap (BI) atau font awesome(FA)
+	],
+//*/
 echo "\r\n\r\n";
 endforeach;//*/
 ?>
