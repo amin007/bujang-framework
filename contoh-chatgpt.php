@@ -1,13 +1,39 @@
 <?php
 #--------------------------------------------------------------------------------------------------
-require 'fungsi_global.php';
-require 'bujang.php';
+# DEBUGGING - Buang selepas masalah selesai
 #--------------------------------------------------------------------------------------------------
-# Senarai laluan yang sah (route mapping)
+/*error_reporting(E_ALL);
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);//*/
 #--------------------------------------------------------------------------------------------------
-$folder = ['template/amin007/','template/amin007/claude/','template/amin007/grok/',
-'template/amin007/chatgpt/'];
+# Semak fail diperlukan wujud sebelum require
+#--------------------------------------------------------------------------------------------------
+$failDiperlukan = ['fungsi_global.php', 'bujang.php'];
+foreach ($failDiperlukan as $namaFail) {
+	if (!file_exists($namaFail)) {
+		die('RALAT: Fail ' . htmlspecialchars($namaFail) . ' tidak dijumpai di lokasi: '
+			. __DIR__);
+	}
+}
+#--------------------------------------------------------------------------------------------------
+require_once 'fungsi_global.php';
+require_once 'bujang.php';
+#--------------------------------------------------------------------------------------------------
+# Senarai laluan yang sah (pemetaan laluan)
+#--------------------------------------------------------------------------------------------------
+$folder = [
+	'template/amin007/',
+	'template/amin007/claude/',
+	'template/amin007/grok/',
+	'template/amin007/chatgpt/'
+];
 $folderApa = $folder[3];
+#--------------------------------------------------------------------------------------------------
+# Semak folder wujud
+#--------------------------------------------------------------------------------------------------
+if (!is_dir($folderApa)) {
+	die('RALAT: Folder ' . htmlspecialchars($folderApa) . ' tidak dijumpai');
+}
 #--------------------------------------------------------------------------------------------------
 $pautanSah = [
 	# produk
@@ -99,13 +125,19 @@ $pautanSah = [
 ];
 #--------------------------------------------------------------------------------------------------
 // Dapatkan URI semasa dan bersihkan
+#--------------------------------------------------------------------------------------------------
 $uri = ltrim(parse_url($_SERVER['QUERY_STRING'], PHP_URL_PATH), '?/');
 $failPautan = $pautanSah[$uri]['fail'] ?? $folderApa . 'readme.php';
 $tajuk = $pautanSah[$uri]['tajuk'] ?? 'Utama';
 #--------------------------------------------------------------------------------------------------
-if ($uri !== '' && !array_key_exists($uri, $pautanSah))
-{
-    http_response_code(404);
+# Semak fail pautan wujud sebelum include
+#--------------------------------------------------------------------------------------------------
+if (!file_exists($failPautan)) {
+	die('RALAT: Fail ' . htmlspecialchars($failPautan) . ' tidak dijumpai');
+}
+#--------------------------------------------------------------------------------------------------
+if ($uri !== '' && !array_key_exists($uri, $pautanSah)) {
+	http_response_code(404);
 }
 #--------------------------------------------------------------------------------------------------
 /*semakPembolehubah($uri,'uri');
@@ -114,6 +146,7 @@ semakPembolehubah($pautanSah[$uri],'pautanSah['.$uri.']',0);
 semakPembolehubah($failPautan,'failPautan');//*/
 #--------------------------------------------------------------------------------------------------
 # kod yang boleh digunakan sama di semua kedai.
+#--------------------------------------------------------------------------------------------------
 $classIcon[] = '<i class="bi bi-door-open"></i>';
 $classIcon[] = '<i class="bi bi-house-fill"></i>';
 $classIcon[] = '<i class="fa-solid fa-circle-left"></i>';
@@ -167,14 +200,18 @@ END;
 		$butang = '';
 		foreach ($laluanSah as $laluan => $fail):
 			#--------------------------------------------------------------------------------------
-			$teks = match(true) // Teks butang yang cantik
-			{
-				str_ends_with($laluan, '/media')
-					=> 'Paparan media sosial yang popular',
-				default => 'Halaman Utama',
-			};
+			# Teks butang yang cantik - Ganti match() dengan switch untuk PHP < 8.0
+			#--------------------------------------------------------------------------------------
+			switch(true) {
+				case str_ends_with($laluan, '/media'):
+					$teks = 'Paparan media sosial yang popular';
+					break;
+				default:
+					$teks = 'Halaman Utama';
+			}
 			#--------------------------------------------------------------------------------------
 			// Tentukan kelas butang: aktif atau tidak
+			#--------------------------------------------------------------------------------------
 			$kelas = ($uri === $laluan) ? 'btn-success' : 'btn-outline-success';
 			#--------------------------------------------------------------------------------------
 			$butang .= "\r\n\t" . '<a href="?/' . htmlspecialchars($laluan) . '"'
