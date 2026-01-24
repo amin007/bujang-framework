@@ -73,7 +73,7 @@ $pautanSah = [
 		'ikon' => 'fa-solid fa-pen-nib fa-2x mb-3'
 	],//*/
 	'tawar/khidmat/cetak' => [
-		'fail' => $folderApa . 'khidmat_cetak_v01.php',
+		'fail' => $folderApa . 'khidmat_cetak_v02.php',
 		'tajuk' => 'Cetak Atas Talian',
 		'keterangan' => 'Cetak Atas Permintaan',
 		'ikon' => 'fa-solid fa-print fa-2x mb-3',
