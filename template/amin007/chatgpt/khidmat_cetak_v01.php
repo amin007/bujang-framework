@@ -1,32 +1,4 @@
 <!-- ========================================================================================== -->
-<?php
-/*
-	<!-- Navigation -->
-	<nav class="navbar navbar-light bg-light border-bottom">
-		<div class="container">
-			<a class="navbar-brand d-flex align-items-center" href="?">
-				<svg width="50" height="50" class="me-2">
-					<circle cx="25" cy="25" r="20" fill="#198754"/>
-					<text x="25" y="32" text-anchor="middle" fill="white" font-size="20" font-weight="bold">S</text>
-				</svg>
-				<span class="fw-bold text-success">Portal Syarikat</span>
-			</a>
-			<a href="?" class="btn btn-outline-success btn-sm">
-				<?php echo $kembaliKePangkalJalan ?>
-			</a>
-		</div><!-- / class="container" -->
-	</nav>
-#--------------------------------------------------------------------------------------------------
-		<!-- Back to top link -->
-		<div class="text-center mb-4">
-			<a href="?" class="btn btn-success">
-				<?php echo $kembaliKePangkalJalan2 ?>
-			</a>
-		</div><!-- / class="text-center mb-4" -->
-#--------------------------------------------------------------------------------------------------
-//*/
-?>
-<!-- ========================================================================================== -->
 <!-- Hero Section -->
 <div class="container bg-success text-white py-5">
 	<div class="row align-items-center">
