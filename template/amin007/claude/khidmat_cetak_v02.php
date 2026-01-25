@@ -47,7 +47,7 @@
 					
 					<h5 class="text-success mt-4 mb-3">Kenapa Pilih Kami?</h5>
 					<ul class="list-unstyled">
-						<li class="mb-2"><i class="fa-solid fa-check-circle text-success me-2"></i>Harga mampu milik - hanya <strong>RM1.67</strong> sepeping</li>
+						<li class="mb-2"><i class="fa-solid fa-check-circle text-success me-2"></i>Harga mampu milik - hanya <strong>RM1.67</strong> sekeping</li>
 						<li class="mb-2"><i class="fa-solid fa-check-circle text-success me-2"></i>Kertas berkualiti 70 GSM</li>
 						<li class="mb-2"><i class="fa-solid fa-check-circle text-success me-2"></i>Perkhidmatan pantas dan mesra</li>
 						<li class="mb-2"><i class="fa-solid fa-check-circle text-success me-2"></i>Pencetak laser yang jelas dan tajam</li>
