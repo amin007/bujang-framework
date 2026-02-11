@@ -105,7 +105,7 @@ $pautanSah = [
 		'ikon' => 'fa-solid fa-print fa-2x mb-3',
 	],
 	'hubungi/whatsapp' => [
-		'fail' => $folderApa . 'hubungi_whatsapp.php',
+		'fail' => $folderApa . 'hubungi_whatsapp_v02.php',
 		'tajuk' => 'WhatsApp',
 		'keterangan' => 'Media Sosial Kami',
 		'ikon' => 'bi bi-whatsapp',
