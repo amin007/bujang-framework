@@ -38,7 +38,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST')
 	<div class="mt-4 text-center">
 		<h5>Link WhatsApp Anda:</h5>
 <?php if (strpos($link_whatsapp, 'https://wa.me/') === 0): ?>
-		<a href="<?= $link_whatsapp ?>" target="_blank" class="btn btn-primary"><?= $link_whatsapp ?></a>
+		<a href="<?= $link_whatsapp ?>" target="_blank" class="btn btn-info"><?= $link_whatsapp ?></a>
 <?php else: ?>
 		<p class="text-danger"><?= $link_whatsapp ?></p>
 <?php endif; ?>
