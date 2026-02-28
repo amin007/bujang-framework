@@ -72,7 +72,6 @@ if ( ! function_exists('paparVersiPhp')):
 endif;//*/
 #--------------------------------------------------------------------------------------------------
 if ( ! function_exists('bersih')):
-	/** */
 	function bersih($papar)
 	{
 		# lepas lari aksara khas dalam SQL
@@ -84,7 +83,7 @@ if ( ! function_exists('bersih')):
 
 		return $papar;
 	}
-endif;
+endif;//*/
 #--------------------------------------------------------------------------------------------------
 if ( ! function_exists('myUrlEncode')):
 	function myUrlEncode($string)
@@ -99,6 +98,251 @@ if ( ! function_exists('myUrlEncode')):
 		return str_replace($entities, $replacements, $string);
 	}
 endif;//*/
+#--------------------------------------------------------------------------------------------------
+if ( ! function_exists('bersih2X')):
+	function bersih2X($papar)
+	{
+		# buang ruang kosong (atau aksara lain) dari mula & akhir
+		$papar = trim($papar);
+		# https://stackoverflow.com/questions/1176904/php-how-to-remove-all-non-printable-characters-in-a-string
+		$papar = preg_replace('/[\x00-\x1F\x7F-\xFF]/', '', $papar);
+		$papar = preg_replace('/[\x00-\x1F\x7F-\xFF]/', '', $papar);
+		$papar = preg_replace('/[\x00-\x1F\x7F]/', '', $papar);
+		$papar = preg_replace('/[\x00-\x1F\x7F]/u', '', $papar);
+		$papar = preg_replace('/[\x00-\x1F\x7F\xA0]/u', '', $papar)
+
+		return $papar;
+	}
+endif;//*/
+#--------------------------------------------------------------------------------------------------
+if ( ! function_exists('bersihGET')):
+	function bersihGET($papar)
+	{
+		# bersih untuk $_GET sahaja
+		$paparHTML = filter_input(INPUT_GET, $papar, FILTER_SANITIZE_SPECIAL_CHARS);
+		$paparURL = filter_input(INPUT_GET, $papar, FILTER_SANITIZE_ENCODED);
+		//$papar = filter_var($_GET[$papar], FILTER_SANITIZE_URL);
+
+		//echo "You have searched for $paparHTML.\n";
+		//echo "<a href='?search=$paparURL'>Search again.</a>";
+
+		//return $papar;
+		return $paparHTML;
+	}
+endif;//*/
+#--------------------------------------------------------------------------------------------------
+if ( ! function_exists('bersihGET_nama')):
+	function bersihGET_nama($papar)
+	{
+		# bersih untuk $_GET sahaja
+		$paparHTML = filter_input(INPUT_GET, $papar, FILTER_SANITIZE_SPECIAL_CHARS);
+		$paparURL = filter_input(INPUT_GET, $papar, FILTER_SANITIZE_ENCODED);
+		$paparHTML = str_replace(' ', '-', $paparHTML);
+
+		//return $papar;
+		return $paparHTML;
+	}
+endif;//*/
+#--------------------------------------------------------------------------------------------------
+if ( ! function_exists('semakDataPOST')):
+	function semakDataPOST($semua)# semak data
+	{
+		foreach ($_POST as $myTable => $value)
+		{
+			if ( in_array($myTable,$semua) ):
+				//echo "myTable : $myTable <br>";
+				foreach ($value as $kekunci => $papar):
+					$ubahMedan = $_POST['medan'][$myTable][$kekunci];
+					if ($kekunci != $ubahMedan)
+					{
+						$posmen[$myTable][$ubahMedan] = bersih($papar);
+						unset($posmen[$myTable][$kekunci]);
+					}
+					elseif ($papar == null || $papar == '0')
+						unset($posmen[$myTable][$kekunci]);
+					else
+						$posmen[$myTable][$kekunci] = bersih($papar);
+
+				endforeach;
+			endif;
+		}
+		#
+		return $posmen;
+	}
+endif;//*/
+#--------------------------------------------------------------------------------------------------
+if ( ! function_exists('semakDataPOSTv01')):
+	function semakDataPOSTv01($semua)
+	{
+	/**
+	 * Fungsi untuk memeriksa dan membersihkan data $_POST
+	 * dengan membandingkan data lama dan baru untuk mengesan perubahan
+	 * @param array $semua - Senarai nama jadual yang dibenarkan
+	 * @return array - Data yang telah berubah dan perlu dikemaskini
+	 */
+		# Inisialkan tatasusunan hasil
+		$posmen = [];
+
+		# Periksa sama ada $_POST mempunyai data
+		if (empty($_POST)) { return $posmen; }
+
+		# Iterasi melalui setiap jadual dalam $_POST
+		foreach ($_POST as $myTable => $value)
+		{
+			# Periksa sama ada jadual dibenarkan
+			if ( ! in_array($myTable, $semua, true)) { continue; }
+			# Periksa sama ada nilai adalah tatasusunan
+			if ( ! is_array($value)) { continue; }
+			# Inisialkan tatasusunan untuk jadual ini
+			$posmen[$myTable] = [];
+
+			# Iterasi melalui setiap medan dalam jadual
+			foreach ($value as $kekunci => $nilaiBaru)
+			{
+				# Dapatkan nilai asal daripada pangkalan data
+				$nilaiAsal = null;
+				if (isset($_POST['medan'][$myTable][$kekunci])) {
+					$nilaiAsal = $_POST['medan'][$myTable][$kekunci];
+				}
+				# **LOGIK UTAMA: Bandingkan nilai asal dan baru**
+				# 1. Jika nilai baru kosong atau null, jangan simpan
+				if (is_null($nilaiBaru) || $nilaiBaru === '0' || $nilaiBaru === '') {
+					continue;
+				}
+				# 2. Jika nilai asal dan baru sama, jangan simpan (tidak ada perubahan)
+				if ($nilaiAsal !== null && $nilaiBaru === $nilaiAsal) {
+					continue;
+				}
+				# 3. Jika ada perubahan, bersihkan dan simpan nilai baru
+				$posmen[$myTable][$kekunci] = bersih($nilaiBaru);
+			}
+
+			# Buang jadual jika tiada medan yang berubah
+			if (empty($posmen[$myTable])) {	unset($posmen[$myTable]); }
+		}
+
+		return $posmen;
+	}
+endif;
+#--------------------------------------------------------------------------------------------------
+if ( ! function_exists('semakDataPOST_ubahMedan')):
+	function semakDataPOST_ubahMedan($semua)
+	{
+	/**
+	 * Fungsi untuk memeriksa perubahan DATA dengan nama medan yang berbeza
+	 * Gunakan ini jika nama medan asal dan baru berbeza di pangkalan data
+	 * @param array $semua - Senarai nama jadual yang dibenarkan
+	 * @return array - Data yang telah berubah dengan nama medan baru
+	 */
+		$posmen = [];
+
+		if (empty($_POST)) { return $posmen;}
+
+		foreach ($_POST as $myTable => $value)
+		{
+			if ( ! in_array($myTable, $semua, true)) { continue; }
+			if ( ! is_array($value)) { continue; }
+
+			$posmen[$myTable] = [];
+
+			foreach ($value as $kekunci => $nilaiBaru)
+			{
+				# Dapatkan nilai asal daripada pangkalan data
+				$nilaiAsal = null;
+				if (isset($_POST['medan'][$myTable][$kekunci])) {
+					$nilaiAsal = $_POST['medan'][$myTable][$kekunci];
+				}
+				# Jika nilai baru kosong atau null, jangan simpan
+				if (is_null($nilaiBaru) || $nilaiBaru === '0' || $nilaiBaru === '') {
+					continue;
+				}
+				# Jika nilai asal dan baru sama, jangan simpan
+				if ($nilaiAsal !== null && $nilaiBaru === $nilaiAsal) {
+					continue;
+				}
+
+				# **LOGIK UBAH MEDAN: Jika nama medan asal dan baru berbeza**
+				$medasanBaru = $kekunci;
+				# Periksa sama ada ada nama medan alternatif
+				if (isset($_POST['namaMedanBaru'][$myTable][$kekunci])) {
+					$medasanBaru = $_POST['namaMedanBaru'][$myTable][$kekunci];
+				}
+				# Simpan dengan nama medan baru
+				$posmen[$myTable][$medasanBaru] = bersih($nilaiBaru);
+			}
+
+			if (empty($posmen[$myTable])) {	unset($posmen[$myTable]); }
+		}
+
+		return $posmen;
+	}
+endif;
+#--------------------------------------------------------------------------------------------------
+if ( ! function_exists('bersihPOST')):
+	function bersihPOST($data)
+	{
+		# Fungsi bersih untuk $_POST dengan pelbagai jenis medan
+		# Inisialkan tatasusunan untuk data yang telah dibersihkan
+		$dataBersih = [];
+
+		foreach ($data['borang'] as $kunci => $nilai) {
+			switch ($kunci) {
+				case 'kodProduk':# Kod Produk: Hanya huruf, angka, dan garis putus
+					$dataBersih[$kunci] = filter_var(
+						$nilai,
+						FILTER_SANITIZE_STRING,
+						FILTER_FLAG_NO_ENCODE_QUOTES
+					);
+					$dataBersih[$kunci] = preg_replace('/[^a-zA-Z0-9\-_]/', '', $dataBersih[$kunci]);
+					break;
+				case 'harga':# Harga: Hanya angka dan titik perpuluhan
+					$dataBersih[$kunci] = filter_var($nilai, FILTER_VALIDATE_FLOAT);
+					if ($dataBersih[$kunci] === false) {
+						$dataBersih[$kunci] = 0.00;
+					}
+					break;
+				case 'kuantiti':# Kuantiti: Hanya angka bulat
+					$dataBersih[$kunci] = filter_var($nilai, FILTER_VALIDATE_INT);
+					if ($dataBersih[$kunci] === false) {
+						$dataBersih[$kunci] = 0;
+					}
+					break;
+				case 'nama':# Nama: Buang aksara khas, hanya huruf, angka, dan ruang
+					$dataBersih[$kunci] = filter_var(
+						$nilai,
+						FILTER_SANITIZE_STRING,
+						FILTER_FLAG_NO_ENCODE_QUOTES
+					);
+					$dataBersih[$kunci] = trim($dataBersih[$kunci]);
+					break;
+				case 'notel':# No. Telefon: Hanya angka dan simbol +
+					$dataBersih[$kunci] = preg_replace('/[^0-9\+]/', '', $nilai);
+					$dataBersih[$kunci] = trim($dataBersih[$kunci]);
+					break;
+				case 'email':# E-mel: Sahkan format e-mel yang sah
+					$dataBersih[$kunci] = filter_var($nilai, FILTER_SANITIZE_EMAIL);
+					$dataBersih[$kunci] = filter_var($dataBersih[$kunci], FILTER_VALIDATE_EMAIL);
+					if ($dataBersih[$kunci] === false) {
+						$dataBersih[$kunci] = '';
+					}
+					break;
+				case 'nota':# Nota: Buang aksara berbahaya tetapi benarkan aksara umum
+					$dataBersih[$kunci] = filter_var(
+						$nilai,
+						FILTER_SANITIZE_STRING,
+						FILTER_FLAG_NO_ENCODE_QUOTES
+					);
+					$dataBersih[$kunci] = trim($dataBersih[$kunci]);
+					break;
+				default:# Medan lalai
+					$dataBersih[$kunci] = trim($nilai);
+					break;
+			}
+		}
+		#
+		return $dataBersih;
+	}
+endif;
 #--------------------------------------------------------------------------------------------------
 if ( ! function_exists('ImportCSV2Array01')):
 	function ImportCSV2Array01($filename)
