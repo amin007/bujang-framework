@@ -217,168 +217,188 @@ Untuk pertanyaan lanjut, sila hubungi kami di </p>
 <!-- ========================================================================================== -->
 <!-- Modal untuk produk 1 -->
 <div class="modal fade" id="beliSekarang1" tabindex="-1" aria-labelledby="modalLabel1" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered">
-		<div class="modal-content">
-			<div class="modal-header bg-success text-white">
-				<h5 class="modal-title" id="modalLabel1">Pengesahan Pembelian</h5>
-				<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Tutup"></button>
-			</div><!-- / class="modal-header bg-success text-white" -->
-			<div class="modal-body">
-				<h6>Komputer Riba Dell XPS 15</h6>
-				<p class="text-muted mb-3">Prosesor Intel Core i7, RAM 16GB, SSD 512GB</p>
-				<div class="d-flex justify-content-between align-items-center mb-3">
-					<span>Harga:</span>
-					<strong class="text-success fs-5">RM 4,999.00</strong>
-				</div><!-- / class="d-flex justify-content-between align-items-center mb-3" -->
-				<div class="mb-3">
-					<label for="kuantiti1" class="form-label">Kuantiti:</label>
-					<input type="number" class="form-control" id="kuantiti1" value="1" min="1">
-				</div><!-- / class="mb-3" -->
-			</div><!-- / class="modal-body" -->
-			<div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
-				<button type="button" class="btn btn-success">Sahkan Pembelian</button>
-			</div><!-- / class="modal-footer" -->
+<div class="modal-dialog modal-dialog-centered">
+<form method="POST" action="?/pembayaran/semakpesanan">
+	<div class="modal-content">
+		<div class="modal-header bg-success text-white">
+			<h5 class="modal-title" id="modalLabel1">Pengesahan Pembelian</h5>
+			<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Tutup"></button>
+		</div><!-- / class="modal-header bg-success text-white" -->
+		<div class="modal-body">
+			<h6>Komputer Riba Dell XPS 15</h6>
+			<p class="text-muted mb-3">Prosesor Intel Core i7, RAM 16GB, SSD 512GB</p>
+			<div class="d-flex justify-content-between align-items-center mb-3">
+				<span>Harga:</span>
+				<input type="text" class="form-control bg-secondary-subtle"
+				name="borang[harga]" value="4999.00" readonly>
+			</div><!-- / class="d-flex justify-content-between align-items-center mb-3" -->
+			<div class="mb-3">
+				<label for="kuantiti1" class="form-label">Kuantiti:</label>
+				<input type="number" class="form-control" id="kuantiti1" value="1" min="1">
+			</div><!-- / class="mb-3" -->
+		</div><!-- / class="modal-body" -->
+		<div class="modal-footer">
+			<input type="reset" class="btn btn-secondary" data-bs-dismiss="modal" value="Batal">
+			<input type="submit" class="btn btn-success" value="Sahkan Pembelian">
+		</div><!-- / class="modal-footer" -->
 		</div><!-- / class="modal-content" -->
-	</div><!-- / class="modal-dialog modal-dialog-centered" -->
+</form>
+</div><!-- / class="modal-dialog modal-dialog-centered" -->
 </div><!-- / class="modal fade" -->
 <!-- ========================================================================================== -->
 <!-- Modal untuk produk 2 -->
 <div class="modal fade" id="beliSekarang2" tabindex="-1" aria-labelledby="modalLabel2" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered">
-		<div class="modal-content">
-			<div class="modal-header bg-success text-white">
-				<h5 class="modal-title" id="modalLabel2">Pengesahan Pembelian</h5>
-				<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Tutup"></button>
-			</div><!-- / class="modal-header bg-success text-white" -->
-			<div class="modal-body">
-				<h6>Tetikus Tanpa Wayar Logitech MX Master 3</h6>
-				<p class="text-muted mb-3">Tetikus ergonomik dengan ketepatan tinggi</p>
-				<div class="d-flex justify-content-between align-items-center mb-3">
-					<span>Harga:</span>
-					<strong class="text-success fs-5">RM 399.00</strong>
-				</div><!-- / class="d-flex justify-content-between align-items-center mb-3" -->
-				<div class="mb-3">
-					<label for="kuantiti2" class="form-label">Kuantiti:</label>
-					<input type="number" class="form-control" id="kuantiti2" value="1" min="1">
-				</div><!-- / class="mb-3" -->
-			</div><!-- / class="modal-body" -->
-			<div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
-				<button type="button" class="btn btn-success">Sahkan Pembelian</button>
-			</div><!-- / class="modal-footer" -->
-		</div><!-- / class="modal-content" -->
-	</div><!-- / class="modal-dialog modal-dialog-centered" -->
+<div class="modal-dialog modal-dialog-centered">
+<form method="POST" action="?/pembayaran/semakpesanan">
+	<div class="modal-content">
+	<div class="modal-header bg-success text-white">
+		<h5 class="modal-title" id="modalLabel2">Pengesahan Pembelian</h5>
+		<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Tutup"></button>
+	</div><!-- / class="modal-header bg-success text-white" -->
+	<div class="modal-body">
+		<h6>Tetikus Tanpa Wayar Logitech MX Master 3</h6>
+		<p class="text-muted mb-3">Tetikus ergonomik dengan ketepatan tinggi</p>
+		<div class="d-flex justify-content-between align-items-center mb-3">
+			<span>Harga:</span>
+			<strong class="text-success fs-5">RM 399.00</strong>
+			<input type="text" class="form-control bg-secondary-subtle"
+			name="borang[harga]" value="399.00" readonly>
+		</div><!-- / class="d-flex justify-content-between align-items-center mb-3" -->
+		<div class="mb-3">
+			<label for="kuantiti2" class="form-label">Kuantiti:</label>
+			<input type="number" class="form-control" id="kuantiti2" value="1" min="1">
+		</div><!-- / class="mb-3" -->
+	</div><!-- / class="modal-body" -->
+	<div class="modal-footer">
+		<input type="reset" class="btn btn-secondary" data-bs-dismiss="modal" value="Batal">
+		<input type="submit" class="btn btn-success" value="Sahkan Pembelian">
+	</div><!-- / class="modal-footer" -->
+	</div><!-- / class="modal-content" -->
+</form>
+</div><!-- / class="modal-dialog modal-dialog-centered" -->
 </div><!-- / class="modal fade" -->
 <!-- ========================================================================================== -->
 <!-- Modal untuk produk 3 -->
 <div class="modal fade" id="beliSekarang3" tabindex="-1" aria-labelledby="modalLabel3" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered">
-		<div class="modal-content">
-			<div class="modal-header bg-success text-white">
-				<h5 class="modal-title" id="modalLabel3">Pengesahan Pembelian</h5>
-				<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Tutup"></button>
-			</div><!-- / class="modal-header bg-success text-white" -->
-			<div class="modal-body">
-				<h6>Monitor Samsung 27" 4K</h6>
-				<p class="text-muted mb-3">Resolusi 3840×2160, teknologi HDR10</p>
-				<div class="d-flex justify-content-between align-items-center mb-3">
-					<span>Harga:</span>
-					<strong class="text-success fs-5">RM 1,299.00</strong>
-				</div><!-- / class="d-flex justify-content-between align-items-center mb-3" -->
-				<div class="mb-3">
-					<label for="kuantiti3" class="form-label">Kuantiti:</label>
-					<input type="number" class="form-control" id="kuantiti3" value="1" min="1">
-				</div><!-- / class="mb-3" -->
-			</div><!-- / class="modal-body" -->
-			<div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
-				<button type="button" class="btn btn-success">Sahkan Pembelian</button>
-			</div><!-- / class="modal-footer" -->
-		</div><!-- / class="modal-content" -->
-	</div><!-- / class="modal-dialog modal-dialog-centered" -->
+<div class="modal-dialog modal-dialog-centered">
+<form method="POST" action="?/pembayaran/semakpesanan">
+	<div class="modal-content">
+	<div class="modal-header bg-success text-white">
+		<h5 class="modal-title" id="modalLabel3">Pengesahan Pembelian</h5>
+		<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Tutup"></button>
+	</div><!-- / class="modal-header bg-success text-white" -->
+	<div class="modal-body">
+		<h6>Monitor Samsung 27" 4K</h6>
+		<p class="text-muted mb-3">Resolusi 3840×2160, teknologi HDR10</p>
+		<div class="d-flex justify-content-between align-items-center mb-3">
+			<span>Harga:</span>
+			<input type="text" class="form-control bg-secondary-subtle"
+			name="borang[harga]" value="1299.00" readonly>
+		</div><!-- / class="d-flex justify-content-between align-items-center mb-3" -->
+		<div class="mb-3">
+			<label for="kuantiti3" class="form-label">Kuantiti:</label>
+			<input type="number" class="form-control" id="kuantiti3" value="1" min="1">
+		</div><!-- / class="mb-3" -->
+	</div><!-- / class="modal-body" -->
+	<div class="modal-footer">
+		<input type="reset" class="btn btn-secondary" data-bs-dismiss="modal" value="Batal">
+		<input type="submit" class="btn btn-success" value="Sahkan Pembelian">
+	</div><!-- / class="modal-footer" -->
+	</div><!-- / class="modal-content" -->
+</form>
+</div><!-- / class="modal-dialog modal-dialog-centered" -->
 </div><!-- / class="modal fade" -->
 <!-- ========================================================================================== -->
 <!-- Modal untuk produk 4, 5, 6 -->
 <div class="modal fade" id="beliSekarang4" tabindex="-1" aria-labelledby="modalLabel4" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered">
-		<div class="modal-content">
-			<div class="modal-header bg-success text-white">
-				<h5 class="modal-title" id="modalLabel4">Pengesahan Pembelian</h5>
-				<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Tutup"></button>
-			</div><!-- / class="modal-header bg-success text-white" -->
-			<div class="modal-body">
-				<h6>Papan Kekunci Mekanikal RGB</h6>
-				<p class="text-muted mb-3">Suis Cherry MX, lampu latar RGB boleh diselaraskan</p>
-				<div class="d-flex justify-content-between align-items-center mb-3">
-					<span>Harga:</span>
-					<strong class="text-success fs-5">RM 549.00</strong>
-				</div><!-- / class="d-flex justify-content-between align-items-center mb-3" -->
-				<div class="mb-3">
-					<label for="kuantiti4" class="form-label">Kuantiti:</label>
-					<input type="number" class="form-control" id="kuantiti4" value="1" min="1">
-				</div><!-- / class="mb-3" -->
-			</div><!-- / class="modal-body" -->
-			<div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
-				<button type="button" class="btn btn-success">Sahkan Pembelian</button>
-			</div><!-- / class="modal-footer" -->
-		</div><!-- / class="modal-content" -->
-	</div><!-- / class="modal-dialog modal-dialog-centered" -->
+<div class="modal-dialog modal-dialog-centered">
+<form method="POST" action="?/pembayaran/semakpesanan">
+	<div class="modal-content">
+	<div class="modal-header bg-success text-white">
+		<h5 class="modal-title" id="modalLabel4">Pengesahan Pembelian</h5>
+		<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Tutup"></button>
+	</div><!-- / class="modal-header bg-success text-white" -->
+	<div class="modal-body">
+		<h6>Papan Kekunci Mekanikal RGB</h6>
+		<p class="text-muted mb-3">Suis Cherry MX, lampu latar RGB boleh diselaraskan</p>
+		<div class="d-flex justify-content-between align-items-center mb-3">
+			<span>Harga:</span>
+			<input type="text" class="form-control bg-secondary-subtle"
+			name="borang[harga]" value="549.00" readonly>
+		</div><!-- / class="d-flex justify-content-between align-items-center mb-3" -->
+		<div class="mb-3">
+			<label for="kuantiti4" class="form-label">Kuantiti:</label>
+			<input type="number" class="form-control" id="kuantiti4" value="1" min="1">
+		</div><!-- / class="mb-3" -->
+	</div><!-- / class="modal-body" -->
+	<div class="modal-footer">
+		<input type="reset" class="btn btn-secondary" data-bs-dismiss="modal" value="Batal">
+		<input type="submit" class="btn btn-success" value="Sahkan Pembelian">
+	</div><!-- / class="modal-footer" -->
+	</div><!-- / class="modal-content" -->
+</form>
+</div><!-- / class="modal-dialog modal-dialog-centered" -->
 </div><!-- / class="modal fade" -->
 <!-- ========================================================================================== -->
 <div class="modal fade" id="beliSekarang5" tabindex="-1" aria-labelledby="modalLabel5" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered">
-		<div class="modal-content">
-			<div class="modal-header bg-success text-white">
-				<h5 class="modal-title" id="modalLabel5">Pengesahan Pembelian</h5>
-				<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Tutup"></button>
-			</div><!-- / class="modal-header bg-success text-white" -->
-			<div class="modal-body">
-				<h6>Pemacu Keras Luaran 2TB</h6>
-				<p class="text-muted mb-3">USB 3.0, kelajuan pemindahan tinggi</p>
-				<div class="d-flex justify-content-between align-items-center mb-3">
-					<span>Harga:</span>
-					<strong class="text-success fs-5">RM 329.00</strong>
-				</div><!-- / class="d-flex justify-content-between align-items-center mb-3" -->
-				<div class="mb-3">
-					<label for="kuantiti5" class="form-label">Kuantiti:</label>
-					<input type="number" class="form-control" id="kuantiti5" value="1" min="1">
-				</div><!-- / class="mb-3" -->
-			</div><!-- / class="modal-body" -->
-			<div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
-				<button type="button" class="btn btn-success">Sahkan Pembelian</button>
-			</div><!-- / class="modal-footer" -->
-		</div><!-- / class="modal-content" -->
-	</div><!-- / class="modal-dialog modal-dialog-centered" -->
+<div class="modal-dialog modal-dialog-centered">
+<form method="POST" action="?/pembayaran/semakpesanan">
+	<div class="modal-content">
+	<div class="modal-header bg-success text-white">
+		<h5 class="modal-title" id="modalLabel5">Pengesahan Pembelian</h5>
+		<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Tutup"></button>
+	</div><!-- / class="modal-header bg-success text-white" -->
+	<div class="modal-body">
+		<h6>Pemacu Keras Luaran 2TB</h6>
+		<p class="text-muted mb-3">USB 3.0, kelajuan pemindahan tinggi</p>
+		<div class="d-flex justify-content-between align-items-center mb-3">
+			<span>Harga:</span>
+			<input type="text" class="form-control bg-secondary-subtle"
+			name="borang[harga]" value="329.00" readonly>
+		</div><!-- / class="d-flex justify-content-between align-items-center mb-3" -->
+		<div class="mb-3">
+			<label for="kuantiti5" class="form-label">Kuantiti:</label>
+			<input type="number" class="form-control" id="kuantiti5" value="1" min="1">
+		</div><!-- / class="mb-3" -->
+	</div><!-- / class="modal-body" -->
+	<div class="modal-footer">
+		<input type="reset" class="btn btn-secondary" data-bs-dismiss="modal" value="Batal">
+		<input type="submit" class="btn btn-success" value="Sahkan Pembelian">
+	</div><!-- / class="modal-footer" -->
+	</div><!-- / class="modal-content" -->
+</form>
+</div><!-- / class="modal-dialog modal-dialog-centered" -->
 </div><!-- / class="modal fade" -->
 <!-- ========================================================================================== -->
 <div class="modal fade" id="beliSekarang6" tabindex="-1" aria-labelledby="modalLabel6" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered">
-		<div class="modal-content">
-			<div class="modal-header bg-success text-white">
-				<h5 class="modal-title" id="modalLabel6">Pengesahan Pembelian</h5>
-				<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Tutup"></button>
-			</div><!-- / class="modal-header bg-success text-white" -->
-			<div class="modal-body">
-				<h6>Kamera Web HD 1080p</h6>
-				<p class="text-muted mb-3">Mikrofon terbina dalam, penumpuan automatik</p>
-				<div class="d-flex justify-content-between align-items-center mb-3">
-					<span>Harga:</span>
-					<strong class="text-success fs-5">RM 249.00</strong>
-				</div><!-- / class="d-flex justify-content-between align-items-center mb-3" -->
-				<div class="mb-3">
-					<label for="kuantiti6" class="form-label">Kuantiti:</label>
-					<input type="number" class="form-control" id="kuantiti6" value="1" min="1">
-				</div><!-- / class="mb-3" -->
-			</div><!-- / class="modal-body" -->
-			<div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
-				<button type="button" class="btn btn-success">Sahkan Pembelian</button>
-			</div><!-- / class="modal-footer" -->
-		</div><!-- / class="modal-content" -->
-	</div><!-- / class="modal-dialog modal-dialog-centered" -->
+<div class="modal-dialog modal-dialog-centered">
+<form method="POST" action="?/pembayaran/semakpesanan">
+	<div class="modal-content">
+		<div class="modal-header bg-success text-white">
+			<h5 class="modal-title" id="modalLabel6">Pengesahan Pembelian</h5>
+			<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Tutup"></button>
+		</div><!-- / class="modal-header bg-success text-white" -->
+	<div class="modal-body">
+		<h6>Kamera Web HD 1080p</h6>
+		<p class="text-muted mb-3">Mikrofon terbina dalam, penumpuan automatik</p>
+		<div class="d-flex justify-content-between align-items-center mb-3">
+			<span>Harga:</span>
+			<strong class="text-success fs-5">RM 249.00</strong>
+			<input type="text" class="form-control bg-secondary-subtle"
+			name="borang[harga]" value="249.00" readonly>
+		</div><!-- / class="d-flex justify-content-between align-items-center mb-3" -->
+		<div class="mb-3">
+			<label for="kuantiti6" class="form-label">Kuantiti:</label>
+			<input type="number" class="form-control" id="kuantiti6" value="1" min="1">
+		</div><!-- / class="mb-3" -->
+	</div><!-- / class="modal-body" -->
+	<div class="modal-footer">
+		<input type="reset" class="btn btn-secondary" data-bs-dismiss="modal" value="Batal">
+		<input type="submit" class="btn btn-success" value="Sahkan Pembelian">
+		</div><!-- / class="modal-footer" -->
+	</div><!-- / class="modal-content" -->
+</form>
+</div><!-- / class="modal-dialog modal-dialog-centered" -->
 </div><!-- / class="modal fade" -->
 <!-- ========================================================================================== -->
 <!-- kod dialog tamat -->
