@@ -109,7 +109,7 @@ if ( ! function_exists('bersih2X')):
 		$papar = preg_replace('/[\x00-\x1F\x7F-\xFF]/', '', $papar);
 		$papar = preg_replace('/[\x00-\x1F\x7F]/', '', $papar);
 		$papar = preg_replace('/[\x00-\x1F\x7F]/u', '', $papar);
-		$papar = preg_replace('/[\x00-\x1F\x7F\xA0]/u', '', $papar)
+		$papar = preg_replace('/[\x00-\x1F\x7F\xA0]/u', '', $papar);
 
 		return $papar;
 	}
