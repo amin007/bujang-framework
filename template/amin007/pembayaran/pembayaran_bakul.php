@@ -13,6 +13,9 @@ $pautan = [
 	'pembayaran/status',
 ];
 #--------------------------------------------------------------------------------------------------
+# semak pembayaran
+$posmen = bersihPOST($_POST);
+#--------------------------------------------------------------------------------------------------
 ?>
 <!-- ========================================================================================== -->
 <div class="container my-3"><!-- Pautan Kembali ke Halaman Utama -->
@@ -39,9 +42,10 @@ $pautan = [
 	<div class="card-body">
 		<form method="POST" action="?/pembayaran/status">
 		<!-- ================================================================================== -->
-		<input type="hidden" name="borang[kodProduk]" value="khidmat002">
-		<input type="hidden" name="borang[harga]" value="3.00" readonly>
-		<input type="hidden" name="borang[kuantiti]" value="1">
+		<input type="hidden" name="borang[kodProduk]" value="<?php echo $posmen['kodProduk'] ?>" readonly>
+		<input type="hidden" name="borang[harga]" value="<?php echo $posmen['harga'] ?>" readonly>
+		<input type="hidden" name="borang[kuantiti]" value="<?php echo $posmen['kuantiti'] ?>" readonly>
+		<input type="hidden" name="borang[tarikh]" value="<?php echo $posmen['tarikh'] ?>" readonly>
 		<!-- ================================================================================== -->
 		<div class="mb-3">
 			<label for="nama" class="form-label">Nama:</label>
@@ -71,7 +75,9 @@ $pautan = [
 		</form>
 	</div><!-- / class="card-body" -->
 	<div class="card-footer">
-		<?php semakPembolehubah($_POST,'semak data POST',0);
+		<?php
+			semakPembolehubah($_POST,'semak data POST',0);
+			semakPembolehubah($posmen,'posmen',0);
 		?>
 	</div><!-- / class="card-footer" -->
 	</div><!-- / class="card" -->
