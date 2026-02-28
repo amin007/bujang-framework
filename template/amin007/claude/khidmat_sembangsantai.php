@@ -77,29 +77,8 @@ aria-hidden="true">
 		</div><!-- / class="mb-3" -->
 		<input type="hidden" name="borang[kuantiti]" value="1">
 		<div class="mb-3">
-			<label for="nama" class="form-label">Nama:</label>
-			<input type="text" class="form-control" placeholder="Nama Anda"
-			name="borang[nama]">
-		</div><!-- / class="mb-3" -->
-		<div class="mb-3">
-			<label for="notel" class="form-label">No Tel:</label>
-			<input type="text" class="form-control" placeholder="6xxxxxxxx"
-			name="borang[notel]">
-		</div><!-- / class="mb-3" -->
-		<div class="mb-3">
-			<label for="email" class="form-label">Email:</label>
-			<input type="text" class="form-control" placeholder="nama@email.apa"
-			name="borang[email]">
-		</div><!-- / class="mb-3" -->
-		<div class="mb-3">
-			<label for="email" class="form-label">Tarikh:</label>
+			<label for="email" class="form-label">Tarikh Pertemuan:</label>
 			<input type="date" class="form-control" name="borang[tarikh]">
-		</div><!-- / class="mb-3" -->
-		<div class="mb-3">
-			<label for="email" class="form-label">Nota:</label>
-			<textarea class="form-control" name="borang[nota] rows="4"
-			placeholder="Sila tulis nota ulasan di sini..."
-			></textarea>
 		</div><!-- / class="mb-3" -->
 	</div><!-- / class="modal-body" -->
 	<div class="modal-footer">
