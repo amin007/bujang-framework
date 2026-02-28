@@ -35,7 +35,7 @@ $folderApa = $folder[1];
 $folderBayar = $folder[4];
 #--------------------------------------------------------------------------------------------------
 $laluanSah = [
-	'buka/kedai/komputer' => $folderApa . 'kedai_komputer.php',
+	'buka/kedai/komputer' => $folderApa . 'kedai_komputer_v02.php',
 	'buka/kedai/perisian' => $folderApa . 'kedai_perisian.php',
 	'buka/kedai/ict' => $folderApa . 'kedai_ict.php',
 	'buka/kedai/buku-alat-tulis' => $folderApa . 'kedai_buku-alat-tulis.php',
