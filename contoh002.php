@@ -25,9 +25,11 @@ $folder = [
 	'template/amin007/',
 	'template/amin007/claude/',
 	'template/amin007/grok/',
-	'template/amin007/chatgpt/'
+	'template/amin007/chatgpt/',
+	'template/amin007/pembayaran/',
 ];
 $folderApa = $folder[1];
+$folderBayar = $folder[4];
 #--------------------------------------------------------------------------------------------------
 # Semak folder wujud
 #--------------------------------------------------------------------------------------------------
@@ -92,6 +94,12 @@ $pautanSah = [
 		'keterangan' => 'Nasihat pembangunan sistem, integrasi dan penyelesaian teknologi.',
 		'ikon' => 'fa-solid fa-lightbulb fa-2x mb-3'
 	],
+	'tawar/khidmat/sembangsantai' => [
+		'fail' => $folderApa . 'khidmat_sembangsantai.php',
+		'tajuk' => 'Sembang Santai 5 Minit',
+		'keterangan' => 'Sesi perkongsian idea perniagaan secara santai.',
+		'ikon' => 'fa-solid fa-lightbulb fa-2x mb-3'
+	],
 	/*'tawar/khidmat/penulisan' => [
 		'fail' => $folderApa . 'khidmat_penulisan_v01.php',
 		'tajuk' => 'Penulisan Profesional',
@@ -139,6 +147,24 @@ $pautanSah = [
 		'tajuk' => 'Pemulangan Barangan dan Perkhidmatan dan Matawang',
 		'keterangan' => 'Dasar Syarikat Kami',
 		'ikon' => 'bi bi-instagram'
+	],//*/
+	'pembayaran/semakpesanan' => [
+		'fail' => $folderBayar . 'pembayaran_bakul.php',
+		'tajuk' => 'Semakan Pesanan',
+		'keterangan' => 'Semak senarai pesanan anda sebelum membuat pembayaran.',
+		'ikon' => 'bi bi-cart-check',
+	],//*/
+	'pembayaran/proses' => [
+		'fail' => $folderBayar . 'pembayaran_proses.php',
+		'tajuk' => 'Pemprosesan Bayaran',
+		'keterangan' => 'Sila tunggu, anda sedang dihalakan ke portal SecurePay.',
+		'ikon' => 'bi bi-arrow-clockwise',
+	],//*/
+	'pembayaran/status' => [
+		'fail' => $folderBayar . 'pembayaran_status.php',
+		'tajuk' => 'Transaksi Berjaya/Gagal',
+		'keterangan' => 'Apakah Status Bayaran Anda?.',
+		'ikon' => 'bi bi-patch-check-fill',
 	],//*/
 ];
 #--------------------------------------------------------------------------------------------------
