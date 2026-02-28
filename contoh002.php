@@ -9,8 +9,10 @@ ini_set('display_startup_errors', 1);//*/
 # Semak fail diperlukan wujud sebelum require
 #--------------------------------------------------------------------------------------------------
 $failDiperlukan = ['fungsi_global.php', 'bujang.php'];
-foreach ($failDiperlukan as $namaFail) {
-	if (!file_exists($namaFail)) {
+foreach ($failDiperlukan as $namaFail)
+{
+	if (!file_exists($namaFail))
+	{
 		die('RALAT: Fail ' . htmlspecialchars($namaFail) . ' tidak dijumpai di lokasi: '
 			. __DIR__);
 	}
