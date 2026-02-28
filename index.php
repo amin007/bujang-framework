@@ -41,6 +41,7 @@ $kelas = ($uri === $laluan) ? 'btn-success' : 'btn-outline-success';
 	<?= $teks ?>
 	</a>
 <?php endforeach; ?>
+	<a href="contoh.php" class="btn btn-outline-info btn-nav">Contoh Pautan<a>
 </header>
 </nav>
 <hr>
