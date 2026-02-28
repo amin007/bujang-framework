@@ -8,7 +8,7 @@ $papar = [
 $kelas = 'btn-outline-info';
 $pautan = [
 	'pembayaran/semakpesanan',
-	'pembayaran/proses',
+	//'pembayaran/proses',
 	'pembayaran/status',
 ];
 #--------------------------------------------------------------------------------------------------
@@ -30,11 +30,15 @@ $pautan = [
 <!-- ========================================================================================== -->
 <div class="container my-5">
 	<div class="card">
-		<div class="card-body">
-			<h2 class="card-title"><i class="<?php echo $papar['ikon'] ?>"></i>
-			<?php echo $papar['tajuk'] ?></h5>
-			<p class="card-text"><?php echo $papar['keterangan'] ?></p>
-		</div><!-- / class="card-body" -->
+	<div class="card-body">
+		<h2 class="card-title"><i class="<?php echo $papar['ikon'] ?>"></i>
+		<?php echo $papar['tajuk'] ?></h5>
+		<p class="card-text"><?php echo $papar['keterangan'] ?></p>
+	</div><!-- / class="card-body" -->
+	<div class="card-footer">
+		<?php semakPembolehubah($_POST,'semak data POST',0);
+		?>
+	</div><!-- / class="card-footer" -->
 	</div><!-- / class="card" -->
 </div><!-- / class="container my-5" -->
 <!-- ========================================================================================== -->
