@@ -12,6 +12,9 @@ $pautan = [
 	'pembayaran/status',
 ];
 #--------------------------------------------------------------------------------------------------
+# semak pembayaran
+$posmen = bersihPOST($_POST);
+#--------------------------------------------------------------------------------------------------
 ?>
 <!-- ========================================================================================== -->
 <div class="container my-3"><!-- Pautan Kembali ke Halaman Utama -->
@@ -36,7 +39,9 @@ $pautan = [
 		<p class="card-text"><?php echo $papar['keterangan'] ?></p>
 	</div><!-- / class="card-body" -->
 	<div class="card-footer">
-		<?php semakPembolehubah($_POST,'semak data POST',0);
+		<?php
+			semakPembolehubah($_POST,'semak data POST',0);
+			semakPembolehubah($posmen,'posmen',0);
 		?>
 	</div><!-- / class="card-footer" -->
 	</div><!-- / class="card" -->
