@@ -1,13 +1,38 @@
 <?php
 #--------------------------------------------------------------------------------------------------
-require 'fungsi_global.php';
-require 'bujang.php';
+# DEBUGGING - Buang selepas masalah selesai
+#--------------------------------------------------------------------------------------------------
+/*error_reporting(E_ALL);
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);//*/
+#--------------------------------------------------------------------------------------------------
+# Semak fail diperlukan wujud sebelum require
+#--------------------------------------------------------------------------------------------------
+$failDiperlukan = ['fungsi_global.php', 'bujang.php'];
+foreach ($failDiperlukan as $namaFail)
+{
+	if (!file_exists($namaFail))
+	{
+		die('RALAT: Fail ' . htmlspecialchars($namaFail) . ' tidak dijumpai di lokasi: '
+			. __DIR__);
+	}
+}
+#--------------------------------------------------------------------------------------------------
+require_once 'fungsi_global.php';
+require_once 'bujang.php';
 #--------------------------------------------------------------------------------------------------
 # Senarai laluan yang sah (route mapping)
 #--------------------------------------------------------------------------------------------------
-$folder = ['template/amin007/','template/amin007/claude/','template/amin007/grok/',
-'template/amin007/chatgpt/'];
+$folder = [
+	'template/amin007/',
+	'template/amin007/claude/',
+	'template/amin007/grok/',
+	'template/amin007/chatgpt/',
+	'template/amin007/pembayaran/',
+];
+
 $folderApa = $folder[1];
+$folderBayar = $folder[4];
 #--------------------------------------------------------------------------------------------------
 $laluanSah = [
 	'buka/kedai/komputer' => $folderApa . 'kedai_komputer.php',
@@ -27,6 +52,9 @@ $laluanSah = [
 	'tawar/khidmat/penulisan' => $folderApa . 'khidmat_penulisan_v01.php',
 	//'tawar/khidmat/cetak' => $folderApa . 'khidmat_cetak.php',
 	'tawar/khidmat/cetak' => $folderApa . 'khidmat_cetak_v02.php',
+	'tawar/khidmat/sembangsantai' => $folderApa . 'khidmat_sembangsantai.php',
+	'pembayaran/semakpesanan' => $folderBayar . 'pembayaran_bakul.php',
+	'pembayaran/status' => $folderBayar . 'pembayaran_status.php',
 	'hubungi/whatsapp' => $folderApa . 'hubungi_whatsapp.php',
 	'hubungi/facebook' => $folderApa . 'hubungi_facebook.php',
 	'hubungi/instagram' => $folderApa . 'hubungi_instagram.php',
