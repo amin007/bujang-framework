@@ -285,14 +285,11 @@ if ( ! function_exists('bersihPOST')):
 		# Inisialkan tatasusunan untuk data yang telah dibersihkan
 		$dataBersih = [];
 
-		foreach ($data['borang'] as $kunci => $nilai) {
+		foreach ($data['borang'] as $kunci => $nilai)
+		{
 			switch ($kunci) {
 				case 'kodProduk':# Kod Produk: Hanya huruf, angka, dan garis putus
-					$dataBersih[$kunci] = filter_var(
-						$nilai,
-						FILTER_SANITIZE_STRING,
-						FILTER_FLAG_NO_ENCODE_QUOTES
-					);
+					$dataBersih[$kunci] = htmlspecialchars(trim($nilai), ENT_QUOTES, 'UTF-8');
 					$dataBersih[$kunci] = preg_replace('/[^a-zA-Z0-9\-_]/', '', $dataBersih[$kunci]);
 					break;
 				case 'harga':# Harga: Hanya angka dan titik perpuluhan
@@ -308,39 +305,81 @@ if ( ! function_exists('bersihPOST')):
 					}
 					break;
 				case 'nama':# Nama: Buang aksara khas, hanya huruf, angka, dan ruang
-					$dataBersih[$kunci] = filter_var(
-						$nilai,
-						FILTER_SANITIZE_STRING,
-						FILTER_FLAG_NO_ENCODE_QUOTES
-					);
-					$dataBersih[$kunci] = trim($dataBersih[$kunci]);
+					$dataBersih[$kunci] = htmlspecialchars(trim($nilai), ENT_QUOTES, 'UTF-8');
 					break;
 				case 'notel':# No. Telefon: Hanya angka dan simbol +
-					$dataBersih[$kunci] = preg_replace('/[^0-9\+]/', '', $nilai);
-					$dataBersih[$kunci] = trim($dataBersih[$kunci]);
+					$dataBersih[$kunci] = preg_replace('/[^0-9\+]/', '', trim($nilai));
 					break;
 				case 'email':# E-mel: Sahkan format e-mel yang sah
-					$dataBersih[$kunci] = filter_var($nilai, FILTER_SANITIZE_EMAIL);
-					$dataBersih[$kunci] = filter_var($dataBersih[$kunci], FILTER_VALIDATE_EMAIL);
+					$dataBersih[$kunci] = filter_var(trim($nilai), FILTER_VALIDATE_EMAIL);
 					if ($dataBersih[$kunci] === false) {
 						$dataBersih[$kunci] = '';
 					}
 					break;
 				case 'nota':# Nota: Buang aksara berbahaya tetapi benarkan aksara umum
-					$dataBersih[$kunci] = filter_var(
-						$nilai,
-						FILTER_SANITIZE_STRING,
-						FILTER_FLAG_NO_ENCODE_QUOTES
-					);
-					$dataBersih[$kunci] = trim($dataBersih[$kunci]);
+					$dataBersih[$kunci] = htmlspecialchars(trim($nilai), ENT_QUOTES, 'UTF-8');
 					break;
 				default:# Medan lalai
-					$dataBersih[$kunci] = trim($nilai);
+					$dataBersih[$kunci] = htmlspecialchars(trim($nilai), ENT_QUOTES, 'UTF-8');
 					break;
 			}
 		}
 		#
 		return $dataBersih;
+	}
+endif;
+#--------------------------------------------------------------------------------------------------
+if ( ! function_exists('sanitasiRentetan')):
+	function sanitasiRentetan($nilai, $buangTag = true)
+	{
+	/**
+	 * Fungsi pembantu untuk sanitasi rentetan (menggantikan FILTER_SANITIZE_STRING)
+	 */
+		$nilai = trim($nilai);
+		if ($buangTag) { $nilai = strip_tags($nilai); }
+		$nilai = htmlspecialchars($nilai, ENT_QUOTES, 'UTF-8');
+
+		return $nilai;
+	}
+endif;
+#--------------------------------------------------------------------------------------------------
+if ( ! function_exists('sanitasiInput')):
+	function sanitasiInput($nilai, $jenis = 'string')
+	{
+	/**
+	 * Fungsi pembantu untuk sanitasi input (lebih lengkap)
+	 */
+		switch ($jenis) {
+			case 'string':
+				return htmlspecialchars(trim($nilai), ENT_QUOTES, 'UTF-8');
+
+			case 'alphanumeric':
+				return preg_replace('/[^a-zA-Z0-9]/', '', trim($nilai));
+
+			case 'numeric':
+				return preg_replace('/[^0-9]/', '', trim($nilai));
+
+			case 'telefon':
+				return preg_replace('/[^0-9\+]/', '', trim($nilai));
+
+			case 'email':
+				$email = filter_var(trim($nilai), FILTER_VALIDATE_EMAIL);
+				return ($email !== false) ? $email : '';
+
+			case 'url':
+				return filter_var(trim($nilai), FILTER_VALIDATE_URL) ? trim($nilai) : '';
+
+			case 'float':
+				$hasil = filter_var(trim($nilai), FILTER_VALIDATE_FLOAT);
+				return ($hasil !== false) ? $hasil : 0.00;
+
+			case 'integer':
+				$hasil = filter_var(trim($nilai), FILTER_VALIDATE_INT);
+				return ($hasil !== false) ? $hasil : 0;
+
+			default:
+				return htmlspecialchars(trim($nilai), ENT_QUOTES, 'UTF-8');
+		}
 	}
 endif;
 #--------------------------------------------------------------------------------------------------
