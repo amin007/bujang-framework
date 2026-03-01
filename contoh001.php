@@ -29,10 +29,12 @@ $folder = [
 	'template/amin007/grok/',
 	'template/amin007/chatgpt/',
 	'template/amin007/pembayaran/',
+	'template/amin007/dasar/',
 ];
 
 $folderApa = $folder[1];
 $folderBayar = $folder[4];
+$folderDasar = $folder[5];
 #--------------------------------------------------------------------------------------------------
 $laluanSah = [
 	//'buka/kedai/komputer' => $folderApa . 'kedai_komputer.php',
@@ -63,6 +65,9 @@ $laluanSah = [
 	'hubungi/whatsapp' => $folderApa . 'hubungi_whatsapp.php',
 	'hubungi/facebook' => $folderApa . 'hubungi_facebook.php',
 	'hubungi/instagram' => $folderApa . 'hubungi_instagram.php',
+	'dasar/termasyarat' => $folderDasar . 'dasar_terma_syarat.php',
+	'dasar/dataperibadi' => $folderDasar . 'dasar_perlindungan_data_peribadi.php',
+	'dasar/pemulangan' => $folderDasar . 'dasar_pemulangan.php',
 ];
 #--------------------------------------------------------------------------------------------------
 // Dapatkan URI semasa dan bersihkan
@@ -88,6 +93,7 @@ $classIcon[] = '<i class="fa-solid fa-arrow-left me-2"></i>';
 $pilihIcon = $classIcon[0];
 $kembaliKePangkalJalan = $pilihIcon . 'Kembali ke Halaman Utama';
 $kembaliKePangkalJalan2 = $classIcon[3] . 'Kembali ke Halaman Utama';
+$namaWebsite = 'WebsiteKami';
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 # mula jana halaman
