@@ -285,7 +285,7 @@ endforeach;//*/
 <!-- ========================================================================================== -->
 <div class="text-center my-5 p-4 bg-light rounded">
 <p class="mb-0 text-muted">
-&copy; 2026 7 ADA SOLUTION. Hak cipta terpelihara. | 
+&copy; 2026 7 ADA SOLUTION. Hak cipta terpelihara. |
 <a href="?/dasar/termasyarat" class="text-success text-decoration-none">Dasar Terma & Syarat</a> |
 <a href="?/dasar/dataperibadi" class="text-success text-decoration-none">Dasar Privasi</a> |
 <a href="?/dasar/pemulangan" class="text-success text-decoration-none">Dasar Pemulangan</a> |
