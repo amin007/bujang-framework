@@ -142,7 +142,7 @@ $pautanSah = [
 		'fail' => $folderDasar . 'dasar_pemulangan.php',
 		'tajuk' => 'Pemulangan',
 		'keterangan' => 'Dasar Pemulangan Barang',
-		'ikon' => 'bi bi-arrow-return-left',
+		'ikon' => 'bi bi-box-seam',
 	],
 ];
 #--------------------------------------------------------------------------------------------------
