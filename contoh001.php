@@ -90,10 +90,12 @@ $classIcon[] = '<i class="bi bi-door-open"></i>';
 $classIcon[] = '<i class="bi bi-house-fill"></i>';
 $classIcon[] = '<i class="fa-solid fa-circle-left"></i>';
 $classIcon[] = '<i class="fa-solid fa-arrow-left me-2"></i>';
+$classSpan = 'class="bg-secondary text-light"';
+$classSpan2 = '';
 $pilihIcon = $classIcon[0];
 $kembaliKePangkalJalan = $pilihIcon . 'Kembali ke Halaman Utama';
 $kembaliKePangkalJalan2 = $classIcon[3] . 'Kembali ke Halaman Utama';
-$namaWebsite = 'WebsiteKami';
+$namaWebsite = '<mark ' . $classSpan2 . '>WebsiteKami.org</mark> ';
 #--------------------------------------------------------------------------------------------------
 ###################################################################################################
 # mula jana halaman
