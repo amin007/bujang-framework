@@ -189,63 +189,6 @@ Untuk pertanyaan lanjut, sila hubungi kami di </p>
 <!-- ========================================================================================== -->
 <?php
 #--------------------------------------------------------------------------------------------------
-$produk = [
-	1 => [
-		'id' => 'beliSekarang1',
-		'label' => 'modalLabel1',
-		'nama' => 'Komputer Riba Dell XPS 15',
-		'penerangan' => 'Prosesor Intel Core i7, RAM 16GB, SSD 512GB',
-		'harga' => '4999.00',
-		'kodProduk' => 'kedaiKomputer001',
-		'papar_harga' => false,
-	],
-	2 => [
-		'id'=> 'beliSekarang2',
-		'label' => 'modalLabel2',
-		'nama' => 'Tetikus Tanpa Wayar Logitech MX Master 3',
-		'penerangan' => 'Tetikus ergonomik dengan ketepatan tinggi',
-		'harga' => '399.00',
-		'kodProduk'  => 'kedaiKomputer002',
-		'papar_harga' => true,
-	],
-	3 => [
-		'id' => 'beliSekarang3',
-		'label' => 'modalLabel3',
-		'nama' => 'Monitor Samsung 27" 4K',
-		'penerangan' => 'Resolusi 3840×2160, teknologi HDR10',
-		'harga' => '1299.00',
-		'kodProduk' => 'kedaiKomputer003',
-		'papar_harga' => false,
-	],
-	4 => [
-		'id' => 'beliSekarang4',
-		'label' => 'modalLabel4',
-		'nama'=> 'Papan Kekunci Mekanikal RGB',
-		'penerangan' => 'Suis Cherry MX, lampu latar RGB boleh diselaraskan',
-		'harga'    => '549.00',
-		'kodProduk'  => 'kedaiKomputer004',
-		'papar_harga' => false,
-	],
-	5 => [
-		'id' => 'beliSekarang5',
-		'label' => 'modalLabel5',
-		'nama' => 'Pemacu Keras Luaran 2TB',
-		'penerangan' => 'USB 3.0, kelajuan pemindahan tinggi',
-		'harga' => '329.00',
-		'kodProduk' => 'kedaiKomputer005',
-		'papar_harga' => false,
-	],
-	6 => [
-		'id' => 'beliSekarang6',
-		'label' => 'modalLabel6',
-		'nama' => 'Kamera Web HD 1080p',
-		'penerangan' => 'Mikrofon terbina dalam, penumpuan automatik',
-		'harga' => '249.00',
-		'kodProduk' => 'kedaiKomputer006',
-		'papar_harga' => true,
-	],
-];
-#--------------------------------------------------------------------------------------------------
 ?>
 <!-- kod dialog mula -->
 <!-- ========================================================================================== -->
