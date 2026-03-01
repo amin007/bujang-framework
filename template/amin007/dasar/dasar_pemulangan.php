@@ -110,7 +110,7 @@
 				<li>Kandungan telah dikongsi atau diedarkan tanpa kebenaran</li>
 				<li>Permohonan dibuat selepas tempoh yang ditetapkan</li>
 				<li>Produk atau perkhidmatan telah digunakan sepenuhnya</li>
-			</ul><? /*
+			</ul><?php /*
 			<!-- ========================================================================================== -->
 			<h2>7. Hubungi Kami</h2>
 			<p>Untuk sebarang pertanyaan mengenai Dasar Bayaran Balik kami, sila hubungi:</p>
@@ -213,7 +213,7 @@
 				<li>Content has been shared or distributed without authorization</li>
 				<li>Application is made after the specified period</li>
 				<li>Product or service has been fully utilized</li>
-				</ul><? /*
+				</ul><?php /*
 			<!-- ========================================================================================== -->
 			<h2>7. Contact Us</h2>
 				<p>For any questions regarding our Refund Policy, please contact:</p>
