@@ -25,9 +25,13 @@ $folder = [
 	'template/amin007/',
 	'template/amin007/claude/',
 	'template/amin007/grok/',
-	'template/amin007/chatgpt/'
+	'template/amin007/chatgpt/',
+	'template/amin007/pembayaran/',
+	'template/amin007/dasar/',
 ];
 $folderApa = $folder[3];
+$folderBayar = $folder[4];
+$folderDasar = $folder[5];
 #--------------------------------------------------------------------------------------------------
 # Semak folder wujud
 #--------------------------------------------------------------------------------------------------
@@ -121,7 +125,25 @@ $pautanSah = [
 		'tajuk' => 'Instagram',
 		'keterangan' => 'Media Sosial Kami',
 		'ikon' => 'bi bi-instagram'
-	],//*/
+	],
+	'dasar/termasyarat' => [
+		'fail' => $folderDasar . 'dasar_terma_syarat.php',
+		'tajuk' => 'Terma & Syarat',
+		'keterangan' => 'Dasar Penggunaan',
+		'ikon' => 'bi bi-file-earmark-text',
+	],
+	'dasar/dataperibadi' => [
+		'fail' => $folderDasar . 'dasar_perlindungan_data_peribadi.php',
+		'tajuk' => 'Data Peribadi',
+		'keterangan' => 'Dasar Perlindungan Data',
+		'ikon' => 'bi bi-shield-lock',
+	],
+	'dasar/pemulangan' => [
+		'fail' => $folderDasar . 'dasar_pemulangan.php',
+		'tajuk' => 'Pemulangan',
+		'keterangan' => 'Dasar Pemulangan Barang',
+		'ikon' => 'bi bi-arrow-return-left',
+	],
 ];
 #--------------------------------------------------------------------------------------------------
 # Dapatkan URI semasa dan bersihkan
@@ -151,9 +173,12 @@ $classIcon[] = '<i class="bi bi-door-open"></i>';
 $classIcon[] = '<i class="bi bi-house-fill"></i>';
 $classIcon[] = '<i class="fa-solid fa-circle-left"></i>';
 $classIcon[] = '<i class="fa-solid fa-arrow-left me-2"></i>';
+$classSpan = 'class="bg-secondary text-light"';
+$classSpan2 = '';
 $pilihIcon = $classIcon[0];
 $kembaliKePangkalJalan = $pilihIcon . 'Kembali ke Halaman Utama';
 $kembaliKePangkalJalan2 = $classIcon[3] . 'Kembali ke Halaman Utama';
+$namaWebsite = '<mark ' . $classSpan2 . '>WebsiteKami.org</mark> ';
 #--------------------------------------------------------------------------------------------------
 diatasDaa('Bisnes:' . $tajuk);
 #--------------------------------------------------------------------------------------------------
