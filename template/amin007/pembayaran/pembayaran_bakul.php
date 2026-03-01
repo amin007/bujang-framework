@@ -1,6 +1,6 @@
 <?php
 $papar = [
-	'tajuk' => 'Semakan Pesanan',
+	'tajuk' => 'Semakan Pesanan/Checkout',
 	'keterangan' => 'Semak senarai pesanan anda sebelum membuat pembayaran.',
 	'ikon' => 'bi bi-cart-check',
 ];
@@ -15,6 +15,7 @@ $pautan = [
 #--------------------------------------------------------------------------------------------------
 # semak pembayaran
 $posmen = bersihPOST($_POST);
+$posmen['tarikh'] = isset($_POST['borang']['tarikh']) ? $_POST['borang']['tarikh'] : date("Y-m-d");
 #--------------------------------------------------------------------------------------------------
 ?>
 <!-- ========================================================================================== -->
@@ -42,10 +43,20 @@ $posmen = bersihPOST($_POST);
 	<div class="card-body">
 		<form method="POST" action="?/pembayaran/status">
 		<!-- ================================================================================== -->
-		<input type="hidden" name="borang[kodProduk]" value="<?php echo $posmen['kodProduk'] ?>" readonly>
-		<input type="hidden" name="borang[harga]" value="<?php echo $posmen['harga'] ?>" readonly>
-		<input type="hidden" name="borang[kuantiti]" value="<?php echo $posmen['kuantiti'] ?>" readonly>
-		<input type="hidden" name="borang[tarikh]" value="<?php echo $posmen['tarikh'] ?>" readonly>
+		<div class="input-group mb-3">
+			<span class="input-group-text">kodProduk</span>
+			<input type="text" name="borang[kodProduk]" value="<?php echo $posmen['kodProduk'] ?>"
+			class="form-control bg-secondary-subtle" readonly>
+			<span class="input-group-text">harga</span>
+			<input type="text" name="borang[harga]" value="<?php echo $posmen['harga'] ?>"
+			class="form-control bg-secondary-subtle" readonly>
+			<span class="input-group-text">kuantiti</span>
+			<input type="text" name="borang[kuantiti]" value="<?php echo $posmen['kuantiti'] ?>"
+			class="form-control bg-secondary-subtle" readonly>
+			<span class="input-group-text">tarikh</span>
+			<input type="text" name="borang[tarikh]" value="<?php echo $posmen['tarikh'] ?>"
+			class="form-control bg-secondary-subtle" readonly>
+		</div><!-- / class="input-group mb-3" -->
 		<!-- ================================================================================== -->
 		<div class="mb-3">
 			<label for="nama" class="form-label">Nama:</label>
